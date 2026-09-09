@@ -1,0 +1,16 @@
+{
+  "global_configs": {
+    "game_name": "星愿小镇",
+    "version": "1.9.0",
+    "screen_orientation": "portrait",
+    "board_rows": 12,
+    "board_columns": 8,
+    "score_per_eliminated_element": 10,
+    "initial_stamina": 20,
+    "stamina_max": 20,
+    "stamina_recovery_minutes": 10,
+    "monetization_mode": "iap_only",
+    "tutorial_step_count": 3,
+    "default_character_id": "C001"
+  }
+}

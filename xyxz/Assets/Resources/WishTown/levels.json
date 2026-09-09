@@ -1,0 +1,3402 @@
+{
+  "max_level": 100,
+  "levels": [
+    {
+      "level": 1,
+      "level_id": "L001",
+      "time_limit_sec": 30,
+      "element_type_count": 4,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy"
+      ],
+      "star_1_score": 30,
+      "star_2_score": 180,
+      "star_3_score": 300,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 30,
+          "diamond_amount": 3
+        },
+        {
+          "star": 2,
+          "building_material_amount": 45,
+          "diamond_amount": 5
+        },
+        {
+          "star": 3,
+          "building_material_amount": 60,
+          "diamond_amount": 8
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "level_id": "L002",
+      "time_limit_sec": 45,
+      "element_type_count": 5,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy"
+      ],
+      "star_1_score": 300,
+      "star_2_score": 500,
+      "star_3_score": 700,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 40,
+          "diamond_amount": 4
+        },
+        {
+          "star": 2,
+          "building_material_amount": 60,
+          "diamond_amount": 7
+        },
+        {
+          "star": 3,
+          "building_material_amount": 80,
+          "diamond_amount": 10
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "level_id": "L003",
+      "time_limit_sec": 60,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 450,
+      "star_2_score": 700,
+      "star_3_score": 950,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 50,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 75,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 100,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "level_id": "L004",
+      "time_limit_sec": 61,
+      "element_type_count": 5,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy"
+      ],
+      "star_1_score": 486,
+      "star_2_score": 756,
+      "star_3_score": 1026,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 50,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 75,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 100,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "level_id": "L005",
+      "time_limit_sec": 61,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 522,
+      "star_2_score": 812,
+      "star_3_score": 1102,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 50,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 75,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 100,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "level_id": "L006",
+      "time_limit_sec": 62,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 558,
+      "star_2_score": 868,
+      "star_3_score": 1178,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 50,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 75,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 100,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "level_id": "L007",
+      "time_limit_sec": 62,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 594,
+      "star_2_score": 924,
+      "star_3_score": 1254,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 50,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 75,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 100,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "level_id": "L008",
+      "time_limit_sec": 63,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 630,
+      "star_2_score": 980,
+      "star_3_score": 1330,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 50,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 75,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 100,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "level_id": "L009",
+      "time_limit_sec": 64,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 666,
+      "star_2_score": 1036,
+      "star_3_score": 1406,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 50,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 75,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 100,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "level_id": "L010",
+      "time_limit_sec": 64,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 702,
+      "star_2_score": 1092,
+      "star_3_score": 1482,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 55,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 80,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 105,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 11,
+      "level_id": "L011",
+      "time_limit_sec": 65,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 738,
+      "star_2_score": 1148,
+      "star_3_score": 1558,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 55,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 80,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 105,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "level_id": "L012",
+      "time_limit_sec": 65,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 774,
+      "star_2_score": 1204,
+      "star_3_score": 1634,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 55,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 80,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 105,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "level_id": "L013",
+      "time_limit_sec": 66,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 810,
+      "star_2_score": 1260,
+      "star_3_score": 1710,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 55,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 80,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 105,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 14,
+      "level_id": "L014",
+      "time_limit_sec": 67,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 846,
+      "star_2_score": 1316,
+      "star_3_score": 1786,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 55,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 80,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 105,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "level_id": "L015",
+      "time_limit_sec": 67,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 882,
+      "star_2_score": 1372,
+      "star_3_score": 1862,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 55,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 80,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 105,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "level_id": "L016",
+      "time_limit_sec": 68,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 918,
+      "star_2_score": 1428,
+      "star_3_score": 1938,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 55,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 80,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 105,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 17,
+      "level_id": "L017",
+      "time_limit_sec": 68,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 954,
+      "star_2_score": 1484,
+      "star_3_score": 2014,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 55,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 80,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 105,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "level_id": "L018",
+      "time_limit_sec": 69,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 990,
+      "star_2_score": 1540,
+      "star_3_score": 2090,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 55,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 80,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 105,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 19,
+      "level_id": "L019",
+      "time_limit_sec": 70,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1026,
+      "star_2_score": 1596,
+      "star_3_score": 2166,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 55,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 80,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 105,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "level_id": "L020",
+      "time_limit_sec": 70,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1062,
+      "star_2_score": 1652,
+      "star_3_score": 2242,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 60,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 85,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 110,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 21,
+      "level_id": "L021",
+      "time_limit_sec": 71,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1098,
+      "star_2_score": 1708,
+      "star_3_score": 2318,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 60,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 85,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 110,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 22,
+      "level_id": "L022",
+      "time_limit_sec": 71,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1134,
+      "star_2_score": 1764,
+      "star_3_score": 2394,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 60,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 85,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 110,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 23,
+      "level_id": "L023",
+      "time_limit_sec": 72,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1170,
+      "star_2_score": 1820,
+      "star_3_score": 2470,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 60,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 85,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 110,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 24,
+      "level_id": "L024",
+      "time_limit_sec": 73,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1206,
+      "star_2_score": 1876,
+      "star_3_score": 2546,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 60,
+          "diamond_amount": 5
+        },
+        {
+          "star": 2,
+          "building_material_amount": 85,
+          "diamond_amount": 9
+        },
+        {
+          "star": 3,
+          "building_material_amount": 110,
+          "diamond_amount": 13
+        }
+      ]
+    },
+    {
+      "level": 25,
+      "level_id": "L025",
+      "time_limit_sec": 73,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1242,
+      "star_2_score": 1932,
+      "star_3_score": 2622,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 60,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 85,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 110,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 26,
+      "level_id": "L026",
+      "time_limit_sec": 74,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1278,
+      "star_2_score": 1988,
+      "star_3_score": 2698,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 60,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 85,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 110,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 27,
+      "level_id": "L027",
+      "time_limit_sec": 74,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1314,
+      "star_2_score": 2044,
+      "star_3_score": 2774,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 60,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 85,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 110,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 28,
+      "level_id": "L028",
+      "time_limit_sec": 75,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1350,
+      "star_2_score": 2100,
+      "star_3_score": 2850,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 60,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 85,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 110,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 29,
+      "level_id": "L029",
+      "time_limit_sec": 76,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1386,
+      "star_2_score": 2156,
+      "star_3_score": 2926,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 60,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 85,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 110,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 30,
+      "level_id": "L030",
+      "time_limit_sec": 76,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1422,
+      "star_2_score": 2212,
+      "star_3_score": 3002,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 65,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 90,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 115,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 31,
+      "level_id": "L031",
+      "time_limit_sec": 77,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1458,
+      "star_2_score": 2268,
+      "star_3_score": 3078,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 65,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 90,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 115,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 32,
+      "level_id": "L032",
+      "time_limit_sec": 77,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1494,
+      "star_2_score": 2324,
+      "star_3_score": 3154,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 65,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 90,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 115,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 33,
+      "level_id": "L033",
+      "time_limit_sec": 78,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1530,
+      "star_2_score": 2380,
+      "star_3_score": 3230,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 65,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 90,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 115,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 34,
+      "level_id": "L034",
+      "time_limit_sec": 79,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1566,
+      "star_2_score": 2436,
+      "star_3_score": 3306,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 65,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 90,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 115,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 35,
+      "level_id": "L035",
+      "time_limit_sec": 79,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1602,
+      "star_2_score": 2492,
+      "star_3_score": 3382,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 65,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 90,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 115,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 36,
+      "level_id": "L036",
+      "time_limit_sec": 80,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1638,
+      "star_2_score": 2548,
+      "star_3_score": 3458,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 65,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 90,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 115,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 37,
+      "level_id": "L037",
+      "time_limit_sec": 80,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1674,
+      "star_2_score": 2604,
+      "star_3_score": 3534,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 65,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 90,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 115,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 38,
+      "level_id": "L038",
+      "time_limit_sec": 81,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1710,
+      "star_2_score": 2660,
+      "star_3_score": 3610,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 65,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 90,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 115,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 39,
+      "level_id": "L039",
+      "time_limit_sec": 82,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1746,
+      "star_2_score": 2716,
+      "star_3_score": 3686,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 65,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 90,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 115,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "level_id": "L040",
+      "time_limit_sec": 82,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1782,
+      "star_2_score": 2772,
+      "star_3_score": 3762,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 70,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 95,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 120,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 41,
+      "level_id": "L041",
+      "time_limit_sec": 83,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1818,
+      "star_2_score": 2828,
+      "star_3_score": 3838,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 70,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 95,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 120,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 42,
+      "level_id": "L042",
+      "time_limit_sec": 83,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1854,
+      "star_2_score": 2884,
+      "star_3_score": 3914,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 70,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 95,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 120,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 43,
+      "level_id": "L043",
+      "time_limit_sec": 84,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1890,
+      "star_2_score": 2940,
+      "star_3_score": 3990,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 70,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 95,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 120,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 44,
+      "level_id": "L044",
+      "time_limit_sec": 85,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1926,
+      "star_2_score": 2996,
+      "star_3_score": 4066,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 70,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 95,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 120,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 45,
+      "level_id": "L045",
+      "time_limit_sec": 85,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1962,
+      "star_2_score": 3052,
+      "star_3_score": 4142,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 70,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 95,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 120,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 46,
+      "level_id": "L046",
+      "time_limit_sec": 86,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 1998,
+      "star_2_score": 3108,
+      "star_3_score": 4218,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 70,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 95,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 120,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 47,
+      "level_id": "L047",
+      "time_limit_sec": 86,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2034,
+      "star_2_score": 3164,
+      "star_3_score": 4294,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 70,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 95,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 120,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 48,
+      "level_id": "L048",
+      "time_limit_sec": 87,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2070,
+      "star_2_score": 3220,
+      "star_3_score": 4370,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 70,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 95,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 120,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 49,
+      "level_id": "L049",
+      "time_limit_sec": 88,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2106,
+      "star_2_score": 3276,
+      "star_3_score": 4446,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 70,
+          "diamond_amount": 6
+        },
+        {
+          "star": 2,
+          "building_material_amount": 95,
+          "diamond_amount": 10
+        },
+        {
+          "star": 3,
+          "building_material_amount": 120,
+          "diamond_amount": 14
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "level_id": "L050",
+      "time_limit_sec": 88,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2142,
+      "star_2_score": 3332,
+      "star_3_score": 4522,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 75,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 100,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 125,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 51,
+      "level_id": "L051",
+      "time_limit_sec": 89,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2178,
+      "star_2_score": 3388,
+      "star_3_score": 4598,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 75,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 100,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 125,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 52,
+      "level_id": "L052",
+      "time_limit_sec": 89,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2214,
+      "star_2_score": 3444,
+      "star_3_score": 4674,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 75,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 100,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 125,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 53,
+      "level_id": "L053",
+      "time_limit_sec": 90,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2250,
+      "star_2_score": 3500,
+      "star_3_score": 4750,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 75,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 100,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 125,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 54,
+      "level_id": "L054",
+      "time_limit_sec": 91,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2286,
+      "star_2_score": 3556,
+      "star_3_score": 4826,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 75,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 100,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 125,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 55,
+      "level_id": "L055",
+      "time_limit_sec": 91,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2322,
+      "star_2_score": 3612,
+      "star_3_score": 4902,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 75,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 100,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 125,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 56,
+      "level_id": "L056",
+      "time_limit_sec": 92,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2358,
+      "star_2_score": 3668,
+      "star_3_score": 4978,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 75,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 100,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 125,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 57,
+      "level_id": "L057",
+      "time_limit_sec": 92,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2394,
+      "star_2_score": 3724,
+      "star_3_score": 5054,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 75,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 100,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 125,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 58,
+      "level_id": "L058",
+      "time_limit_sec": 93,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2430,
+      "star_2_score": 3780,
+      "star_3_score": 5130,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 75,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 100,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 125,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 59,
+      "level_id": "L059",
+      "time_limit_sec": 94,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2466,
+      "star_2_score": 3836,
+      "star_3_score": 5206,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 75,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 100,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 125,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "level_id": "L060",
+      "time_limit_sec": 94,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2502,
+      "star_2_score": 3892,
+      "star_3_score": 5282,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 80,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 105,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 130,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 61,
+      "level_id": "L061",
+      "time_limit_sec": 95,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2538,
+      "star_2_score": 3948,
+      "star_3_score": 5358,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 80,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 105,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 130,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 62,
+      "level_id": "L062",
+      "time_limit_sec": 95,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2574,
+      "star_2_score": 4004,
+      "star_3_score": 5434,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 80,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 105,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 130,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 63,
+      "level_id": "L063",
+      "time_limit_sec": 96,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2610,
+      "star_2_score": 4060,
+      "star_3_score": 5510,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 80,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 105,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 130,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 64,
+      "level_id": "L064",
+      "time_limit_sec": 97,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2646,
+      "star_2_score": 4116,
+      "star_3_score": 5586,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 80,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 105,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 130,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 65,
+      "level_id": "L065",
+      "time_limit_sec": 97,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2682,
+      "star_2_score": 4172,
+      "star_3_score": 5662,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 80,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 105,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 130,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 66,
+      "level_id": "L066",
+      "time_limit_sec": 98,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2718,
+      "star_2_score": 4228,
+      "star_3_score": 5738,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 80,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 105,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 130,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 67,
+      "level_id": "L067",
+      "time_limit_sec": 98,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2754,
+      "star_2_score": 4284,
+      "star_3_score": 5814,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 80,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 105,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 130,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 68,
+      "level_id": "L068",
+      "time_limit_sec": 99,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2790,
+      "star_2_score": 4340,
+      "star_3_score": 5890,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 80,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 105,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 130,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 69,
+      "level_id": "L069",
+      "time_limit_sec": 100,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2826,
+      "star_2_score": 4396,
+      "star_3_score": 5966,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 80,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 105,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 130,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "level_id": "L070",
+      "time_limit_sec": 100,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2862,
+      "star_2_score": 4452,
+      "star_3_score": 6042,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 85,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 110,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 135,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 71,
+      "level_id": "L071",
+      "time_limit_sec": 101,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2898,
+      "star_2_score": 4508,
+      "star_3_score": 6118,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 85,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 110,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 135,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 72,
+      "level_id": "L072",
+      "time_limit_sec": 101,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2934,
+      "star_2_score": 4564,
+      "star_3_score": 6194,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 85,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 110,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 135,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 73,
+      "level_id": "L073",
+      "time_limit_sec": 102,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 2970,
+      "star_2_score": 4620,
+      "star_3_score": 6270,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 85,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 110,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 135,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 74,
+      "level_id": "L074",
+      "time_limit_sec": 103,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3006,
+      "star_2_score": 4676,
+      "star_3_score": 6346,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 85,
+          "diamond_amount": 7
+        },
+        {
+          "star": 2,
+          "building_material_amount": 110,
+          "diamond_amount": 11
+        },
+        {
+          "star": 3,
+          "building_material_amount": 135,
+          "diamond_amount": 15
+        }
+      ]
+    },
+    {
+      "level": 75,
+      "level_id": "L075",
+      "time_limit_sec": 103,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3042,
+      "star_2_score": 4732,
+      "star_3_score": 6422,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 85,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 110,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 135,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 76,
+      "level_id": "L076",
+      "time_limit_sec": 104,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3078,
+      "star_2_score": 4788,
+      "star_3_score": 6498,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 85,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 110,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 135,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 77,
+      "level_id": "L077",
+      "time_limit_sec": 104,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3114,
+      "star_2_score": 4844,
+      "star_3_score": 6574,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 85,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 110,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 135,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 78,
+      "level_id": "L078",
+      "time_limit_sec": 105,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3150,
+      "star_2_score": 4900,
+      "star_3_score": 6650,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 85,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 110,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 135,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 79,
+      "level_id": "L079",
+      "time_limit_sec": 106,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3186,
+      "star_2_score": 4956,
+      "star_3_score": 6726,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 85,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 110,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 135,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 80,
+      "level_id": "L080",
+      "time_limit_sec": 106,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3222,
+      "star_2_score": 5012,
+      "star_3_score": 6802,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 90,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 115,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 140,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 81,
+      "level_id": "L081",
+      "time_limit_sec": 107,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3258,
+      "star_2_score": 5068,
+      "star_3_score": 6878,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 90,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 115,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 140,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 82,
+      "level_id": "L082",
+      "time_limit_sec": 107,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3294,
+      "star_2_score": 5124,
+      "star_3_score": 6954,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 90,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 115,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 140,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 83,
+      "level_id": "L083",
+      "time_limit_sec": 108,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3330,
+      "star_2_score": 5180,
+      "star_3_score": 7030,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 90,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 115,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 140,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 84,
+      "level_id": "L084",
+      "time_limit_sec": 109,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3366,
+      "star_2_score": 5236,
+      "star_3_score": 7106,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 90,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 115,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 140,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 85,
+      "level_id": "L085",
+      "time_limit_sec": 109,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3402,
+      "star_2_score": 5292,
+      "star_3_score": 7182,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 90,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 115,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 140,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 86,
+      "level_id": "L086",
+      "time_limit_sec": 110,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3438,
+      "star_2_score": 5348,
+      "star_3_score": 7258,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 90,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 115,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 140,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 87,
+      "level_id": "L087",
+      "time_limit_sec": 110,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3474,
+      "star_2_score": 5404,
+      "star_3_score": 7334,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 90,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 115,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 140,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 88,
+      "level_id": "L088",
+      "time_limit_sec": 111,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3510,
+      "star_2_score": 5460,
+      "star_3_score": 7410,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 90,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 115,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 140,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 89,
+      "level_id": "L089",
+      "time_limit_sec": 112,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3546,
+      "star_2_score": 5516,
+      "star_3_score": 7486,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 90,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 115,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 140,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 90,
+      "level_id": "L090",
+      "time_limit_sec": 112,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3582,
+      "star_2_score": 5572,
+      "star_3_score": 7562,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 95,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 120,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 145,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 91,
+      "level_id": "L091",
+      "time_limit_sec": 113,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3618,
+      "star_2_score": 5628,
+      "star_3_score": 7638,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 95,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 120,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 145,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 92,
+      "level_id": "L092",
+      "time_limit_sec": 113,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3654,
+      "star_2_score": 5684,
+      "star_3_score": 7714,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 95,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 120,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 145,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 93,
+      "level_id": "L093",
+      "time_limit_sec": 114,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3690,
+      "star_2_score": 5740,
+      "star_3_score": 7790,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 95,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 120,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 145,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 94,
+      "level_id": "L094",
+      "time_limit_sec": 115,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3726,
+      "star_2_score": 5796,
+      "star_3_score": 7866,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 95,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 120,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 145,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 95,
+      "level_id": "L095",
+      "time_limit_sec": 115,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3762,
+      "star_2_score": 5852,
+      "star_3_score": 7942,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 95,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 120,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 145,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 96,
+      "level_id": "L096",
+      "time_limit_sec": 116,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3798,
+      "star_2_score": 5908,
+      "star_3_score": 8018,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 95,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 120,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 145,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 97,
+      "level_id": "L097",
+      "time_limit_sec": 116,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3834,
+      "star_2_score": 5964,
+      "star_3_score": 8094,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 95,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 120,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 145,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 98,
+      "level_id": "L098",
+      "time_limit_sec": 117,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3870,
+      "star_2_score": 6020,
+      "star_3_score": 8170,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 95,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 120,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 145,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 99,
+      "level_id": "L099",
+      "time_limit_sec": 118,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3906,
+      "star_2_score": 6076,
+      "star_3_score": 8246,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 95,
+          "diamond_amount": 8
+        },
+        {
+          "star": 2,
+          "building_material_amount": 120,
+          "diamond_amount": 12
+        },
+        {
+          "star": 3,
+          "building_material_amount": 145,
+          "diamond_amount": 16
+        }
+      ]
+    },
+    {
+      "level": 100,
+      "level_id": "L100",
+      "time_limit_sec": 118,
+      "element_type_count": 6,
+      "element_types": [
+        "pink_star",
+        "ribbon_bow",
+        "flower_candy",
+        "heart_candy",
+        "moon_candy",
+        "crystal_candy"
+      ],
+      "star_1_score": 3942,
+      "star_2_score": 6132,
+      "star_3_score": 8322,
+      "star_rewards": [
+        {
+          "star": 1,
+          "building_material_amount": 100,
+          "diamond_amount": 9
+        },
+        {
+          "star": 2,
+          "building_material_amount": 125,
+          "diamond_amount": 13
+        },
+        {
+          "star": 3,
+          "building_material_amount": 150,
+          "diamond_amount": 17
+        }
+      ]
+    }
+  ]
+}
+

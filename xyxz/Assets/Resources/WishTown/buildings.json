@@ -1,0 +1,57 @@
+{
+  "buildings": [
+    {
+      "building_id": "B001",
+      "name": "星愿喷泉",
+      "repair_order": 1,
+      "total_material_cost": 100,
+      "material_cost_per_injection": 25,
+      "progress_per_injection": 25,
+      "prerequisite_building_id": null,
+      "side_mode_unlock_ids": []
+    },
+    {
+      "building_id": "B002",
+      "name": "星光花房",
+      "repair_order": 2,
+      "total_material_cost": 150,
+      "material_cost_per_injection": 30,
+      "progress_per_injection": 20,
+      "prerequisite_building_id": "B001",
+      "side_mode_unlock_ids": []
+    },
+    {
+      "building_id": "B003",
+      "name": "观星塔",
+      "repair_order": 3,
+      "total_material_cost": 225,
+      "material_cost_per_injection": 45,
+      "progress_per_injection": 20,
+      "prerequisite_building_id": "B002",
+      "side_mode_unlock_ids": [
+        "SB001"
+      ]
+    },
+    {
+      "building_id": "B004",
+      "name": "甜心面包屋",
+      "repair_order": 4,
+      "total_material_cost": 300,
+      "material_cost_per_injection": 60,
+      "progress_per_injection": 20,
+      "prerequisite_building_id": "B003",
+      "side_mode_unlock_ids": []
+    },
+    {
+      "building_id": "B005",
+      "name": "蝴蝶结礼服店",
+      "repair_order": 5,
+      "total_material_cost": 400,
+      "material_cost_per_injection": 80,
+      "progress_per_injection": 20,
+      "prerequisite_building_id": "B004",
+      "side_mode_unlock_ids": []
+    }
+  ]
+}
+

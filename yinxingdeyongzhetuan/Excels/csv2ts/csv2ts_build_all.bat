@@ -1,0 +1,1 @@
+csv2ts.exe ../../assets/Scripts/Game/Excels/ BulletConfig.csv ChooseFishData.csv FishGenData.csv LevelConfig.csv MultiFishGen.csv

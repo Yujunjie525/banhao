@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "item_id": "CR01",
+      "name": "钻石",
+      "type": "premium_currency",
+      "acquisition": "level_star_reward_or_iap_purchase",
+      "usage": "unlock_characters",
+      "max_stack": 99999
+    },
+    {
+      "item_id": "CR02",
+      "name": "体力",
+      "type": "stamina",
+      "acquisition": "time_recovery",
+      "usage": "start_level",
+      "max_stack": 5
+    },
+    {
+      "item_id": "I001",
+      "name": "星愿建材",
+      "type": "building_material",
+      "acquisition": "level_star_reward_or_endless_block_score_tier",
+      "usage": "restore_buildings",
+      "max_stack": 99999
+    }
+  ]
+}
+

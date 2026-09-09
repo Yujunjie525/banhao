@@ -1,0 +1,65 @@
+{
+  "side_modes": [
+    {
+      "mode_id": "SB001",
+      "name": "星愿方块",
+      "mode_type": "endless_falling_block",
+      "board_width": 8,
+      "board_height": 12,
+      "piece_types": [
+        "i_shape",
+        "o_shape",
+        "t_shape",
+        "s_shape",
+        "z_shape",
+        "j_shape",
+        "l_shape"
+      ],
+      "piece_randomizer": "seven_bag",
+      "preview_piece_count": 1,
+      "character_skill_enabled": false,
+      "stamina_cost": 1,
+      "reward_item_id": "I001",
+      "lines_per_speed_level": 10,
+      "initial_fall_interval_sec": 0.8,
+      "minimum_fall_interval_sec": 0.12,
+      "fall_interval_step_sec": 0.04,
+      "max_speed_level": 20,
+      "line_scores": [
+        0,
+        80,
+        200,
+        350,
+        600
+      ],
+      "unlock_building_id": "B003",
+      "bypass_unlock": true,
+      "score_reward_tiers": [
+        {
+          "score_threshold": 500,
+          "building_material_amount": 5
+        },
+        {
+          "score_threshold": 1000,
+          "building_material_amount": 10
+        },
+        {
+          "score_threshold": 2000,
+          "building_material_amount": 20
+        },
+        {
+          "score_threshold": 3500,
+          "building_material_amount": 35
+        },
+        {
+          "score_threshold": 5000,
+          "building_material_amount": 55
+        },
+        {
+          "score_threshold": 8000,
+          "building_material_amount": 80
+        }
+      ]
+    }
+  ]
+}

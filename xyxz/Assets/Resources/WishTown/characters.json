@@ -1,0 +1,68 @@
+{
+  "characters": [
+    {
+      "entity_id": "C001",
+      "name": "暖阳小狗",
+      "is_default_unlocked": true,
+      "unlock_cost_diamonds": 0,
+      "skill_id": null,
+      "skill_name": null,
+      "skill_type": "none",
+      "skill_description": "无技能",
+      "skill_params": {}
+    },
+    {
+      "entity_id": "C002",
+      "name": "赤焰狐狸",
+      "is_default_unlocked": false,
+      "unlock_cost_diamonds": 100,
+      "skill_id": "SK_C002",
+      "skill_name": "额外+1分",
+      "skill_type": "score_bonus_per_element",
+      "skill_description": "每消除1个基础元素额外获得1分",
+      "skill_params": {
+        "score_bonus_per_element": 1
+      }
+    },
+    {
+      "entity_id": "C003",
+      "name": "金纹老虎",
+      "is_default_unlocked": false,
+      "unlock_cost_diamonds": 200,
+      "skill_id": "SK_C003",
+      "skill_name": "多消加分",
+      "skill_type": "multi_clear_operation_bonus_score",
+      "skill_description": "单次操作造成两组及以上消除时额外获得10分",
+      "skill_params": {
+        "minimum_clear_groups_per_operation": 2,
+        "bonus_score": 10
+      }
+    },
+    {
+      "entity_id": "C004",
+      "name": "月影灵猫",
+      "is_default_unlocked": false,
+      "unlock_cost_diamonds": 300,
+      "skill_id": "SK_C004",
+      "skill_name": "时光加长",
+      "skill_type": "level_time_bonus",
+      "skill_description": "每局基础时间额外增加30秒",
+      "skill_params": {
+        "bonus_time_sec": 30
+      }
+    },
+    {
+      "entity_id": "C005",
+      "name": "星愿玉兔",
+      "is_default_unlocked": false,
+      "unlock_cost_diamonds": 500,
+      "skill_id": "SK_C005",
+      "skill_name": "星级减负",
+      "skill_type": "star_score_discount_percent",
+      "skill_description": "三档星级分数要求降低10%并向下取整",
+      "skill_params": {
+        "star_score_discount_percent": 10
+      }
+    }
+  ]
+}

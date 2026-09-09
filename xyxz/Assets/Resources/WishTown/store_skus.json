@@ -1,0 +1,20 @@
+{
+  "store_skus": [
+    {
+      "sku_id": "SKU_DIA_060",
+      "price_cny": 6,
+      "diamond_amount": 60
+    },
+    {
+      "sku_id": "SKU_DIA_330",
+      "price_cny": 30,
+      "diamond_amount": 330
+    },
+    {
+      "sku_id": "SKU_DIA_720",
+      "price_cny": 68,
+      "diamond_amount": 720
+    }
+  ]
+}
+
