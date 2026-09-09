@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#091017">
+  <meta name="description" content="雷霆勇士 - 连消蓄雷与天雷反击 H5 游戏">
+  <title>雷霆勇士</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="app" class="app-shell" aria-live="polite">
+    <canvas id="ambient-canvas" class="ambient-canvas" aria-hidden="true"></canvas>
+
+    <section id="home-screen" class="screen active" aria-label="雷霆勇士主界面">
+      <header class="topbar home-topbar">
+        <button id="sound-button" class="icon-button" type="button" title="声音" aria-label="切换声音">♪</button>
+        <div class="resource-pill" aria-label="钻石">
+          <span class="coin-mark" aria-hidden="true">G</span>
+          <strong id="home-gold">0</strong>
+        </div>
+        <button id="settings-button" class="icon-button" type="button" title="设置" aria-label="打开设置">⚙</button>
+      </header>
+
+      <div class="brand-lockup">
+        <span class="brand-kicker">THUNDER WARRIOR</span>
+        <h1>雷霆勇士</h1>
+      </div>
+
+      <div class="hero-stage">
+        <canvas id="hero-canvas" aria-label="当前勇士"></canvas>
+        <div class="hero-stage-shade" aria-hidden="true"></div>
+      </div>
+
+      <div class="selected-hero-readout">
+        <div>
+          <span class="eyebrow">当前出战</span>
+          <strong id="home-hero-name">雷霆勇士</strong>
+        </div>
+        <div class="skill-chip">
+          <span id="home-skill-icon" aria-hidden="true">ϟ</span>
+          <span id="home-skill-name">雷霆号令</span>
+        </div>
+      </div>
+
+      <div class="home-actions">
+        <div class="secondary-actions">
+          <button id="levels-button" class="command-button secondary" type="button">
+            <span aria-hidden="true">⌁</span>
+            <span>选择关卡</span>
+          </button>
+          <button id="heroes-button" class="command-button secondary" type="button">
+            <span aria-hidden="true">♜</span>
+            <span>勇士选择</span>
+          </button>
+        </div>
+        <button id="start-button" class="command-button primary" type="button">
+          <span aria-hidden="true">ϟ</span>
+          <span id="start-button-label">开始征战</span>
+        </button>
+        <div class="progress-line">
+          <span>最高通关</span>
+          <strong id="home-progress">雷云前哨</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="levels-screen" class="screen" aria-label="选择关卡">
+      <header class="topbar section-topbar">
+        <button class="icon-button back-button" type="button" title="返回" aria-label="返回主界面">‹</button>
+        <h2>选择关卡</h2>
+        <div class="resource-pill compact">
+          <span class="coin-mark" aria-hidden="true">G</span>
+          <strong id="levels-gold">0</strong>
+        </div>
+      </header>
+      <div id="level-list" class="level-list"></div>
+    </section>
+
+    <section id="heroes-screen" class="screen" aria-label="勇士选择">
+      <header class="topbar section-topbar">
+        <button class="icon-button back-button" type="button" title="返回" aria-label="返回主界面">‹</button>
+        <h2>勇士选择</h2>
+        <div class="resource-pill compact">
+          <span class="coin-mark" aria-hidden="true">G</span>
+          <strong id="heroes-gold">0</strong>
+        </div>
+      </header>
+
+      <div class="hero-select-stage">
+        <canvas id="select-hero-canvas" aria-label="所选勇士"></canvas>
+      </div>
+
+      <div class="hero-detail">
+        <span id="hero-role" class="role-tag">稳定蓄雷</span>
+        <h3 id="hero-detail-name">雷霆勇士</h3>
+        <div class="skill-detail-row">
+          <span id="hero-detail-icon" class="large-skill-icon" aria-hidden="true">ϟ</span>
+          <div>
+            <strong id="hero-detail-skill">雷霆号令</strong>
+            <p id="hero-detail-effect">立即获得 10 点雷霆能量</p>
+          </div>
+          <span id="hero-detail-cooldown" class="cooldown-tag">35s</span>
+        </div>
+      </div>
+
+      <div id="hero-roster" class="hero-roster" role="listbox" aria-label="勇士列表"></div>
+      <button id="deploy-hero-button" class="command-button primary deploy-button" type="button">出战</button>
+    </section>
+
+    <section id="battle-screen" class="screen battle-screen" aria-label="战斗界面">
+      <header class="battle-topline">
+        <button id="battle-exit-button" class="icon-button" type="button" title="暂停" aria-label="暂停战斗">Ⅱ</button>
+        <div class="battle-title">
+          <span id="battle-level-index">第 1 关</span>
+          <strong id="battle-level-name">雷云前哨</strong>
+        </div>
+        <div id="battle-combo" class="combo-badge">READY</div>
+      </header>
+
+      <div class="combat-stage">
+        <div class="health-row player-health">
+          <span id="battle-hero-name">雷霆勇士</span>
+          <div class="health-track"><i id="player-health-fill"></i></div>
+          <strong id="player-health-text">30/30</strong>
+        </div>
+        <canvas id="battle-canvas" aria-label="勇士与怪物战斗"></canvas>
+        <div class="health-row enemy-health">
+          <span id="battle-monster-name">蚀雷魔犬</span>
+          <div class="health-track"><i id="enemy-health-fill"></i></div>
+          <strong id="enemy-health-text">30/30</strong>
+        </div>
+        <div id="combat-callout" class="combat-callout">风暴逼近</div>
+      </div>
+
+      <div class="battle-console">
+        <div class="attack-timer-row">
+          <span>敌方攻击</span>
+          <div class="timer-track"><i id="attack-timer-fill"></i></div>
+          <strong id="attack-timer-text">12.0s</strong>
+        </div>
+
+        <div class="energy-skill-row">
+          <div class="energy-module">
+            <div class="energy-label">
+              <span>雷霆能量</span>
+              <strong id="energy-text">0 / 20</strong>
+            </div>
+            <div class="energy-track">
+              <i id="energy-fill"></i>
+              <b class="energy-mark mark-ten">10</b>
+              <b class="energy-mark mark-twenty">20</b>
+            </div>
+            <div class="state-scale" aria-hidden="true">
+              <span>破甲</span><span>雷盾</span><span>反击</span>
+            </div>
+          </div>
+
+          <button id="skill-button" class="skill-button" type="button" aria-label="释放主角技能">
+            <span id="battle-skill-icon" class="skill-symbol" aria-hidden="true">ϟ</span>
+            <strong id="battle-skill-name">雷霆号令</strong>
+            <small id="battle-skill-cooldown">可释放</small>
+            <i id="skill-cooldown-mask" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="board-shell">
+        <div id="board" class="rune-board" role="grid" aria-label="六乘六雷霆符文棋盘"></div>
+      </div>
+    </section>
+
+    <div id="modal-overlay" class="modal-overlay" aria-hidden="true">
+      <section class="modal-window" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button id="modal-close-button" class="icon-button modal-close" type="button" title="关闭" aria-label="关闭">×</button>
+        <div id="modal-emblem" class="modal-emblem" aria-hidden="true">ϟ</div>
+        <h2 id="modal-title">雷霆勇士</h2>
+        <div id="modal-body" class="modal-body"></div>
+        <div id="modal-actions" class="modal-actions"></div>
+      </section>
+    </div>
+
+    <div id="toast" class="toast" role="status"></div>
+  </main>
+
+  <noscript>请启用 JavaScript 后运行《雷霆勇士》。</noscript>
+  <script src="game.js" defer></script>
+</body>
+</html>
