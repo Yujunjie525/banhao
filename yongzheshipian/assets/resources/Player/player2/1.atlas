@@ -1,0 +1,27 @@
+
+1.png
+size: 393,299
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+主体
+  rotate: false
+  xy: 2, 2
+  size: 313, 295
+  orig: 315, 297
+  offset: 1, 1
+  index: -1
+右腿
+  rotate: false
+  xy: 317, 88
+  size: 63, 108
+  orig: 65, 111
+  offset: 1, 2
+  index: -1
+左腿
+  rotate: false
+  xy: 317, 198
+  size: 74, 99
+  orig: 77, 103
+  offset: 2, 2
+  index: -1

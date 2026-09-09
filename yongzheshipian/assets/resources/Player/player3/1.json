@@ -1,0 +1,141 @@
+{
+"skeleton": {
+	"hash": "cSSrLWf/CHSkTMtanJRCgvXbaqM",
+	"spine": "3.8.75",
+	"x": -153.8,
+	"y": -33.26,
+	"width": 368.4,
+	"height": 422.41,
+	"images": "D:/桌面/小游戏UI/星际逃逸/角色/角色3/images/",
+	"audio": "D:\\桌面\\小游戏UI\\星际逃逸\\角色\\角色3"
+},
+"bones": [
+	{ "name": "root", "x": 9.62, "y": 171.52 },
+	{ "name": "shenzi", "parent": "root", "length": 44.37, "rotation": -90.42, "x": 4.5, "y": -17.28 },
+	{ "name": "tui", "parent": "shenzi", "length": 48.55, "rotation": 2.1, "x": 43.22, "y": -0.77 },
+	{ "name": "bone3", "parent": "tui", "length": 96.13, "rotation": -6.23, "x": -7.39, "y": -35.52 },
+	{ "name": "bone4", "parent": "tui", "length": 99.98, "rotation": -0.56, "x": -10.02, "y": 20.65 },
+	{ "name": "toufa", "parent": "root", "length": 65.11, "rotation": -177.82, "x": 55.69, "y": 140.52 },
+	{ "name": "zuoyan", "parent": "root", "length": 17.61, "rotation": -87.34, "x": 49.46, "y": 52.53 },
+	{ "name": "youyan", "parent": "root", "length": 17.61, "rotation": -87.34, "x": 107.54, "y": 54.17 }
+],
+"slots": [
+	{ "name": "右腿", "bone": "bone4", "attachment": "右腿" },
+	{ "name": "左腿", "bone": "bone3", "attachment": "左腿" },
+	{ "name": "身子", "bone": "shenzi", "attachment": "身子" },
+	{ "name": "左眼", "bone": "zuoyan", "attachment": "左眼" },
+	{ "name": "右眼", "bone": "youyan", "attachment": "右眼" },
+	{ "name": "头发", "bone": "toufa", "attachment": "头发" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"身子": {
+				"身子": { "x": -6.87, "y": 16.23, "rotation": 97.22, "width": 329, "height": 352 }
+			},
+			"左眼": {
+				"左眼": { "x": 5.6, "y": 1.25, "rotation": 87.34, "width": 20, "height": 29 }
+			},
+			"左腿": {
+				"左腿": { "x": 62.07, "y": -1.42, "rotation": 96.67, "width": 78, "height": 137 }
+			},
+			"头发": {
+				"头发": { "x": 19.57, "y": -4.68, "rotation": -177.55, "width": 245, "height": 127 }
+			},
+			"右眼": {
+				"右眼": { "x": 7.19, "y": 0.09, "rotation": 87.34, "width": 20, "height": 29 }
+			},
+			"右腿": {
+				"右腿": { "x": 64.17, "y": 1.38, "rotation": 86.8, "width": 86, "height": 136 }
+			}
+		}
+	}
+],
+"animations": {
+	"jump": {
+		"bones": {
+			"zuoyan": {
+				"scale": [
+					{},
+					{ "time": 0.0333, "x": 0.3 },
+					{ "time": 0.0667, "curve": "stepped" },
+					{ "time": 1.0667 }
+				]
+			},
+			"youyan": {
+				"scale": [
+					{},
+					{ "time": 0.0333, "x": 0.3 },
+					{ "time": 0.0667, "curve": "stepped" },
+					{ "time": 1.0667 }
+				]
+			},
+			"toufa": {
+				"scale": [
+					{ "y": 1.04 },
+					{ "time": 0.5667 },
+					{ "time": 1.0667, "y": 1.04 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{ "angle": -8.96, "curve": "stepped" },
+					{ "time": 1.0667, "angle": -8.96 }
+				]
+			},
+			"bone4": {
+				"rotate": [
+					{ "angle": -23.12, "curve": "stepped" },
+					{ "time": 1.0667, "angle": -23.12 }
+				]
+			}
+		}
+	},
+	"run": {
+		"bones": {
+			"bone3": {
+				"rotate": [
+					{ "angle": 44.52 },
+					{ "time": 0.3, "angle": -17.73 },
+					{ "time": 0.5667, "angle": 44.52 },
+					{ "time": 0.8333, "angle": -17.73 },
+					{ "time": 1.0667, "angle": 44.52 }
+				]
+			},
+			"toufa": {
+				"scale": [
+					{ "y": 1.04 },
+					{ "time": 0.5667 },
+					{ "time": 1.0667, "y": 1.04 }
+				]
+			},
+			"zuoyan": {
+				"scale": [
+					{},
+					{ "time": 0.0333, "x": 0.3 },
+					{ "time": 0.0667, "curve": "stepped" },
+					{ "time": 1.0667 }
+				]
+			},
+			"youyan": {
+				"scale": [
+					{},
+					{ "time": 0.0333, "x": 0.3 },
+					{ "time": 0.0667, "curve": "stepped" },
+					{ "time": 1.0667 }
+				]
+			},
+			"bone4": {
+				"rotate": [
+					{ "angle": -40.9 },
+					{ "time": 0.3, "angle": 18.67 },
+					{ "time": 0.5667, "angle": -40.9 },
+					{ "time": 0.8333, "angle": 18.67 },
+					{ "time": 1.0667, "angle": -40.9 }
+				]
+			}
+		}
+	}
+}
+}

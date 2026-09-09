@@ -1,0 +1,41 @@
+
+1.png
+size: 576,252
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+右腿
+  rotate: false
+  xy: 515, 134
+  size: 59, 116
+  orig: 63, 118
+  offset: 2, 1
+  index: -1
+左腿
+  rotate: false
+  xy: 515, 134
+  size: 59, 116
+  orig: 63, 118
+  offset: 2, 1
+  index: -1
+眼镜光
+  rotate: false
+  xy: 515, 94
+  size: 11, 38
+  orig: 13, 40
+  offset: 1, 1
+  index: -1
+背包
+  rotate: false
+  xy: 385, 10
+  size: 128, 240
+  orig: 130, 242
+  offset: 1, 1
+  index: -1
+身体
+  rotate: true
+  xy: 2, 2
+  size: 248, 381
+  orig: 250, 384
+  offset: 1, 2
+  index: -1
