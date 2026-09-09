@@ -1,0 +1,46 @@
+{
+"skeleton": {
+	"hash": "S2uCuw5N1pqzE9VZw3cgtlP7Fn0",
+	"spine": "3.8.75",
+	"x": -125.17,
+	"y": -17.94,
+	"width": 333,
+	"height": 148,
+	"images": "D:/桌面/小游戏UI/星际逃逸/角色/飞行3/images/",
+	"audio": "D:\\桌面\\小游戏UI\\星际逃逸\\角色\\飞行3"
+},
+"bones": [
+	{ "name": "root", "x": -145.17, "y": 137.06 },
+	{ "name": "bone", "parent": "root", "length": 102.65, "rotation": -2.19, "x": 225.3, "y": -88.29 }
+],
+"slots": [
+	{ "name": "火焰", "bone": "bone", "attachment": "火焰" },
+	{ "name": "身体", "bone": "root", "attachment": "身体" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"身体": {
+				"身体": { "x": 130.5, "y": -81, "width": 221, "height": 148 }
+			},
+			"火焰": {
+				"火焰": { "x": 60.65, "y": 2.61, "rotation": 2.19, "width": 134, "height": 68 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"bone": {
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 0.867 },
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,5825 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "id": "L001",
+      "name": "初醒之间",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 6,
+      "steps": 12,
+      "obstacles": [
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 3
+        },
+        {
+          "col": 4,
+          "row": 3
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 5,
+            "row": 8
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 6,
+            "row": 8
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 0,
+            "row": 0
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 1,
+            "row": 0
+          }
+        }
+      ],
+      "playerStart": {
+        "col": 0,
+        "row": 1
+      },
+      "blackHoles": [],
+      "firstClearRewards": {
+        "lightCrystal": 50,
+        "diamond": 10,
+        "memoryFragment": 1
+      },
+      "repeatRewards": {
+        "lightCrystal": 20,
+        "memoryFragment": 1
+      }
+    },
+    {
+      "level": 2,
+      "id": "L002",
+      "name": "碎影走廊",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 10,
+      "steps": 18,
+      "obstacles": [
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 6
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 5
+        },
+        {
+          "col": 5,
+          "row": 1
+        },
+        {
+          "col": 5,
+          "row": 6
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 6,
+            "row": 8
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 6,
+            "row": 6
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 6,
+            "row": 4
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 0,
+            "row": 0
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 0,
+            "row": 2
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 0,
+            "row": 4
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001",
+          "moveSeconds": 2,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 3,
+              "row": 1
+            },
+            {
+              "col": 3,
+              "row": 2
+            },
+            {
+              "col": 3,
+              "row": 3
+            },
+            {
+              "col": 3,
+              "row": 4
+            },
+            {
+              "col": 3,
+              "row": 3
+            },
+            {
+              "col": 3,
+              "row": 2
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 80,
+        "diamond": 15,
+        "memoryFragment": 2
+      },
+      "repeatRewards": {
+        "lightCrystal": 30,
+        "memoryFragment": 1
+      }
+    },
+    {
+      "level": 3,
+      "id": "L003",
+      "name": "遗忘之渊",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 16,
+      "steps": 26,
+      "obstacles": [
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 5
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 3
+        },
+        {
+          "col": 3,
+          "row": 4
+        },
+        {
+          "col": 4,
+          "row": 2
+        },
+        {
+          "col": 4,
+          "row": 6
+        },
+        {
+          "col": 5,
+          "row": 2
+        },
+        {
+          "col": 5,
+          "row": 6
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 3,
+            "row": 7
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 4,
+            "row": 7
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 5,
+            "row": 7
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 6,
+            "row": 7
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 0,
+            "row": 0
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 0,
+            "row": 3
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 1,
+            "row": 6
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 2,
+            "row": 8
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.5,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 1,
+              "row": 4
+            },
+            {
+              "col": 2,
+              "row": 4
+            },
+            {
+              "col": 3,
+              "row": 4
+            },
+            {
+              "col": 2,
+              "row": 4
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 1.5,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 5,
+              "row": 2
+            },
+            {
+              "col": 5,
+              "row": 3
+            },
+            {
+              "col": 5,
+              "row": 4
+            },
+            {
+              "col": 5,
+              "row": 5
+            },
+            {
+              "col": 5,
+              "row": 4
+            },
+            {
+              "col": 5,
+              "row": 3
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 120,
+        "diamond": 20,
+        "memoryFragment": 3
+      },
+      "repeatRewards": {
+        "lightCrystal": 40,
+        "memoryFragment": 1
+      }
+    },
+    {
+      "level": 4,
+      "id": "L004",
+      "name": "暗影回廊·4层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 16,
+      "steps": 25,
+      "obstacles": [
+        {
+          "col": 0,
+          "row": 4
+        },
+        {
+          "col": 1,
+          "row": 3
+        },
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 5,
+          "row": 8
+        },
+        {
+          "col": 0,
+          "row": 6
+        },
+        {
+          "col": 0,
+          "row": 0
+        },
+        {
+          "col": 0,
+          "row": 3
+        },
+        {
+          "col": 1,
+          "row": 8
+        },
+        {
+          "col": 4,
+          "row": 0
+        },
+        {
+          "col": 4,
+          "row": 3
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 3,
+            "row": 3
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 6,
+            "row": 0
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 5,
+            "row": 6
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 3,
+            "row": 4
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 6,
+            "row": 2
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 2,
+            "row": 4
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.7,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 6,
+              "row": 5
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 130,
+        "diamond": 18,
+        "memoryFragment": 2
+      },
+      "repeatRewards": {
+        "lightCrystal": 40,
+        "memoryFragment": 1
+      }
+    },
+    {
+      "level": 5,
+      "id": "L005",
+      "name": "幽暗地牢·5层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 17,
+      "steps": 27,
+      "obstacles": [
+        {
+          "col": 6,
+          "row": 5
+        },
+        {
+          "col": 4,
+          "row": 4
+        },
+        {
+          "col": 6,
+          "row": 0
+        },
+        {
+          "col": 5,
+          "row": 7
+        },
+        {
+          "col": 4,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 4,
+          "row": 3
+        },
+        {
+          "col": 5,
+          "row": 1
+        },
+        {
+          "col": 0,
+          "row": 3
+        },
+        {
+          "col": 6,
+          "row": 4
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 6,
+            "row": 1
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 3,
+            "row": 5
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 2,
+            "row": 3
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 3,
+            "row": 4
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 1,
+            "row": 5
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 5,
+            "row": 4
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.8,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 4,
+              "row": 2
+            },
+            {
+              "col": 5,
+              "row": 2
+            },
+            {
+              "col": 6,
+              "row": 2
+            },
+            {
+              "col": 5,
+              "row": 2
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 150,
+        "diamond": 20,
+        "memoryFragment": 2
+      },
+      "repeatRewards": {
+        "lightCrystal": 45,
+        "memoryFragment": 2
+      }
+    },
+    {
+      "level": 6,
+      "id": "L006",
+      "name": "无尽长廊·6层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 19,
+      "steps": 30,
+      "obstacles": [
+        {
+          "col": 5,
+          "row": 8
+        },
+        {
+          "col": 1,
+          "row": 5
+        },
+        {
+          "col": 6,
+          "row": 0
+        },
+        {
+          "col": 1,
+          "row": 0
+        },
+        {
+          "col": 6,
+          "row": 5
+        },
+        {
+          "col": 3,
+          "row": 4
+        },
+        {
+          "col": 0,
+          "row": 3
+        },
+        {
+          "col": 4,
+          "row": 5
+        },
+        {
+          "col": 1,
+          "row": 7
+        },
+        {
+          "col": 3,
+          "row": 7
+        },
+        {
+          "col": 1,
+          "row": 4
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 1,
+            "row": 3
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 5,
+            "row": 6
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 2,
+            "row": 3
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 3,
+            "row": 1
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 4,
+            "row": 4
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 4,
+            "row": 6
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 1,
+            "row": 8
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 6,
+            "row": 1
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.7,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 1,
+              "row": 2
+            },
+            {
+              "col": 2,
+              "row": 2
+            },
+            {
+              "col": 3,
+              "row": 2
+            },
+            {
+              "col": 4,
+              "row": 2
+            },
+            {
+              "col": 3,
+              "row": 2
+            },
+            {
+              "col": 2,
+              "row": 2
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 170,
+        "diamond": 22,
+        "memoryFragment": 3
+      },
+      "repeatRewards": {
+        "lightCrystal": 50,
+        "memoryFragment": 2
+      }
+    },
+    {
+      "level": 7,
+      "id": "L007",
+      "name": "希望之角·7层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 20,
+      "steps": 32,
+      "obstacles": [
+        {
+          "col": 3,
+          "row": 8
+        },
+        {
+          "col": 2,
+          "row": 8
+        },
+        {
+          "col": 6,
+          "row": 0
+        },
+        {
+          "col": 5,
+          "row": 1
+        },
+        {
+          "col": 5,
+          "row": 8
+        },
+        {
+          "col": 6,
+          "row": 4
+        },
+        {
+          "col": 6,
+          "row": 5
+        },
+        {
+          "col": 0,
+          "row": 4
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 0
+        },
+        {
+          "col": 5,
+          "row": 4
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 4,
+            "row": 2
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 6,
+            "row": 8
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 1,
+            "row": 5
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 4,
+            "row": 8
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 4,
+            "row": 1
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 4,
+            "row": 3
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 6,
+            "row": 2
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 0,
+            "row": 5
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.3,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 1,
+              "row": 0
+            },
+            {
+              "col": 2,
+              "row": 0
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 190,
+        "diamond": 24,
+        "memoryFragment": 3
+      },
+      "repeatRewards": {
+        "lightCrystal": 55,
+        "memoryFragment": 2
+      }
+    },
+    {
+      "level": 8,
+      "id": "L008",
+      "name": "星界边缘·8层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 22,
+      "steps": 35,
+      "obstacles": [
+        {
+          "col": 6,
+          "row": 1
+        },
+        {
+          "col": 6,
+          "row": 8
+        },
+        {
+          "col": 6,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 7
+        },
+        {
+          "col": 4,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 8
+        },
+        {
+          "col": 6,
+          "row": 6
+        },
+        {
+          "col": 1,
+          "row": 8
+        },
+        {
+          "col": 6,
+          "row": 3
+        },
+        {
+          "col": 5,
+          "row": 4
+        },
+        {
+          "col": 3,
+          "row": 5
+        },
+        {
+          "col": 3,
+          "row": 8
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 3,
+            "row": 1
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 0,
+            "row": 5
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 0,
+            "row": 1
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 1,
+            "row": 1
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 1,
+            "row": 3
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 0,
+            "row": 8
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 5,
+            "row": 0
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 1,
+            "row": 4
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 2.1,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 5,
+              "row": 7
+            },
+            {
+              "col": 6,
+              "row": 7
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 2.2,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 4,
+              "row": 7
+            },
+            {
+              "col": 4,
+              "row": 8
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 210,
+        "diamond": 26,
+        "memoryFragment": 3
+      },
+      "repeatRewards": {
+        "lightCrystal": 60,
+        "memoryFragment": 2
+      }
+    },
+    {
+      "level": 9,
+      "id": "L009",
+      "name": "破碎之塔·9层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 23,
+      "steps": 36,
+      "obstacles": [
+        {
+          "col": 0,
+          "row": 1
+        },
+        {
+          "col": 5,
+          "row": 6
+        },
+        {
+          "col": 2,
+          "row": 6
+        },
+        {
+          "col": 3,
+          "row": 7
+        },
+        {
+          "col": 6,
+          "row": 0
+        },
+        {
+          "col": 5,
+          "row": 1
+        },
+        {
+          "col": 0,
+          "row": 6
+        },
+        {
+          "col": 5,
+          "row": 5
+        },
+        {
+          "col": 6,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 3
+        },
+        {
+          "col": 1,
+          "row": 8
+        },
+        {
+          "col": 3,
+          "row": 2
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 2,
+            "row": 7
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 3,
+            "row": 8
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 5,
+            "row": 8
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 1,
+            "row": 6
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 1,
+            "row": 1
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 0,
+            "row": 0
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 0,
+            "row": 3
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 0,
+            "row": 2
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 2.4,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 3,
+              "row": 0
+            },
+            {
+              "col": 3,
+              "row": 1
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 2.1,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 6,
+              "row": 7
+            },
+            {
+              "col": 6,
+              "row": 8
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 230,
+        "diamond": 28,
+        "memoryFragment": 4
+      },
+      "repeatRewards": {
+        "lightCrystal": 65,
+        "memoryFragment": 2
+      }
+    },
+    {
+      "level": 10,
+      "id": "L010",
+      "name": "绝望之门·10层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 25,
+      "steps": 40,
+      "obstacles": [
+        {
+          "col": 5,
+          "row": 7
+        },
+        {
+          "col": 1,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "row": 3
+        },
+        {
+          "col": 0,
+          "row": 8
+        },
+        {
+          "col": 0,
+          "row": 5
+        },
+        {
+          "col": 0,
+          "row": 0
+        },
+        {
+          "col": 4,
+          "row": 7
+        },
+        {
+          "col": 4,
+          "row": 8
+        },
+        {
+          "col": 1,
+          "row": 0
+        },
+        {
+          "col": 4,
+          "row": 1
+        },
+        {
+          "col": 6,
+          "row": 2
+        },
+        {
+          "col": 0,
+          "row": 1
+        },
+        {
+          "col": 5,
+          "row": 3
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 3,
+            "row": 1
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 4,
+            "row": 0
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 2,
+            "row": 4
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 1,
+            "row": 4
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 4,
+            "row": 3
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 3,
+            "row": 8
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 1,
+            "row": 5
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 3,
+            "row": 2
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 2.4,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 5,
+              "row": 4
+            },
+            {
+              "col": 5,
+              "row": 5
+            },
+            {
+              "col": 5,
+              "row": 6
+            },
+            {
+              "col": 5,
+              "row": 5
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 2.4,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 1,
+              "row": 8
+            },
+            {
+              "col": 2,
+              "row": 8
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 250,
+        "diamond": 30,
+        "memoryFragment": 4
+      },
+      "repeatRewards": {
+        "lightCrystal": 70,
+        "memoryFragment": 3
+      }
+    },
+    {
+      "level": 11,
+      "id": "L011",
+      "name": "暗影回廊·11层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 26,
+      "steps": 41,
+      "obstacles": [
+        {
+          "col": 1,
+          "row": 5
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 8
+        },
+        {
+          "col": 5,
+          "row": 4
+        },
+        {
+          "col": 4,
+          "row": 8
+        },
+        {
+          "col": 0,
+          "row": 8
+        },
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 4
+        },
+        {
+          "col": 0,
+          "row": 1
+        },
+        {
+          "col": 5,
+          "row": 8
+        },
+        {
+          "col": 2,
+          "row": 3
+        },
+        {
+          "col": 5,
+          "row": 5
+        },
+        {
+          "col": 4,
+          "row": 7
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 2,
+            "row": 0
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 6,
+            "row": 4
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 1,
+            "row": 7
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 4,
+            "row": 0
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 0,
+            "row": 6
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 0,
+            "row": 0
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 4,
+            "row": 6
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 5,
+            "row": 2
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.4,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 6,
+              "row": 5
+            },
+            {
+              "col": 6,
+              "row": 6
+            },
+            {
+              "col": 6,
+              "row": 7
+            },
+            {
+              "col": 6,
+              "row": 6
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 1.5,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 2,
+              "row": 5
+            },
+            {
+              "col": 2,
+              "row": 6
+            },
+            {
+              "col": 2,
+              "row": 7
+            },
+            {
+              "col": 2,
+              "row": 6
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 270,
+        "diamond": 32,
+        "memoryFragment": 4
+      },
+      "repeatRewards": {
+        "lightCrystal": 75,
+        "memoryFragment": 3
+      }
+    },
+    {
+      "level": 12,
+      "id": "L012",
+      "name": "破碎之塔·12层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 28,
+      "steps": 44,
+      "obstacles": [
+        {
+          "col": 5,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 8
+        },
+        {
+          "col": 6,
+          "row": 6
+        },
+        {
+          "col": 4,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 2
+        },
+        {
+          "col": 6,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 0
+        },
+        {
+          "col": 1,
+          "row": 5
+        },
+        {
+          "col": 6,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 6,
+          "row": 1
+        },
+        {
+          "col": 6,
+          "row": 7
+        },
+        {
+          "col": 1,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "row": 4
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 1,
+            "row": 0
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 3,
+            "row": 5
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 6,
+            "row": 4
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 2,
+            "row": 0
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 1,
+            "row": 4
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 5,
+            "row": 3
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 2,
+            "row": 1
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 3,
+            "row": 8
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 0,
+            "row": 4
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 0,
+            "row": 1
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.8,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 4,
+              "row": 6
+            },
+            {
+              "col": 4,
+              "row": 7
+            },
+            {
+              "col": 4,
+              "row": 8
+            },
+            {
+              "col": 4,
+              "row": 7
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 1.5,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 4,
+              "row": 1
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 290,
+        "diamond": 34,
+        "memoryFragment": 5
+      },
+      "repeatRewards": {
+        "lightCrystal": 80,
+        "memoryFragment": 3
+      }
+    },
+    {
+      "level": 13,
+      "id": "L013",
+      "name": "时光裂缝·13层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 29,
+      "steps": 46,
+      "obstacles": [
+        {
+          "col": 0,
+          "row": 8
+        },
+        {
+          "col": 6,
+          "row": 8
+        },
+        {
+          "col": 5,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "row": 6
+        },
+        {
+          "col": 0,
+          "row": 5
+        },
+        {
+          "col": 4,
+          "row": 5
+        },
+        {
+          "col": 5,
+          "row": 1
+        },
+        {
+          "col": 5,
+          "row": 4
+        },
+        {
+          "col": 4,
+          "row": 4
+        },
+        {
+          "col": 5,
+          "row": 6
+        },
+        {
+          "col": 4,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 6
+        },
+        {
+          "col": 5,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 8
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 6,
+            "row": 0
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 6,
+            "row": 5
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 3,
+            "row": 3
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 6,
+            "row": 2
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 5,
+            "row": 5
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 2,
+            "row": 4
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 3,
+            "row": 7
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 4,
+            "row": 7
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 2,
+            "row": 8
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 0,
+            "row": 3
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.3,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 1,
+              "row": 3
+            },
+            {
+              "col": 2,
+              "row": 3
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 2.4,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 3,
+              "row": 1
+            },
+            {
+              "col": 3,
+              "row": 2
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 310,
+        "diamond": 36,
+        "memoryFragment": 5
+      },
+      "repeatRewards": {
+        "lightCrystal": 85,
+        "memoryFragment": 3
+      }
+    },
+    {
+      "level": 14,
+      "id": "L014",
+      "name": "希望之角·14层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 31,
+      "steps": 49,
+      "obstacles": [
+        {
+          "col": 1,
+          "row": 6
+        },
+        {
+          "col": 3,
+          "row": 6
+        },
+        {
+          "col": 1,
+          "row": 2
+        },
+        {
+          "col": 5,
+          "row": 0
+        },
+        {
+          "col": 6,
+          "row": 1
+        },
+        {
+          "col": 6,
+          "row": 6
+        },
+        {
+          "col": 6,
+          "row": 8
+        },
+        {
+          "col": 3,
+          "row": 0
+        },
+        {
+          "col": 4,
+          "row": 3
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 6,
+          "row": 7
+        },
+        {
+          "col": 5,
+          "row": 8
+        },
+        {
+          "col": 4,
+          "row": 5
+        },
+        {
+          "col": 4,
+          "row": 8
+        },
+        {
+          "col": 3,
+          "row": 8
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 5,
+            "row": 7
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 6,
+            "row": 3
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 3,
+            "row": 3
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 0,
+            "row": 4
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 2,
+            "row": 5
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 3,
+            "row": 4
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 6,
+            "row": 4
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 2,
+            "row": 7
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 1,
+            "row": 4
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 4,
+            "row": 1
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.7,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 5,
+              "row": 2
+            },
+            {
+              "col": 6,
+              "row": 2
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 1.3,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 2,
+              "row": 8
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 330,
+        "diamond": 38,
+        "memoryFragment": 5
+      },
+      "repeatRewards": {
+        "lightCrystal": 90,
+        "memoryFragment": 3
+      }
+    },
+    {
+      "level": 15,
+      "id": "L015",
+      "name": "时光裂缝·15层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 32,
+      "steps": 51,
+      "obstacles": [
+        {
+          "col": 3,
+          "row": 0
+        },
+        {
+          "col": 6,
+          "row": 6
+        },
+        {
+          "col": 2,
+          "row": 4
+        },
+        {
+          "col": 4,
+          "row": 8
+        },
+        {
+          "col": 6,
+          "row": 3
+        },
+        {
+          "col": 3,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "row": 6
+        },
+        {
+          "col": 3,
+          "row": 5
+        },
+        {
+          "col": 5,
+          "row": 6
+        },
+        {
+          "col": 5,
+          "row": 2
+        },
+        {
+          "col": 6,
+          "row": 7
+        },
+        {
+          "col": 1,
+          "row": 8
+        },
+        {
+          "col": 0,
+          "row": 6
+        },
+        {
+          "col": 4,
+          "row": 0
+        },
+        {
+          "col": 1,
+          "row": 7
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 1,
+            "row": 0
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 2,
+            "row": 1
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 0,
+            "row": 5
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 6,
+            "row": 0
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 4,
+            "row": 2
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 2,
+            "row": 3
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 5,
+            "row": 8
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 1,
+            "row": 1
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 1,
+            "row": 3
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 1,
+            "row": 2
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 2.1,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 3,
+              "row": 1
+            },
+            {
+              "col": 3,
+              "row": 2
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 2.2,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 6,
+              "row": 5
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 350,
+        "diamond": 40,
+        "memoryFragment": 6
+      },
+      "repeatRewards": {
+        "lightCrystal": 95,
+        "memoryFragment": 4
+      }
+    },
+    {
+      "level": 16,
+      "id": "L016",
+      "name": "微光深潭·16层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 34,
+      "steps": 54,
+      "obstacles": [
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 4,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "row": 6
+        },
+        {
+          "col": 3,
+          "row": 3
+        },
+        {
+          "col": 0,
+          "row": 3
+        },
+        {
+          "col": 0,
+          "row": 4
+        },
+        {
+          "col": 6,
+          "row": 1
+        },
+        {
+          "col": 6,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "row": 8
+        },
+        {
+          "col": 3,
+          "row": 5
+        },
+        {
+          "col": 0,
+          "row": 8
+        },
+        {
+          "col": 5,
+          "row": 5
+        },
+        {
+          "col": 0,
+          "row": 6
+        },
+        {
+          "col": 6,
+          "row": 7
+        },
+        {
+          "col": 2,
+          "row": 7
+        },
+        {
+          "col": 5,
+          "row": 2
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 3,
+            "row": 2
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 5,
+            "row": 4
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 3,
+            "row": 6
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 2,
+            "row": 3
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 4,
+            "row": 6
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 5,
+            "row": 8
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 4,
+            "row": 8
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 6,
+            "row": 4
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 1,
+            "row": 7
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 2,
+            "row": 0
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.6,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 1,
+              "row": 5
+            },
+            {
+              "col": 1,
+              "row": 6
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 1.3,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 4,
+              "row": 4
+            }
+          ]
+        },
+        {
+          "id": "E001_C",
+          "moveSeconds": 2.1,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 5,
+              "row": 6
+            },
+            {
+              "col": 6,
+              "row": 6
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 370,
+        "diamond": 42,
+        "memoryFragment": 6
+      },
+      "repeatRewards": {
+        "lightCrystal": 100,
+        "memoryFragment": 4
+      }
+    },
+    {
+      "level": 17,
+      "id": "L017",
+      "name": "星界边缘·17层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 35,
+      "steps": 56,
+      "obstacles": [
+        {
+          "col": 3,
+          "row": 0
+        },
+        {
+          "col": 0,
+          "row": 4
+        },
+        {
+          "col": 1,
+          "row": 6
+        },
+        {
+          "col": 5,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "row": 5
+        },
+        {
+          "col": 3,
+          "row": 8
+        },
+        {
+          "col": 4,
+          "row": 5
+        },
+        {
+          "col": 5,
+          "row": 7
+        },
+        {
+          "col": 2,
+          "row": 4
+        },
+        {
+          "col": 2,
+          "row": 3
+        },
+        {
+          "col": 0,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 5,
+          "row": 8
+        },
+        {
+          "col": 6,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "row": 8
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 4,
+            "row": 4
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 2,
+            "row": 0
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 0,
+            "row": 0
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 3,
+            "row": 7
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 1,
+            "row": 0
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 2,
+            "row": 2
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 1,
+            "row": 4
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 5,
+            "row": 2
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 3,
+            "row": 5
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 2,
+            "row": 7
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.3,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 0,
+              "row": 1
+            },
+            {
+              "col": 0,
+              "row": 2
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 2.3,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 5,
+              "row": 0
+            },
+            {
+              "col": 6,
+              "row": 0
+            }
+          ]
+        },
+        {
+          "id": "E001_C",
+          "moveSeconds": 2.2,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 1,
+              "row": 1
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 390,
+        "diamond": 44,
+        "memoryFragment": 6
+      },
+      "repeatRewards": {
+        "lightCrystal": 105,
+        "memoryFragment": 4
+      }
+    },
+    {
+      "level": 18,
+      "id": "L018",
+      "name": "时光裂缝·18层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 37,
+      "steps": 59,
+      "obstacles": [
+        {
+          "col": 3,
+          "row": 7
+        },
+        {
+          "col": 2,
+          "row": 6
+        },
+        {
+          "col": 2,
+          "row": 0
+        },
+        {
+          "col": 4,
+          "row": 1
+        },
+        {
+          "col": 6,
+          "row": 3
+        },
+        {
+          "col": 5,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 3
+        },
+        {
+          "col": 1,
+          "row": 8
+        },
+        {
+          "col": 0,
+          "row": 2
+        },
+        {
+          "col": 0,
+          "row": 6
+        },
+        {
+          "col": 1,
+          "row": 4
+        },
+        {
+          "col": 5,
+          "row": 4
+        },
+        {
+          "col": 5,
+          "row": 7
+        },
+        {
+          "col": 0,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "row": 3
+        },
+        {
+          "col": 3,
+          "row": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 4,
+            "row": 3
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 2,
+            "row": 2
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 4,
+            "row": 4
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 5,
+            "row": 6
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 4,
+            "row": 7
+          }
+        },
+        {
+          "id": "F",
+          "position": {
+            "col": 3,
+            "row": 5
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 5,
+            "row": 2
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 0,
+            "row": 0
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 3,
+            "row": 4
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 2,
+            "row": 8
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 4,
+            "row": 0
+          }
+        },
+        {
+          "id": "F",
+          "start": {
+            "col": 0,
+            "row": 1
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 2.2,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 1,
+              "row": 0
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 1.4,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 1,
+              "row": 7
+            }
+          ]
+        },
+        {
+          "id": "E001_C",
+          "moveSeconds": 1.8,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 4,
+              "row": 6
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 410,
+        "diamond": 46,
+        "memoryFragment": 7
+      },
+      "repeatRewards": {
+        "lightCrystal": 110,
+        "memoryFragment": 4
+      }
+    },
+    {
+      "level": 19,
+      "id": "L019",
+      "name": "时光裂缝·19层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 38,
+      "steps": 60,
+      "obstacles": [
+        {
+          "col": 2,
+          "row": 5
+        },
+        {
+          "col": 5,
+          "row": 1
+        },
+        {
+          "col": 6,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 6
+        },
+        {
+          "col": 5,
+          "row": 7
+        },
+        {
+          "col": 6,
+          "row": 8
+        },
+        {
+          "col": 0,
+          "row": 7
+        },
+        {
+          "col": 0,
+          "row": 5
+        },
+        {
+          "col": 0,
+          "row": 6
+        },
+        {
+          "col": 6,
+          "row": 0
+        },
+        {
+          "col": 5,
+          "row": 8
+        },
+        {
+          "col": 3,
+          "row": 6
+        },
+        {
+          "col": 0,
+          "row": 3
+        },
+        {
+          "col": 4,
+          "row": 5
+        },
+        {
+          "col": 4,
+          "row": 7
+        },
+        {
+          "col": 1,
+          "row": 4
+        },
+        {
+          "col": 4,
+          "row": 2
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 2,
+            "row": 7
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 5,
+            "row": 3
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 2,
+            "row": 8
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 3,
+            "row": 1
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 3,
+            "row": 4
+          }
+        },
+        {
+          "id": "F",
+          "position": {
+            "col": 3,
+            "row": 7
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 0,
+            "row": 0
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 5,
+            "row": 2
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 0,
+            "row": 8
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 1,
+            "row": 1
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 4,
+            "row": 4
+          }
+        },
+        {
+          "id": "F",
+          "start": {
+            "col": 3,
+            "row": 3
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.4,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 3,
+              "row": 8
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 1.6,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 4,
+              "row": 8
+            }
+          ]
+        },
+        {
+          "id": "E001_C",
+          "moveSeconds": 2.3,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 6,
+              "row": 6
+            },
+            {
+              "col": 6,
+              "row": 7
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 430,
+        "diamond": 48,
+        "memoryFragment": 7
+      },
+      "repeatRewards": {
+        "lightCrystal": 115,
+        "memoryFragment": 4
+      }
+    },
+    {
+      "level": 20,
+      "id": "L020",
+      "name": "无尽长廊·20层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 40,
+      "steps": 64,
+      "obstacles": [
+        {
+          "col": 5,
+          "row": 4
+        },
+        {
+          "col": 6,
+          "row": 7
+        },
+        {
+          "col": 6,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 8
+        },
+        {
+          "col": 3,
+          "row": 5
+        },
+        {
+          "col": 2,
+          "row": 8
+        },
+        {
+          "col": 6,
+          "row": 8
+        },
+        {
+          "col": 3,
+          "row": 7
+        },
+        {
+          "col": 2,
+          "row": 3
+        },
+        {
+          "col": 5,
+          "row": 3
+        },
+        {
+          "col": 4,
+          "row": 6
+        },
+        {
+          "col": 1,
+          "row": 6
+        },
+        {
+          "col": 0,
+          "row": 5
+        },
+        {
+          "col": 5,
+          "row": 7
+        },
+        {
+          "col": 5,
+          "row": 6
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 0
+        },
+        {
+          "col": 1,
+          "row": 8
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 4,
+            "row": 5
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 0,
+            "row": 8
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 0,
+            "row": 7
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 2,
+            "row": 6
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 6,
+            "row": 5
+          }
+        },
+        {
+          "id": "F",
+          "position": {
+            "col": 1,
+            "row": 4
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 6,
+            "row": 1
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 5,
+            "row": 2
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 6,
+            "row": 4
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 5,
+            "row": 1
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 0,
+            "row": 1
+          }
+        },
+        {
+          "id": "F",
+          "start": {
+            "col": 1,
+            "row": 1
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.4,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 3,
+              "row": 1
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 2.2,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 2,
+              "row": 0
+            },
+            {
+              "col": 2,
+              "row": 1
+            },
+            {
+              "col": 2,
+              "row": 2
+            },
+            {
+              "col": 2,
+              "row": 1
+            }
+          ]
+        },
+        {
+          "id": "E001_C",
+          "moveSeconds": 1.4,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 2,
+              "row": 5
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 450,
+        "diamond": 50,
+        "memoryFragment": 7
+      },
+      "repeatRewards": {
+        "lightCrystal": 120,
+        "memoryFragment": 5
+      }
+    },
+    {
+      "level": 21,
+      "id": "L021",
+      "name": "绝望之门·21层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 41,
+      "steps": 65,
+      "obstacles": [
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 2
+        },
+        {
+          "col": 0,
+          "row": 6
+        },
+        {
+          "col": 4,
+          "row": 3
+        },
+        {
+          "col": 1,
+          "row": 7
+        },
+        {
+          "col": 5,
+          "row": 4
+        },
+        {
+          "col": 3,
+          "row": 4
+        },
+        {
+          "col": 5,
+          "row": 0
+        },
+        {
+          "col": 6,
+          "row": 7
+        },
+        {
+          "col": 2,
+          "row": 8
+        },
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 5
+        },
+        {
+          "col": 4,
+          "row": 4
+        },
+        {
+          "col": 5,
+          "row": 6
+        },
+        {
+          "col": 1,
+          "row": 6
+        },
+        {
+          "col": 0,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "row": 0
+        },
+        {
+          "col": 4,
+          "row": 0
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 4,
+            "row": 7
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 6,
+            "row": 3
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 1,
+            "row": 3
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 5,
+            "row": 1
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 0,
+            "row": 5
+          }
+        },
+        {
+          "id": "F",
+          "position": {
+            "col": 2,
+            "row": 6
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 6,
+            "row": 4
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 4,
+            "row": 5
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 5,
+            "row": 2
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 2,
+            "row": 7
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 0,
+            "row": 4
+          }
+        },
+        {
+          "id": "F",
+          "start": {
+            "col": 1,
+            "row": 8
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 2.5,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 6,
+              "row": 2
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 2.5,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 2,
+              "row": 5
+            }
+          ]
+        },
+        {
+          "id": "E001_C",
+          "moveSeconds": 2.2,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 6,
+              "row": 6
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 470,
+        "diamond": 52,
+        "memoryFragment": 8
+      },
+      "repeatRewards": {
+        "lightCrystal": 125,
+        "memoryFragment": 5
+      }
+    },
+    {
+      "level": 22,
+      "id": "L022",
+      "name": "幻梦迷境·22层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 43,
+      "steps": 68,
+      "obstacles": [
+        {
+          "col": 2,
+          "row": 8
+        },
+        {
+          "col": 0,
+          "row": 7
+        },
+        {
+          "col": 2,
+          "row": 4
+        },
+        {
+          "col": 4,
+          "row": 6
+        },
+        {
+          "col": 6,
+          "row": 5
+        },
+        {
+          "col": 0,
+          "row": 3
+        },
+        {
+          "col": 3,
+          "row": 0
+        },
+        {
+          "col": 4,
+          "row": 8
+        },
+        {
+          "col": 2,
+          "row": 3
+        },
+        {
+          "col": 5,
+          "row": 1
+        },
+        {
+          "col": 5,
+          "row": 7
+        },
+        {
+          "col": 5,
+          "row": 4
+        },
+        {
+          "col": 5,
+          "row": 6
+        },
+        {
+          "col": 0,
+          "row": 2
+        },
+        {
+          "col": 0,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "row": 7
+        },
+        {
+          "col": 0,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 8
+        },
+        {
+          "col": 1,
+          "row": 6
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 3,
+            "row": 5
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 3,
+            "row": 2
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 6,
+            "row": 7
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 5,
+            "row": 5
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 3,
+            "row": 3
+          }
+        },
+        {
+          "id": "F",
+          "position": {
+            "col": 4,
+            "row": 5
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 5,
+            "row": 8
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 3,
+            "row": 1
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 2,
+            "row": 0
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 1,
+            "row": 7
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 0,
+            "row": 5
+          }
+        },
+        {
+          "id": "F",
+          "start": {
+            "col": 0,
+            "row": 6
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.5,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 5,
+              "row": 0
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 2.0,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 1,
+              "row": 3
+            }
+          ]
+        },
+        {
+          "id": "E001_C",
+          "moveSeconds": 2.2,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 6,
+              "row": 3
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 490,
+        "diamond": 54,
+        "memoryFragment": 8
+      },
+      "repeatRewards": {
+        "lightCrystal": 130,
+        "memoryFragment": 5
+      }
+    },
+    {
+      "level": 23,
+      "id": "L023",
+      "name": "希望之角·23层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 44,
+      "steps": 70,
+      "obstacles": [
+        {
+          "col": 0,
+          "row": 4
+        },
+        {
+          "col": 6,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 8
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 0,
+          "row": 0
+        },
+        {
+          "col": 1,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "row": 3
+        },
+        {
+          "col": 4,
+          "row": 5
+        },
+        {
+          "col": 0,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 0
+        },
+        {
+          "col": 1,
+          "row": 6
+        },
+        {
+          "col": 4,
+          "row": 1
+        },
+        {
+          "col": 5,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 7
+        },
+        {
+          "col": 6,
+          "row": 5
+        },
+        {
+          "col": 3,
+          "row": 8
+        },
+        {
+          "col": 5,
+          "row": 8
+        },
+        {
+          "col": 2,
+          "row": 7
+        },
+        {
+          "col": 5,
+          "row": 0
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 0,
+            "row": 7
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 3,
+            "row": 1
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 2,
+            "row": 8
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 4,
+            "row": 6
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 5,
+            "row": 3
+          }
+        },
+        {
+          "id": "F",
+          "position": {
+            "col": 2,
+            "row": 6
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 6,
+            "row": 6
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 0,
+            "row": 1
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 5,
+            "row": 5
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 6,
+            "row": 8
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 3,
+            "row": 6
+          }
+        },
+        {
+          "id": "F",
+          "start": {
+            "col": 2,
+            "row": 4
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 2.3,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 5,
+              "row": 7
+            },
+            {
+              "col": 6,
+              "row": 7
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 2.3,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 0,
+              "row": 6
+            }
+          ]
+        },
+        {
+          "id": "E001_C",
+          "moveSeconds": 1.7,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 4,
+              "row": 0
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 510,
+        "diamond": 56,
+        "memoryFragment": 8
+      },
+      "repeatRewards": {
+        "lightCrystal": 135,
+        "memoryFragment": 5
+      }
+    },
+    {
+      "level": 24,
+      "id": "L024",
+      "name": "时光裂缝·24层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 46,
+      "steps": 73,
+      "obstacles": [
+        {
+          "col": 6,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "row": 4
+        },
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 4,
+          "row": 8
+        },
+        {
+          "col": 1,
+          "row": 2
+        },
+        {
+          "col": 5,
+          "row": 7
+        },
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 8
+        },
+        {
+          "col": 6,
+          "row": 4
+        },
+        {
+          "col": 4,
+          "row": 3
+        },
+        {
+          "col": 6,
+          "row": 6
+        },
+        {
+          "col": 6,
+          "row": 8
+        },
+        {
+          "col": 0,
+          "row": 4
+        },
+        {
+          "col": 0,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 5
+        },
+        {
+          "col": 6,
+          "row": 2
+        },
+        {
+          "col": 4,
+          "row": 6
+        },
+        {
+          "col": 5,
+          "row": 0
+        },
+        {
+          "col": 0,
+          "row": 8
+        },
+        {
+          "col": 1,
+          "row": 6
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 3,
+            "row": 7
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 5,
+            "row": 5
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 1,
+            "row": 0
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 2,
+            "row": 7
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 3,
+            "row": 4
+          }
+        },
+        {
+          "id": "F",
+          "position": {
+            "col": 0,
+            "row": 5
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 2,
+            "row": 2
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 6,
+            "row": 1
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 5,
+            "row": 1
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 5,
+            "row": 6
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 1,
+            "row": 8
+          }
+        },
+        {
+          "id": "F",
+          "start": {
+            "col": 3,
+            "row": 1
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.7,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 4,
+              "row": 4
+            },
+            {
+              "col": 5,
+              "row": 4
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 1.6,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 4,
+              "row": 0
+            }
+          ]
+        },
+        {
+          "id": "E001_C",
+          "moveSeconds": 1.4,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 0,
+              "row": 0
+            },
+            {
+              "col": 0,
+              "row": 1
+            }
+          ]
+        },
+        {
+          "id": "E001_D",
+          "moveSeconds": 1.3,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 3,
+              "row": 8
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 530,
+        "diamond": 58,
+        "memoryFragment": 9
+      },
+      "repeatRewards": {
+        "lightCrystal": 140,
+        "memoryFragment": 5
+      }
+    },
+    {
+      "level": 25,
+      "id": "L025",
+      "name": "幻梦迷境·25层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 47,
+      "steps": 75,
+      "obstacles": [
+        {
+          "col": 3,
+          "row": 0
+        },
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 6,
+          "row": 5
+        },
+        {
+          "col": 4,
+          "row": 6
+        },
+        {
+          "col": 5,
+          "row": 6
+        },
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 6,
+          "row": 7
+        },
+        {
+          "col": 0,
+          "row": 6
+        },
+        {
+          "col": 6,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 6
+        },
+        {
+          "col": 4,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 4
+        },
+        {
+          "col": 5,
+          "row": 5
+        },
+        {
+          "col": 1,
+          "row": 5
+        },
+        {
+          "col": 6,
+          "row": 2
+        },
+        {
+          "col": 0,
+          "row": 8
+        },
+        {
+          "col": 5,
+          "row": 1
+        },
+        {
+          "col": 4,
+          "row": 8
+        },
+        {
+          "col": 1,
+          "row": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 1,
+            "row": 4
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 4,
+            "row": 2
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 3,
+            "row": 7
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 6,
+            "row": 4
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 2,
+            "row": 8
+          }
+        },
+        {
+          "id": "F",
+          "position": {
+            "col": 0,
+            "row": 0
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 1,
+            "row": 2
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 1,
+            "row": 7
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 0,
+            "row": 7
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 4,
+            "row": 0
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 0,
+            "row": 4
+          }
+        },
+        {
+          "id": "F",
+          "start": {
+            "col": 2,
+            "row": 4
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 2.0,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 0,
+              "row": 1
+            },
+            {
+              "col": 0,
+              "row": 2
+            },
+            {
+              "col": 0,
+              "row": 3
+            },
+            {
+              "col": 0,
+              "row": 2
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 1.6,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 6,
+              "row": 0
+            }
+          ]
+        },
+        {
+          "id": "E001_C",
+          "moveSeconds": 1.8,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 3,
+              "row": 8
+            }
+          ]
+        },
+        {
+          "id": "E001_D",
+          "moveSeconds": 1.7,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 5,
+              "row": 7
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 550,
+        "diamond": 60,
+        "memoryFragment": 9
+      },
+      "repeatRewards": {
+        "lightCrystal": 145,
+        "memoryFragment": 6
+      }
+    },
+    {
+      "level": 26,
+      "id": "L026",
+      "name": "无尽长廊·26层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 49,
+      "steps": 78,
+      "obstacles": [
+        {
+          "col": 3,
+          "row": 6
+        },
+        {
+          "col": 6,
+          "row": 5
+        },
+        {
+          "col": 5,
+          "row": 0
+        },
+        {
+          "col": 0,
+          "row": 5
+        },
+        {
+          "col": 0,
+          "row": 8
+        },
+        {
+          "col": 5,
+          "row": 6
+        },
+        {
+          "col": 2,
+          "row": 4
+        },
+        {
+          "col": 5,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 4,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 8
+        },
+        {
+          "col": 3,
+          "row": 5
+        },
+        {
+          "col": 6,
+          "row": 2
+        },
+        {
+          "col": 5,
+          "row": 8
+        },
+        {
+          "col": 0,
+          "row": 6
+        },
+        {
+          "col": 4,
+          "row": 5
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 5
+        },
+        {
+          "col": 6,
+          "row": 7
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 1,
+            "row": 3
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 0,
+            "row": 4
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 4,
+            "row": 8
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 4,
+            "row": 6
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 2,
+            "row": 3
+          }
+        },
+        {
+          "id": "F",
+          "position": {
+            "col": 1,
+            "row": 8
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 1,
+            "row": 2
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 6,
+            "row": 1
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 6,
+            "row": 8
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 5,
+            "row": 7
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 3,
+            "row": 4
+          }
+        },
+        {
+          "id": "F",
+          "start": {
+            "col": 1,
+            "row": 4
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.8,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 6,
+              "row": 3
+            },
+            {
+              "col": 6,
+              "row": 4
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 2.3,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 2,
+              "row": 6
+            }
+          ]
+        },
+        {
+          "id": "E001_C",
+          "moveSeconds": 2.1,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 0,
+              "row": 7
+            },
+            {
+              "col": 1,
+              "row": 7
+            },
+            {
+              "col": 2,
+              "row": 7
+            },
+            {
+              "col": 3,
+              "row": 7
+            },
+            {
+              "col": 2,
+              "row": 7
+            },
+            {
+              "col": 1,
+              "row": 7
+            }
+          ]
+        },
+        {
+          "id": "E001_D",
+          "moveSeconds": 2.2,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 4,
+              "row": 1
+            },
+            {
+              "col": 5,
+              "row": 1
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 570,
+        "diamond": 62,
+        "memoryFragment": 9
+      },
+      "repeatRewards": {
+        "lightCrystal": 150,
+        "memoryFragment": 6
+      }
+    },
+    {
+      "level": 27,
+      "id": "L027",
+      "name": "无尽长廊·27层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 50,
+      "steps": 80,
+      "obstacles": [
+        {
+          "col": 3,
+          "row": 8
+        },
+        {
+          "col": 1,
+          "row": 6
+        },
+        {
+          "col": 0,
+          "row": 3
+        },
+        {
+          "col": 6,
+          "row": 7
+        },
+        {
+          "col": 2,
+          "row": 0
+        },
+        {
+          "col": 3,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "row": 3
+        },
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 0,
+          "row": 5
+        },
+        {
+          "col": 6,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "row": 7
+        },
+        {
+          "col": 5,
+          "row": 2
+        },
+        {
+          "col": 0,
+          "row": 0
+        },
+        {
+          "col": 4,
+          "row": 8
+        },
+        {
+          "col": 6,
+          "row": 4
+        },
+        {
+          "col": 1,
+          "row": 4
+        },
+        {
+          "col": 5,
+          "row": 7
+        },
+        {
+          "col": 0,
+          "row": 1
+        },
+        {
+          "col": 0,
+          "row": 8
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 4,
+            "row": 3
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 1,
+            "row": 1
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 6,
+            "row": 8
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 3,
+            "row": 7
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 2,
+            "row": 4
+          }
+        },
+        {
+          "id": "F",
+          "position": {
+            "col": 2,
+            "row": 1
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 2,
+            "row": 6
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 4,
+            "row": 5
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 4,
+            "row": 0
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 0,
+            "row": 6
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 5,
+            "row": 0
+          }
+        },
+        {
+          "id": "F",
+          "start": {
+            "col": 5,
+            "row": 1
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.7,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 6,
+              "row": 5
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 2.0,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 2,
+              "row": 2
+            }
+          ]
+        },
+        {
+          "id": "E001_C",
+          "moveSeconds": 1.5,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 0,
+              "row": 7
+            }
+          ]
+        },
+        {
+          "id": "E001_D",
+          "moveSeconds": 2.4,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 6,
+              "row": 3
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 590,
+        "diamond": 64,
+        "memoryFragment": 10
+      },
+      "repeatRewards": {
+        "lightCrystal": 155,
+        "memoryFragment": 6
+      }
+    },
+    {
+      "level": 28,
+      "id": "L028",
+      "name": "绝望之门·28层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 52,
+      "steps": 83,
+      "obstacles": [
+        {
+          "col": 3,
+          "row": 8
+        },
+        {
+          "col": 3,
+          "row": 4
+        },
+        {
+          "col": 0,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "row": 5
+        },
+        {
+          "col": 6,
+          "row": 0
+        },
+        {
+          "col": 6,
+          "row": 5
+        },
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 6
+        },
+        {
+          "col": 5,
+          "row": 7
+        },
+        {
+          "col": 3,
+          "row": 5
+        },
+        {
+          "col": 1,
+          "row": 7
+        },
+        {
+          "col": 2,
+          "row": 8
+        },
+        {
+          "col": 5,
+          "row": 6
+        },
+        {
+          "col": 0,
+          "row": 6
+        },
+        {
+          "col": 4,
+          "row": 2
+        },
+        {
+          "col": 4,
+          "row": 4
+        },
+        {
+          "col": 0,
+          "row": 5
+        },
+        {
+          "col": 5,
+          "row": 4
+        },
+        {
+          "col": 2,
+          "row": 7
+        },
+        {
+          "col": 4,
+          "row": 6
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 2,
+            "row": 0
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 0,
+            "row": 2
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 2,
+            "row": 6
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 3,
+            "row": 1
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 1,
+            "row": 1
+          }
+        },
+        {
+          "id": "F",
+          "position": {
+            "col": 6,
+            "row": 4
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 6,
+            "row": 2
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 6,
+            "row": 7
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 4,
+            "row": 0
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 4,
+            "row": 5
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 0,
+            "row": 4
+          }
+        },
+        {
+          "id": "F",
+          "start": {
+            "col": 1,
+            "row": 4
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 2.3,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 3,
+              "row": 2
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 2.4,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 5,
+              "row": 5
+            }
+          ]
+        },
+        {
+          "id": "E001_C",
+          "moveSeconds": 1.4,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 5,
+              "row": 2
+            }
+          ]
+        },
+        {
+          "id": "E001_D",
+          "moveSeconds": 1.2,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 1,
+              "row": 2
+            },
+            {
+              "col": 1,
+              "row": 3
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 610,
+        "diamond": 66,
+        "memoryFragment": 10
+      },
+      "repeatRewards": {
+        "lightCrystal": 160,
+        "memoryFragment": 6
+      }
+    },
+    {
+      "level": 29,
+      "id": "L029",
+      "name": "绝望之门·29层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 53,
+      "steps": 84,
+      "obstacles": [
+        {
+          "col": 4,
+          "row": 5
+        },
+        {
+          "col": 3,
+          "row": 8
+        },
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 0,
+          "row": 4
+        },
+        {
+          "col": 3,
+          "row": 7
+        },
+        {
+          "col": 4,
+          "row": 6
+        },
+        {
+          "col": 6,
+          "row": 6
+        },
+        {
+          "col": 6,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 5
+        },
+        {
+          "col": 5,
+          "row": 1
+        },
+        {
+          "col": 5,
+          "row": 8
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 6,
+          "row": 8
+        },
+        {
+          "col": 5,
+          "row": 2
+        },
+        {
+          "col": 6,
+          "row": 2
+        },
+        {
+          "col": 6,
+          "row": 0
+        },
+        {
+          "col": 4,
+          "row": 2
+        },
+        {
+          "col": 5,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "row": 8
+        },
+        {
+          "col": 2,
+          "row": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 2,
+            "row": 3
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 4,
+            "row": 8
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 0,
+            "row": 0
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 2,
+            "row": 4
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 2,
+            "row": 7
+          }
+        },
+        {
+          "id": "F",
+          "position": {
+            "col": 2,
+            "row": 5
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 5,
+            "row": 4
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 0,
+            "row": 8
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 4,
+            "row": 0
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 3,
+            "row": 3
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 1,
+            "row": 7
+          }
+        },
+        {
+          "id": "F",
+          "start": {
+            "col": 5,
+            "row": 5
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.6,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 3,
+              "row": 2
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 1.5,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 3,
+              "row": 1
+            }
+          ]
+        },
+        {
+          "id": "E001_C",
+          "moveSeconds": 2.5,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 2,
+              "row": 6
+            },
+            {
+              "col": 3,
+              "row": 6
+            }
+          ]
+        },
+        {
+          "id": "E001_D",
+          "moveSeconds": 1.8,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 1,
+              "row": 2
+            },
+            {
+              "col": 1,
+              "row": 3
+            },
+            {
+              "col": 1,
+              "row": 4
+            },
+            {
+              "col": 1,
+              "row": 3
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 630,
+        "diamond": 68,
+        "memoryFragment": 10
+      },
+      "repeatRewards": {
+        "lightCrystal": 165,
+        "memoryFragment": 6
+      }
+    },
+    {
+      "level": 30,
+      "id": "L030",
+      "name": "无尽长廊·30层",
+      "cols": 7,
+      "rows": 9,
+      "minSteps": 55,
+      "steps": 88,
+      "obstacles": [
+        {
+          "col": 3,
+          "row": 0
+        },
+        {
+          "col": 0,
+          "row": 6
+        },
+        {
+          "col": 4,
+          "row": 7
+        },
+        {
+          "col": 1,
+          "row": 3
+        },
+        {
+          "col": 4,
+          "row": 5
+        },
+        {
+          "col": 0,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "row": 7
+        },
+        {
+          "col": 2,
+          "row": 8
+        },
+        {
+          "col": 0,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 5
+        },
+        {
+          "col": 6,
+          "row": 6
+        },
+        {
+          "col": 2,
+          "row": 0
+        },
+        {
+          "col": 4,
+          "row": 8
+        },
+        {
+          "col": 1,
+          "row": 5
+        },
+        {
+          "col": 4,
+          "row": 4
+        },
+        {
+          "col": 6,
+          "row": 8
+        },
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 5
+        }
+      ],
+      "slots": [
+        {
+          "id": "A",
+          "position": {
+            "col": 6,
+            "row": 5
+          }
+        },
+        {
+          "id": "B",
+          "position": {
+            "col": 1,
+            "row": 8
+          }
+        },
+        {
+          "id": "C",
+          "position": {
+            "col": 0,
+            "row": 2
+          }
+        },
+        {
+          "id": "D",
+          "position": {
+            "col": 6,
+            "row": 7
+          }
+        },
+        {
+          "id": "E",
+          "position": {
+            "col": 5,
+            "row": 4
+          }
+        },
+        {
+          "id": "F",
+          "position": {
+            "col": 3,
+            "row": 4
+          }
+        }
+      ],
+      "lightBlocks": [
+        {
+          "id": "A",
+          "start": {
+            "col": 6,
+            "row": 2
+          }
+        },
+        {
+          "id": "B",
+          "start": {
+            "col": 3,
+            "row": 8
+          }
+        },
+        {
+          "id": "C",
+          "start": {
+            "col": 5,
+            "row": 5
+          }
+        },
+        {
+          "id": "D",
+          "start": {
+            "col": 1,
+            "row": 6
+          }
+        },
+        {
+          "id": "E",
+          "start": {
+            "col": 5,
+            "row": 1
+          }
+        },
+        {
+          "id": "F",
+          "start": {
+            "col": 6,
+            "row": 0
+          }
+        }
+      ],
+      "blackHoles": [
+        {
+          "id": "E001_A",
+          "moveSeconds": 1.4,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 2,
+              "row": 3
+            },
+            {
+              "col": 2,
+              "row": 4
+            }
+          ]
+        },
+        {
+          "id": "E001_B",
+          "moveSeconds": 1.2,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 5,
+              "row": 6
+            }
+          ]
+        },
+        {
+          "id": "E001_C",
+          "moveSeconds": 1.7,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 1,
+              "row": 0
+            }
+          ]
+        },
+        {
+          "id": "E001_D",
+          "moveSeconds": 2.3,
+          "hiddenAlpha": 120,
+          "visibleAlpha": 255,
+          "path": [
+            {
+              "col": 3,
+              "row": 3
+            }
+          ]
+        }
+      ],
+      "firstClearRewards": {
+        "lightCrystal": 650,
+        "diamond": 70,
+        "memoryFragment": 11
+      },
+      "repeatRewards": {
+        "lightCrystal": 170,
+        "memoryFragment": 7
+      }
+    }
+  ]
+}

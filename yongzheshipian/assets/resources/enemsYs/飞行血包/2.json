@@ -1,0 +1,59 @@
+{
+"skeleton": {
+	"hash": "sO5NKaK92mf4NYfzvZRgl3Mosac",
+	"spine": "3.8.75",
+	"x": -189.84,
+	"y": -94.37,
+	"width": 381,
+	"height": 242,
+	"images": "D:/桌面/小游戏UI/星际逃逸/角色/飞行2/images/",
+	"audio": "D:\\桌面\\小游戏UI\\星际逃逸\\角色\\飞行2"
+},
+"bones": [
+	{ "name": "root", "x": -199.84, "y": 177.63 },
+	{ "name": "bone", "parent": "root", "length": 81.72, "rotation": 81.57, "x": 155.74, "y": -200.42 },
+	{ "name": "zuo", "parent": "bone", "length": 101.54, "rotation": 71.23, "x": 69.86, "y": 42.63 },
+	{ "name": "you", "parent": "bone", "length": 93.63, "rotation": -65.17, "x": 86.33, "y": -99.2 }
+],
+"slots": [
+	{ "name": "左翅膀", "bone": "zuo", "attachment": "左翅膀" },
+	{ "name": "主体", "bone": "root", "attachment": "主体" },
+	{ "name": "右翅膀", "bone": "you", "attachment": "右翅膀" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"左翅膀": {
+				"左翅膀": { "x": 61.37, "y": -1.72, "rotation": -152.81, "width": 120, "height": 113 }
+			},
+			"右翅膀": {
+				"右翅膀": { "x": 62.14, "y": -3.11, "rotation": -16.41, "width": 128, "height": 104 }
+			},
+			"主体": {
+				"主体": { "x": 211.5, "y": -151, "width": 237, "height": 242 }
+			}
+		}
+	}
+],
+"animations": {
+	"run": {
+		"bones": {
+			"zuo": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": 70.63 },
+					{ "time": 1 }
+				]
+			},
+			"you": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": -74.42 },
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}
