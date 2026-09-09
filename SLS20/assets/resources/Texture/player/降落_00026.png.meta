@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f350e9a2-edb6-49b1-a917-d01fb795290c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 300,
+  "height": 400,
+  "platformSettings": {},
+  "subMetas": {
+    "降落_00026": {
+      "ver": "1.0.6",
+      "uuid": "7647d6e0-a57e-4ea9-9a3b-d8e24c8c76b5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f350e9a2-edb6-49b1-a917-d01fb795290c",
+      "trimType": "none",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 300,
+      "height": 400,
+      "rawWidth": 300,
+      "rawHeight": 400,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
