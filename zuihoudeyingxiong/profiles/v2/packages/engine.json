@@ -1,0 +1,60 @@
+{
+  "__version__": "1.0.8",
+  "builder": {
+    "taskOptionsMap": {
+      "1722357059533": {
+        "cleanupImageCache": "on",
+        "__version__": "1.0.8"
+      },
+      "1722357597348": {
+        "cleanupImageCache": "on",
+        "__version__": "1.0.8"
+      },
+      "1722357897367": {
+        "cleanupImageCache": "on",
+        "__version__": "1.0.8"
+      },
+      "1722357927352": {
+        "cleanupImageCache": "on",
+        "__version__": "1.0.8"
+      },
+      "1722358842191": {
+        "cleanupImageCache": "on",
+        "__version__": "1.0.8"
+      },
+      "1722358857152": {
+        "cleanupImageCache": "on",
+        "__version__": "1.0.8"
+      },
+      "1722359130210": {
+        "cleanupImageCache": "on",
+        "__version__": "1.0.8"
+      },
+      "1722359668160": {
+        "cleanupImageCache": "on",
+        "__version__": "1.0.8"
+      },
+      "1724652025215": {
+        "cleanupImageCache": "on",
+        "__version__": "1.0.8"
+      },
+      "1725936106743": {
+        "cleanupImageCache": "on",
+        "__version__": "1.0.8"
+      },
+      "1726506858425": {
+        "cleanupImageCache": "on",
+        "__version__": "1.0.8"
+      },
+      "1726555892475": {
+        "cleanupImageCache": "inheritProjectSetting",
+        "__version__": "1.0.8"
+      },
+      "1776335536936": {
+        "cleanupImageCache": "inheritProjectSetting",
+        "__version__": "1.0.8"
+      }
+    },
+    "__version__": "1.3.7"
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"name": "taikongdataotuo",
+	"uuid": "326c201e-ab60-4050-b445-bf56b73a9ebf",
+	"creator": {
+		"version": "3.8.2"
+	},
+	"pink": {
+		"uuid": "2085d133-5795-4906-9613-7ea757b12bf6",
+		"version": "1.110.1"
+	}
+}

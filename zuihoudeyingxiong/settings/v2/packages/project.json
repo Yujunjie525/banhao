@@ -1,0 +1,58 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "fitHeight": true,
+      "fitWidth": false,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Player"
+      },
+      {
+        "index": 2,
+        "name": "Road"
+      },
+      {
+        "index": 3,
+        "name": "Enemy"
+      },
+      {
+        "index": 4,
+        "name": "Bullet"
+      },
+      {
+        "index": 5,
+        "name": "Hp"
+      },
+      {
+        "index": 6,
+        "name": "Jinbi"
+      },
+      {
+        "index": 7,
+        "name": "Jiguan"
+      },
+      {
+        "index": 8,
+        "name": "enemyBullet"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 3,
+      "1": 493,
+      "2": 10,
+      "3": 22,
+      "4": 8,
+      "5": 2,
+      "6": 2,
+      "7": 2,
+      "8": 2
+    }
+  }
+}

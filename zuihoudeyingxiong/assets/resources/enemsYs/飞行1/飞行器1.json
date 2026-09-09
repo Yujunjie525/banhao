@@ -1,0 +1,52 @@
+{
+"skeleton": {
+	"hash": "JFbDrMQEdl/tvNUF97KkZDXhGq4",
+	"spine": "3.8.75",
+	"x": 7,
+	"y": -119,
+	"width": 169,
+	"height": 120,
+	"images": "D:/桌面/小游戏UI/星际逃逸/角色/飞行1/images/",
+	"audio": "D:\\桌面\\小游戏UI\\星际逃逸\\角色\\飞行1"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 36.07, "rotation": -1.18, "x": 81.32, "y": -83.69 },
+	{ "name": "bone2", "parent": "bone", "length": 34.64, "rotation": 4.45, "x": 43.71, "y": 0.65 }
+],
+"slots": [
+	{ "name": "主体", "bone": "bone", "attachment": "主体" },
+	{ "name": "火焰", "bone": "bone2", "attachment": "火焰" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"火焰": {
+				"火焰": { "x": 23.5, "y": 0.1, "rotation": -3.27, "width": 55, "height": 33 }
+			},
+			"主体": {
+				"主体": { "x": -13.83, "y": 24.41, "rotation": 1.18, "width": 122, "height": 120 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"bone2": {
+				"scale": [
+					{},
+					{ "time": 0.5, "x": 1.403 },
+					{ "time": 1 }
+				],
+				"shear": [
+					{},
+					{ "time": 0.5, "x": -1.81 },
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

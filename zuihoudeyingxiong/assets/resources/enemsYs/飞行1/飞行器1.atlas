@@ -1,0 +1,20 @@
+
+飞行器1.png
+size: 157,122
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+主体
+  rotate: false
+  xy: 2, 2
+  size: 120, 118
+  orig: 122, 120
+  offset: 1, 1
+  index: -1
+火焰
+  rotate: true
+  xy: 124, 69
+  size: 51, 31
+  orig: 55, 33
+  offset: 2, 1
+  index: -1

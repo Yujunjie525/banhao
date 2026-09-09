@@ -1,0 +1,20 @@
+
+1.png
+size: 291,150
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+火焰
+  rotate: true
+  xy: 223, 16
+  size: 132, 66
+  orig: 134, 68
+  offset: 1, 1
+  index: -1
+身体
+  rotate: false
+  xy: 2, 2
+  size: 219, 146
+  orig: 221, 148
+  offset: 1, 1
+  index: -1
