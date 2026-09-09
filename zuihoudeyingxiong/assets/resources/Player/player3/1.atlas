@@ -1,0 +1,48 @@
+
+1.png
+size: 557,331
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+右眼
+  rotate: true
+  xy: 480, 176
+  size: 18, 26
+  orig: 20, 29
+  offset: 1, 1
+  index: -1
+左眼
+  rotate: true
+  xy: 480, 176
+  size: 18, 26
+  orig: 20, 29
+  offset: 1, 1
+  index: -1
+右腿
+  rotate: true
+  xy: 353, 3
+  size: 81, 133
+  orig: 86, 136
+  offset: 3, 2
+  index: -1
+头发
+  rotate: true
+  xy: 353, 86
+  size: 243, 125
+  orig: 245, 127
+  offset: 1, 1
+  index: -1
+左腿
+  rotate: false
+  xy: 480, 196
+  size: 75, 133
+  orig: 78, 137
+  offset: 1, 2
+  index: -1
+身子
+  rotate: true
+  xy: 2, 2
+  size: 327, 349
+  orig: 329, 352
+  offset: 1, 1
+  index: -1

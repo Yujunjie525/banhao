@@ -1,0 +1,75 @@
+{
+"skeleton": {
+	"hash": "02oesio/4RaAx+zUM7wekfwouRY",
+	"spine": "3.8.75",
+	"x": -158.18,
+	"y": -37.67,
+	"width": 341,
+	"height": 369,
+	"images": "D:/桌面/小游戏UI/星际逃逸/角色/角色1/images/",
+	"audio": "D:\\桌面\\小游戏UI\\星际逃逸\\角色\\角色1"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 61.82, "rotation": -108.15, "x": 32.51, "y": 109.84 },
+	{ "name": "zuo", "parent": "bone", "length": 82.53, "rotation": -30.16, "x": 62.42, "y": -1.83 },
+	{ "name": "you", "parent": "bone", "length": 75.59, "rotation": 52.25, "x": 60.65, "y": 9.75 }
+],
+"slots": [
+	{ "name": "右腿", "bone": "you", "attachment": "右腿" },
+	{ "name": "左腿", "bone": "zuo", "attachment": "左腿" },
+	{ "name": "身体", "bone": "bone", "attachment": "身体" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"身体": {
+				"身体": { "x": -54.52, "y": -39.13, "rotation": 108.15, "width": 341, "height": 315 }
+			},
+			"左腿": {
+				"左腿": { "x": 54.04, "y": -0.24, "rotation": 138.31, "width": 90, "height": 84 }
+			},
+			"右腿": {
+				"右腿": { "x": 55.18, "y": 2.42, "rotation": 55.91, "width": 88, "height": 85 }
+			}
+		}
+	}
+],
+"animations": {
+	"jump": {
+		"bones": {
+			"zuo": {
+				"rotate": [
+					{ "angle": -12.57, "curve": "stepped" },
+					{ "time": 0.3333, "angle": -12.57 }
+				]
+			},
+			"you": {
+				"rotate": [
+					{ "angle": -88.91, "curve": "stepped" },
+					{ "time": 0.3333, "angle": -88.91 }
+				]
+			}
+		}
+	},
+	"run": {
+		"bones": {
+			"zuo": {
+				"rotate": [
+					{ "angle": -24.12 },
+					{ "time": 0.3333, "angle": 116.2 },
+					{ "time": 0.6667, "angle": -24.12 }
+				]
+			},
+			"you": {
+				"rotate": [
+					{ "angle": 29.5 },
+					{ "time": 0.3333, "angle": -108.71 },
+					{ "time": 0.6667, "angle": 29.5 }
+				]
+			}
+		}
+	}
+}
+}

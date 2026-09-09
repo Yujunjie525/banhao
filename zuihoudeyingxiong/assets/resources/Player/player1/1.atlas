@@ -1,0 +1,27 @@
+
+1.png
+size: 428,317
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+右腿
+  rotate: true
+  xy: 343, 230
+  size: 85, 83
+  orig: 88, 85
+  offset: 2, 1
+  index: -1
+左腿
+  rotate: true
+  xy: 343, 141
+  size: 87, 82
+  orig: 90, 84
+  offset: 1, 1
+  index: -1
+身体
+  rotate: false
+  xy: 2, 2
+  size: 339, 313
+  orig: 341, 315
+  offset: 1, 1
+  index: -1
