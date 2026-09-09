@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "周一签到",
+    "desc": "周一签到奖励",
+    "icon": 1,
+    "rewardId": 1,
+    "rewardNum": 100
+  },
+  {
+    "id": 2,
+    "name": "周二签到",
+    "desc": "周二签到奖励",
+    "icon": 2,
+    "rewardId": 1,
+    "rewardNum": 120
+  },
+  {
+    "id": 3,
+    "name": "周三签到",
+    "desc": "周三签到奖励",
+    "icon": 3,
+    "rewardId": 1,
+    "rewardNum": 150
+  },
+  {
+    "id": 4,
+    "name": "周四签到",
+    "desc": "周四签到奖励",
+    "icon": 4,
+    "rewardId": 1,
+    "rewardNum": 180
+  },
+  {
+    "id": 5,
+    "name": "周五签到",
+    "desc": "周五签到奖励",
+    "icon": 5,
+    "rewardId": 1,
+    "rewardNum": 200
+  },
+  {
+    "id": 6,
+    "name": "周六签到",
+    "desc": "周六签到奖励",
+    "icon": 6,
+    "rewardId": 1,
+    "rewardNum": 250
+  },
+  {
+    "id": 7,
+    "name": "周日终签",
+    "desc": "周日终极大奖",
+    "icon": 7,
+    "rewardId": 1,
+    "rewardNum": 500
+  }
+]
