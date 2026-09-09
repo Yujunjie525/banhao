@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "time": 5,
+    "name": "初见小镇",
+    "desc": "在线5分钟领取心愿补给",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 120
+  },
+  {
+    "id": 2,
+    "time": 12,
+    "name": "熟悉街坊",
+    "desc": "在线12分钟领取心愿补给",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 260
+  },
+  {
+    "id": 3,
+    "time": 25,
+    "name": "花园漫步",
+    "desc": "在线25分钟领取心愿补给",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 450
+  },
+  {
+    "id": 4,
+    "time": 40,
+    "name": "街区建设",
+    "desc": "在线40分钟领取心愿补给",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 700
+  },
+  {
+    "id": 5,
+    "time": 60,
+    "name": "小镇施工",
+    "desc": "在线60分钟领取心愿补给",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 1000
+  },
+  {
+    "id": 6,
+    "time": 85,
+    "name": "邻里相聚",
+    "desc": "在线85分钟领取心愿补给",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 1400
+  },
+  {
+    "id": 7,
+    "time": 115,
+    "name": "小镇管家",
+    "desc": "在线115分钟领取心愿补给",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 1900
+  },
+  {
+    "id": 8,
+    "time": 150,
+    "name": "愿望收藏家",
+    "desc": "在线150分钟领取心愿补给",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 2500
+  },
+  {
+    "id": 9,
+    "time": 200,
+    "name": "心愿镇守护者",
+    "desc": "在线200分钟领取终极心愿补给",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 3600
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "心愿初成",
+    "desc": "最高关卡达到6关",
+    "rewardGold": 100,
+    "target": 6,
+    "type": 1
+  },
+  {
+    "id": 2,
+    "name": "小镇新客",
+    "desc": "最高关卡达到18关",
+    "rewardGold": 220,
+    "target": 18,
+    "type": 1
+  },
+  {
+    "id": 3,
+    "name": "街巷开拓者",
+    "desc": "最高关卡达到30关",
+    "rewardGold": 400,
+    "target": 30,
+    "type": 1
+  },
+  {
+    "id": 4,
+    "name": "繁花小镇长",
+    "desc": "最高关卡达到55关",
+    "rewardGold": 700,
+    "target": 55,
+    "type": 1
+  },
+  {
+    "id": 5,
+    "name": "心愿镇传奇",
+    "desc": "最高关卡达到110关",
+    "rewardGold": 1400,
+    "target": 110,
+    "type": 1
+  },
+  {
+    "id": 6,
+    "name": "初到小镇",
+    "desc": "累计游戏时长12分钟",
+    "rewardGold": 80,
+    "target": 12,
+    "type": 2
+  },
+  {
+    "id": 7,
+    "name": "午后闲逛",
+    "desc": "累计游戏时长70分钟",
+    "rewardGold": 220,
+    "target": 70,
+    "type": 2
+  },
+  {
+    "id": 8,
+    "name": "小镇熟客",
+    "desc": "累计游戏时长200分钟",
+    "rewardGold": 420,
+    "target": 200,
+    "type": 2
+  },
+  {
+    "id": 9,
+    "name": "邻里相伴",
+    "desc": "累计游戏时长720分钟",
+    "rewardGold": 800,
+    "target": 720,
+    "type": 2
+  },
+  {
+    "id": 10,
+    "name": "永恒心愿",
+    "desc": "累计游戏时长2000分钟",
+    "rewardGold": 1600,
+    "target": 2000,
+    "type": 2
+  },
+  {
+    "id": 11,
+    "name": "愿望启航",
+    "desc": "累计获得250颗钻石",
+    "rewardGold": 120,
+    "target": 250,
+    "type": 3
+  },
+  {
+    "id": 12,
+    "name": "小镇储蓄家",
+    "desc": "累计获得1000颗钻石",
+    "rewardGold": 300,
+    "target": 1000,
+    "type": 3
+  },
+  {
+    "id": 13,
+    "name": "花园宝藏",
+    "desc": "累计获得3500颗钻石",
+    "rewardGold": 600,
+    "target": 3500,
+    "type": 3
+  },
+  {
+    "id": 14,
+    "name": "小镇富翁",
+    "desc": "累计获得10000颗钻石",
+    "rewardGold": 1200,
+    "target": 10000,
+    "type": 3
+  },
+  {
+    "id": 15,
+    "name": "心愿宝库",
+    "desc": "累计获得40000颗钻石",
+    "rewardGold": 2200,
+    "target": 40000,
+    "type": 3
+  },
+  {
+    "id": 16,
+    "name": "活力满满",
+    "desc": "累计消耗120点体力",
+    "rewardGold": 100,
+    "target": 120,
+    "type": 4
+  },
+  {
+    "id": 17,
+    "name": "勤劳小镇民",
+    "desc": "累计消耗360点体力",
+    "rewardGold": 280,
+    "target": 360,
+    "type": 4
+  },
+  {
+    "id": 18,
+    "name": "建设小能手",
+    "desc": "累计消耗1500点体力",
+    "rewardGold": 550,
+    "target": 1500,
+    "type": 4
+  },
+  {
+    "id": 19,
+    "name": "小镇劳模",
+    "desc": "累计消耗3600点体力",
+    "rewardGold": 1000,
+    "target": 3600,
+    "type": 4
+  },
+  {
+    "id": 20,
+    "name": "心愿筑梦师",
+    "desc": "累计消耗9000点体力",
+    "rewardGold": 1800,
+    "target": 9000,
+    "type": 4
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "周一许愿",
+    "desc": "周一领取小镇许愿补给",
+    "icon": 1,
+    "rewardId": 1,
+    "rewardNum": 150
+  },
+  {
+    "id": 2,
+    "name": "周二种花",
+    "desc": "周二领取花园种植补给",
+    "icon": 2,
+    "rewardId": 1,
+    "rewardNum": 200
+  },
+  {
+    "id": 3,
+    "name": "周三建设",
+    "desc": "周三领取街区建设补给",
+    "icon": 3,
+    "rewardId": 1,
+    "rewardNum": 260
+  },
+  {
+    "id": 4,
+    "name": "周四拜访",
+    "desc": "周四领取邻里拜访补给",
+    "icon": 4,
+    "rewardId": 1,
+    "rewardNum": 340
+  },
+  {
+    "id": 5,
+    "name": "周五庆典",
+    "desc": "周五领取小镇庆典补给",
+    "icon": 5,
+    "rewardId": 1,
+    "rewardNum": 450
+  },
+  {
+    "id": 6,
+    "name": "周六丰收",
+    "desc": "周六领取花园丰收双倍福利",
+    "icon": 6,
+    "rewardId": 1,
+    "rewardNum": 650
+  },
+  {
+    "id": 7,
+    "name": "周日圆梦",
+    "desc": "周日领取终极心愿大奖",
+    "icon": 7,
+    "rewardId": 1,
+    "rewardNum": 900
+  }
+]
