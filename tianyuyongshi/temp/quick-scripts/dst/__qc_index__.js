@@ -1,0 +1,62 @@
+
+                (function() {
+                    var nodeEnv = typeof require !== 'undefined' && typeof process !== 'undefined';
+                    var __module = nodeEnv ? module : {exports:{}};
+                    var __filename = 'preview-scripts/__qc_index__.js';
+                    var __require = nodeEnv ? function (request) {
+                        return cc.require(request);
+                    } : function (request) {
+                        return __quick_compile_project__.require(request, __filename);
+                    };
+                    function __define (exports, require, module) {
+                        if (!nodeEnv) {__quick_compile_project__.registerModule(__filename, module);}
+require('./assets/Scripts/Common/AppConfig');
+require('./assets/Scripts/GameLanch');
+require('./assets/Scripts/Load/GameData');
+require('./assets/Scripts/Load/SplashManager');
+require('./assets/Scripts/Load/TipsManager');
+require('./assets/Scripts/Load/TipsWnd');
+require('./assets/Scripts/Load/tools');
+require('./assets/Scripts/Manager/AchieveManager');
+require('./assets/Scripts/Manager/DailyRewardManager');
+require('./assets/Scripts/Manager/LevelSelectManager');
+require('./assets/Scripts/Manager/LoadManager');
+require('./assets/Scripts/Manager/OnlineTimeManager');
+require('./assets/Scripts/Manager/RankManager');
+require('./assets/Scripts/Manager/ShopManager');
+require('./assets/Scripts/Manager/SkillManager');
+require('./assets/Scripts/Manager/UserDataSyncManager');
+require('./assets/Scripts/Manager/WeeklyRewardManager');
+require('./assets/Scripts/Managers/EventMgr');
+require('./assets/Scripts/Managers/FrameAnim');
+require('./assets/Scripts/Managers/Net/NetMgr');
+require('./assets/Scripts/Managers/PoolManager');
+require('./assets/Scripts/Managers/PrefabPool');
+require('./assets/Scripts/Managers/ResMgr');
+require('./assets/Scripts/Managers/SoundMgr');
+require('./assets/Scripts/Managers/TtMgr');
+require('./assets/Scripts/Managers/UIMgr');
+require('./assets/Scripts/Managers/WxMgr');
+require('./assets/Scripts/RankPanel');
+require('./assets/Scripts/game2/Constants');
+require('./assets/Scripts/game2/GameState');
+require('./assets/Scripts/game2/LevelController');
+require('./assets/Scripts/game2/MainController');
+require('./assets/Scripts/game2/StateBridge');
+require('./assets/Scripts/game2/UpgradeController');
+require('./assets/Scripts/game2/YouxiController');
+require('./assets/Scripts/game2/config');
+require('./assets/Scripts/shipei');
+require('./assets/Scripts/testPageView');
+require('./assets/migration/use_reversed_rotateTo');
+
+                    }
+                    if (nodeEnv) {
+                        __define(__module.exports, __require, __module);
+                    }
+                    else {
+                        __quick_compile_project__.registerModuleFunc(__filename, function () {
+                            __define(__module.exports, __require, __module);
+                        });
+                    }
+                })();

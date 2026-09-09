@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets\\Scripts\\Common\\AppConfig.ts"],"names":[],"mappings":";;;;;;AAAa,QAAA,MAAM,GAAG,gBAAgB,CAAC","file":"","sourceRoot":"/","sourcesContent":["export const APP_ID = \"yongshigame007\";\n\n"]}
