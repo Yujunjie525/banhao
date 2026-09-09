@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "7407f9a1-ff32-47fa-ba53-a853e9a13a40",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 80,
+  "height": 110,
+  "platformSettings": {},
+  "subMetas": {
+    "跑步_00000": {
+      "ver": "1.0.6",
+      "uuid": "9a7d24e5-d0d2-42c0-8702-3ab6df544f75",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "7407f9a1-ff32-47fa-ba53-a853e9a13a40",
+      "trimType": "none",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 80,
+      "height": 110,
+      "rawWidth": 80,
+      "rawHeight": 110,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
