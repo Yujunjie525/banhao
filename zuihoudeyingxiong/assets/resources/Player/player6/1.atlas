@@ -1,0 +1,55 @@
+
+1.png
+size: 549,280
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+上火焰
+  rotate: true
+  xy: 437, 167
+  size: 111, 100
+  orig: 115, 104
+  offset: 2, 2
+  index: -1
+下火焰
+  rotate: true
+  xy: 447, 54
+  size: 111, 100
+  orig: 115, 104
+  offset: 2, 2
+  index: -1
+右腿
+  rotate: false
+  xy: 342, 20
+  size: 103, 126
+  orig: 113, 132
+  offset: 10, 6
+  index: -1
+左腿
+  rotate: false
+  xy: 342, 148
+  size: 93, 130
+  orig: 103, 137
+  offset: 10, 7
+  index: -1
+眼镜
+  rotate: false
+  xy: 342, 2
+  size: 14, 16
+  orig: 16, 18
+  offset: 1, 1
+  index: -1
+耳朵
+  rotate: false
+  xy: 447, 3
+  size: 49, 49
+  orig: 52, 52
+  offset: 2, 2
+  index: -1
+身子
+  rotate: false
+  xy: 2, 4
+  size: 338, 274
+  orig: 341, 278
+  offset: 2, 2
+  index: -1
