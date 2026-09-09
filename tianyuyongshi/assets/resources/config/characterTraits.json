@@ -1,0 +1,142 @@
+{
+  "notes": {
+    "characters": "角色配置。role_index 对应商店和 zzImg2 下的角色序号，0 表示 zzImg2/1，1 表示 zzImg2/2，以此类推。",
+    "display_name": "角色在商店和配置里展示的中文名。",
+    "shop_summary": "角色在商店卡片中显示的简短能力概述，建议控制在 12 个汉字以内。",
+    "asset": "角色图片资源路径，不需要写 resources 前缀，也不需要写 .png。",
+    "hitbox_radius_px": "角色死亡碰撞半径，单位像素。数值越小越不容易碰死。",
+    "graze_radius_px": "角色擦弹触发半径，单位像素。必须大于 hitbox_radius_px + 怪物 radius_px，数值越大越容易触发擦弹。",
+    "speed_multiplier": "角色移动速度倍率。1 表示正常速度，1.2 表示快 20%，0.85 表示慢 15%。",
+    "base_hp": "保留字段。当前玩法是一碰即死，这个字段暂时不生效。",
+    "monsters": "怪物碰撞配置。monster_index 对应 Anim2/master1 到 Anim2/master6，0 表示 master1，1 表示 master2，以此类推。",
+    "radius_px": "怪物死亡碰撞半径，单位像素。怪物看起来越大，这个值通常越大。",
+    "enabled": "是否启用这条配置。当前代码只读取启用中的配置，建议默认 true。"
+  },
+  "characters": [
+    {
+      "id": "C001",
+      "role_index": 0,
+      "name": "Skyblade Maiden",
+      "display_name": "碧穹剑姬",
+      "shop_summary": "",
+      "positioning": "均衡型",
+      "asset": "zzImg2/1",
+      "base_hp": 3,
+      "hitbox_radius_px": 45,
+      "graze_radius_px": 100,
+      "speed_multiplier": 1.0,
+      "enabled": true,
+      "notes": "均衡角色，碰撞圈和擦弹圈都是标准值。"
+    },
+    {
+      "id": "C002",
+      "role_index": 1,
+      "name": "Flame Rush Maiden",
+      "display_name": "赤焰疾姬",
+      "shop_summary": "移速提升。",
+      "positioning": "敏捷型",
+      "asset": "zzImg2/2",
+      "base_hp": 3,
+      "hitbox_radius_px": 45,
+      "graze_radius_px": 100,
+      "speed_multiplier": 1.2,
+      "enabled": true,
+      "notes": "移动更快，适合主动走位。"
+    },
+    {
+      "id": "C003",
+      "role_index": 2,
+      "name": "Ironclad Guard",
+      "display_name": "玄甲卫士",
+      "shop_summary": "攻击距离小提升。",
+      "positioning": "机动攻击型",
+      "asset": "zzImg2/3",
+      "base_hp": 4,
+      "hitbox_radius_px": 45,
+      "graze_radius_px": 105,
+      "speed_multiplier": 1.1,
+      "enabled": true,
+      "notes": "移动速度提升，攻击距离小幅提升。当前玩法由 graze_radius_px 表示距离提升。"
+    },
+    {
+      "id": "C004",
+      "role_index": 3,
+      "name": "Ember Mystic",
+      "display_name": "炎灵法尊",
+      "shop_summary": "攻击距离提升。",
+      "positioning": "擦弹强化型",
+      "asset": "zzImg2/4",
+      "base_hp": 3,
+      "hitbox_radius_px": 45,
+      "graze_radius_px": 110,
+      "speed_multiplier": 1.0,
+      "enabled": true,
+      "notes": "擦弹范围更大，更容易获得擦弹能量。"
+    },
+    {
+      "id": "C005",
+      "role_index": 4,
+      "name": "Moonshade Blade",
+      "display_name": "月影刺姬",
+      "shop_summary": "移速提升，攻击距离提升。",
+      "positioning": "高风险高机动型",
+      "asset": "zzImg2/5",
+      "base_hp": 3,
+      "hitbox_radius_px": 45,
+      "graze_radius_px": 120,
+      "speed_multiplier": 1.1,
+      "enabled": true,
+      "notes": "死亡碰撞圈最小，擦弹范围最大，适合贴近怪物擦弹。"
+    }
+  ],
+  "monsters": [
+    {
+      "id": "M001",
+      "monster_index": 0,
+      "anim_dir": "Anim2/master1",
+      "radius_px": 60,
+      "enabled": true,
+      "notes": "master1 的死亡碰撞半径。觉得碰撞太宽就调小，穿模才死就调大。"
+    },
+    {
+      "id": "M002",
+      "monster_index": 1,
+      "anim_dir": "Anim2/master2",
+      "radius_px": 60,
+      "enabled": true,
+      "notes": "master2 的死亡碰撞半径。"
+    },
+    {
+      "id": "M003",
+      "monster_index": 2,
+      "anim_dir": "Anim2/master3",
+      "radius_px": 60,
+      "enabled": true,
+      "notes": "master3 的死亡碰撞半径。"
+    },
+    {
+      "id": "M004",
+      "monster_index": 3,
+      "anim_dir": "Anim2/master4",
+      "radius_px": 60,
+      "enabled": true,
+      "notes": "master4 的死亡碰撞半径。"
+    },
+    {
+      "id": "M005",
+      "monster_index": 4,
+      "anim_dir": "Anim2/master5",
+      "radius_px": 60,
+      "enabled": true,
+      "notes": "master5 的死亡碰撞半径。"
+    },
+    {
+      "id": "M006",
+      "monster_index": 5,
+      "anim_dir": "Anim2/master6",
+      "radius_px": 60,
+      "enabled": true,
+      "notes": "master6 的死亡碰撞半径。"
+    }
+  ]
+}
