@@ -1,0 +1,60 @@
+{
+  "package_version": 2,
+  "name": "ccc-obfuscated-code-3x",
+  "version": "1.0.1",
+  "description": "Cocos Creator 3.x JavaScript obfuscation extension",
+  "main": "main.js",
+  "engines": {
+    "node": ">=12.22.0"
+  },
+  "panels": {
+    "default": {
+      "title": "代码混淆工具",
+      "type": "dockable",
+      "main": "panel",
+      "size": {
+        "min-width": 520,
+        "min-height": 520,
+        "width": 720,
+        "height": 860
+      }
+    }
+  },
+  "contributions": {
+    "menu": [
+      {
+        "path": "扩展/代码混淆工具",
+        "label": "打开配置面板",
+        "message": "open-panel"
+      }
+    ],
+    "messages": {
+      "open-panel": {
+        "methods": [
+          "openPanel"
+        ]
+      },
+      "read-config": {
+        "methods": [
+          "readConfig"
+        ]
+      },
+      "save-config": {
+        "methods": [
+          "saveConfig"
+        ]
+      },
+      "get-preset": {
+        "methods": [
+          "getPreset"
+        ]
+      },
+      "build-log": {
+        "methods": [
+          "buildLog"
+        ]
+      }
+    },
+    "builder": "./builder.js"
+  }
+}

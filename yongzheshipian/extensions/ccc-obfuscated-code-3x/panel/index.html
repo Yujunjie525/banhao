@@ -1,0 +1,60 @@
+<div class="container">
+  <header>
+    <div>
+      <h2>代码混淆工具</h2>
+      <p>基于 javascript-obfuscator，配置保存到项目 local/ccc-obfuscated-code.json</p>
+    </div>
+    <label class="auto"><input id="auto" type="checkbox"> 构建后自动混淆</label>
+  </header>
+  <section class="preset-row">
+    <label for="preset">预设</label>
+    <select id="preset">
+      <option value="lower">究极轻度混淆</option>
+      <option value="low">轻度混淆，性能较高</option>
+      <option value="mid">中度混淆，性能均衡</option>
+      <option value="high">高度混淆，性能较低</option>
+      <option value="off">关闭混淆参数</option>
+    </select>
+    <button id="load-preset" type="button">读取预设</button>
+  </section>
+  <p class="hint">自动混淆只作用于构建产物中的 assets 和 subpackages 脚本，不修改 assets 源码。建议先使用轻度预设并实际测试目标平台。</p>
+  <form id="config-form">
+    <div class="grid">
+      <div class="option-group">
+        <label class="option-row"><span>逻辑扁平化</span><input data-option="controlFlowFlattening" type="checkbox"></label>
+        <label class="sub-option" data-show-when="controlFlowFlattening"><span>扁平化比例</span><input data-option="controlFlowFlatteningThreshold" type="number" min="0" max="1" step="0.01"></label>
+      </div>
+      <div class="option-group">
+        <label class="option-row"><span>注入废代码</span><input data-option="deadCodeInjection" type="checkbox"></label>
+        <label class="sub-option" data-show-when="deadCodeInjection"><span>注入比例</span><input data-option="deadCodeInjectionThreshold" type="number" min="0" max="1" step="0.01"></label>
+      </div>
+      <div class="option-group">
+        <label class="option-row"><span>禁用调试</span><input data-option="debugProtection" type="checkbox"></label>
+        <label class="sub-option" data-show-when="debugProtection"><span>持续禁用调试间隔(ms)</span><input data-option="debugProtectionInterval" type="number" min="0" step="100"></label>
+      </div>
+      <label class="option-row"><span>禁用控制台输出</span><input data-option="disableConsoleOutput" type="checkbox"></label>
+      <label class="option-row"><span>域名锁定</span><input data-option="domainLock" data-array="true" type="text" placeholder="多个域名用逗号分隔"></label>
+      <label class="option-row"><span>标识符生成器</span><select data-option="identifierNamesGenerator"><option value="hexadecimal">hexadecimal</option><option value="mangled">mangled</option></select></label>
+      <label class="option-row"><span>标识符前缀</span><input data-option="identifiersPrefix" type="text"></label>
+      <label class="option-row"><span>重命名全局成员</span><input data-option="renameGlobals" type="checkbox"></label>
+      <label class="option-row"><span>保留变量名</span><input data-option="reservedNames" data-array="true" type="text" placeholder="多个值用逗号分隔"></label>
+      <label class="option-row"><span>保留字符串</span><input data-option="reservedStrings" data-array="true" type="text" placeholder="多个值用逗号分隔"></label>
+      <label class="option-row"><span>随机种子</span><input data-option="seed" type="number"></label>
+      <label class="option-row"><span>修改保护</span><input data-option="selfDefending" type="checkbox"></label>
+      <div class="option-group">
+        <label class="option-row"><span>拆分字符串</span><input data-option="splitStrings" type="checkbox"></label>
+        <label class="sub-option" data-show-when="splitStrings"><span>拆分长度</span><input data-option="splitStringsChunkLength" type="number" min="1" step="1"></label>
+      </div>
+      <div class="option-group">
+        <label class="option-row"><span>字符串聚合</span><input data-option="stringArray" type="checkbox"></label>
+        <label class="sub-option" data-show-when="stringArray"><span>聚合比例</span><input data-option="stringArrayThreshold" type="number" min="0" max="1" step="0.01"></label>
+        <label class="sub-option" data-show-when="stringArray"><span>字符串加密</span><select data-option="stringArrayEncoding" data-array="true"><option value="">none</option><option value="base64">base64</option><option value="rc4">rc4</option></select></label>
+        <label class="sub-option" data-show-when="stringArray"><span>随机洗牌</span><input data-option="shuffleStringArray" type="checkbox"></label>
+        <label class="sub-option" data-show-when="stringArray"><span>旋转字符串数组</span><input data-option="rotateStringArray" type="checkbox"></label>
+      </div>
+      <label class="option-row"><span>对象键转换</span><input data-option="transformObjectKeys" type="checkbox"></label>
+      <label class="option-row"><span>Unicode 转义</span><input data-option="unicodeEscapeSequence" type="checkbox"></label>
+    </div>
+  </form>
+  <footer><span id="status" role="status"></span><button id="save" class="primary" type="button">保存配置</button></footer>
+</div>

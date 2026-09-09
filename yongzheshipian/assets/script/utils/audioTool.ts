@@ -1,0 +1,74 @@
+import { _decorator, AudioSourceComponent, Component, Node } from 'cc';
+import { gameConfig } from '../data/gameConfig';
+import { loadRes } from './loadRes';
+const { ccclass, property } = _decorator;
+
+@ccclass('audioTool')
+export class audioTool extends Component {
+    private soundComp: AudioSourceComponent = null;
+    private bgmComp: AudioSourceComponent = null;
+
+    /**
+     * 单例
+     */
+    private static _ins: audioTool = null!;
+    public static get ins() {
+        if (!this._ins) {
+            this._ins = new audioTool();
+            this._ins.initAudio();
+        }
+        return this._ins;
+    }
+    /**
+ * 初始化音频组件
+ */
+    private initAudio() {
+        //   用于单次播放的音效
+        this.soundComp = new AudioSourceComponent();
+        this.soundComp.loop = false;
+        //  用于循环播放的背景音乐
+        this.bgmComp = new AudioSourceComponent();
+        this.bgmComp.loop = true;
+    }
+    /**
+  * 停止背景音乐
+  */
+    public stopMusic() {
+        this.bgmComp.stop();
+    }
+    /**
+   * 设置音量
+   */
+    public setVolume(val) {
+        this.bgmComp.volume = val
+    }
+    /**
+     * 播放音乐
+     * @param audio 音乐名
+     */
+    public async playMusic(audio: string) {
+        // 即使音频组件已有 clip，我们也需要更换到新的音频
+        let clip = await loadRes.ins.getClip(audio);
+        if (!clip) {
+            console.warn(`Audio clip not found: ${audio}`);
+            return;
+        }
+        // 设置音频组件的音量和 clip
+        this.bgmComp.volume = gameConfig.bgmVol;
+        this.bgmComp.clip = clip;
+        // 场景切换时从头播放目标音乐，避免沿用上一首的播放状态。
+        this.bgmComp.stop();
+        this.bgmComp.play();
+    }
+    /**
+    * 播放一次性音效
+    */
+    public async playSound(audio: string) {
+        let clip = await loadRes.ins.getClip(audio);
+        if (!clip) {
+            console.warn(`Audio clip not found: ${audio}`);
+            return;
+        }
+        this.soundComp.playOneShot(clip, gameConfig.soundVol);
+    }
+}
