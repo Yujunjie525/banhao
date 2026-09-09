@@ -1,0 +1,124 @@
+{
+  "group-list": [
+    "default",
+    "red",
+    "blue",
+    "trainRed",
+    "trainBlue",
+    "redGoods",
+    "blueGoods",
+    "xiang",
+    "roadChange"
+  ],
+  "collision-matrix": [
+    [
+      true
+    ],
+    [
+      false,
+      false,
+      null,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      null,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      null,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "excluded-modules": [
+    "3D Physics/Builtin"
+  ],
+  "preview-port": 7455,
+  "design-resolution-width": 720,
+  "design-resolution-height": 1334,
+  "fit-width": false,
+  "fit-height": true,
+  "use-project-simulator-setting": false,
+  "simulator-orientation": false,
+  "use-customize-simulator": true,
+  "simulator-resolution": {
+    "width": 720,
+    "height": 1334
+  },
+  "facebook": {
+    "appID": "",
+    "audience": {
+      "enable": false
+    },
+    "enable": false,
+    "live": {
+      "enable": false
+    }
+  },
+  "start-scene": "0b82ffd5-a6e9-4e3f-8c23-931cb948c548",
+  "last-module-event-record-time": 1787561362598,
+  "migrate-history": [
+    "cloud-function"
+  ],
+  "clear-simulator-cache": true
+}

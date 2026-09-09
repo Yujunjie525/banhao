@@ -1,0 +1,20 @@
+{
+  "bundleList": [
+    {
+      "name": "resources",
+      "path": "assets/resources"
+    },
+    {
+      "name": "gameframe",
+      "path": "assets/gameframe"
+    },
+    {
+      "name": "subgame",
+      "path": "assets/subgame"
+    }
+  ],
+  "ignoreRegex": [
+    "(?i).*script.*",
+    "(?i).*(fire)$"
+  ]
+}

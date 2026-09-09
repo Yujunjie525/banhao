@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "noImplicitAny": true,
+		"noImplicitThis": true,
+        "skipLibCheck": true,
+        "allowJs": true,
+        "checkJs": false,
+        "isolatedModules": false
+    },
+	{
+		"include": ["assets/**/*"],
+	}
+
+}
