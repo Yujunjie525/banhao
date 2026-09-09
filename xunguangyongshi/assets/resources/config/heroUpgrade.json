@@ -1,0 +1,62 @@
+[
+  {
+    "level": 1,
+    "stepBonus": 0,
+    "initialBrightness": 15,
+    "goldCost": 0
+  },
+  {
+    "level": 2,
+    "stepBonus": 1,
+    "initialBrightness": 20,
+    "goldCost": 230
+  },
+  {
+    "level": 3,
+    "stepBonus": 2,
+    "initialBrightness": 25,
+    "goldCost": 480
+  },
+  {
+    "level": 4,
+    "stepBonus": 3,
+    "initialBrightness": 30,
+    "goldCost": 830
+  },
+  {
+    "level": 5,
+    "stepBonus": 4,
+    "initialBrightness": 35,
+    "goldCost": 1280
+  },
+  {
+    "level": 6,
+    "stepBonus": 6,
+    "initialBrightness": 40,
+    "goldCost": 1830
+  },
+  {
+    "level": 7,
+    "stepBonus": 7,
+    "initialBrightness": 45,
+    "goldCost": 2480
+  },
+  {
+    "level": 8,
+    "stepBonus": 9,
+    "initialBrightness": 50,
+    "goldCost": 3230
+  },
+  {
+    "level": 9,
+    "stepBonus": 11,
+    "initialBrightness": 55,
+    "goldCost": 4080
+  },
+  {
+    "level": 10,
+    "stepBonus": 12,
+    "initialBrightness": 60,
+    "goldCost": 5030
+  }
+]

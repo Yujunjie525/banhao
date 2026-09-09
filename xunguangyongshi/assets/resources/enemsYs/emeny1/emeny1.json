@@ -1,0 +1,71 @@
+{
+"skeleton": {
+	"hash": "mRh385q8kwGgC+IjRYLDLia+BS8",
+	"spine": "3.8.75",
+	"x": -243.69,
+	"y": -5.39,
+	"width": 450,
+	"height": 373.35,
+	"images": "D:/桌面/小游戏UI/星际逃逸/角色/images/",
+	"audio": "D:\\桌面\\小游戏UI\\星际逃逸\\角色"
+},
+"bones": [
+	{ "name": "root", "x": -242.69, "y": 366.96 },
+	{ "name": "bone", "parent": "root", "length": 72.25, "rotation": -22.97, "x": 202.81, "y": -210.08 },
+	{ "name": "zuotui", "parent": "bone", "length": 124.54, "rotation": -112.33, "x": 95.37, "y": -1.61 },
+	{ "name": "youtui", "parent": "bone", "length": 126.71, "rotation": -20.07, "x": 88.66, "y": -1.68 },
+	{ "name": "youshou", "parent": "bone", "length": 100.64, "rotation": -119.91, "x": 6.45, "y": -26.32 }
+],
+"slots": [
+	{ "name": "右腿", "bone": "youtui", "attachment": "右腿" },
+	{ "name": "右手", "bone": "youshou", "attachment": "右手" },
+	{ "name": "身体", "bone": "bone", "attachment": "身体" },
+	{ "name": "左腿", "bone": "zuotui", "attachment": "左腿" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"身体": {
+				"身体": { "x": 2.11, "y": 49.32, "rotation": 22.97, "width": 450, "height": 333 }
+			},
+			"左腿": {
+				"左腿": { "x": 69.47, "y": 2.04, "rotation": 105.49, "width": 87, "height": 119 }
+			},
+			"右腿": {
+				"右腿": { "x": 64.72, "y": -4.22, "rotation": 99.19, "width": 70, "height": 127 }
+			},
+			"右手": {
+				"右手": { "x": 63.09, "y": 3.88, "rotation": 142.88, "width": 111, "height": 80 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"zuotui": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": 61.42 },
+					{ "time": 0.6667 }
+				]
+			},
+			"youtui": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": -90.22 },
+					{ "time": 0.6667 }
+				]
+			},
+			"youshou": {
+				"rotate": [
+					{ "angle": -26.6 },
+					{ "time": 0.3333, "angle": 3 },
+					{ "time": 0.6667, "angle": -26.6 }
+				]
+			}
+		}
+	}
+}
+}

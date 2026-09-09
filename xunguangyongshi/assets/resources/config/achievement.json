@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "初出茅庐",
+    "desc": "通关第5关",
+    "rewardDiamond": 100,
+    "target": 5,
+    "type": 1
+  },
+  {
+    "id": 2,
+    "name": "崭露头角",
+    "desc": "通关第10关",
+    "rewardDiamond": 200,
+    "target": 10,
+    "type": 1
+  },
+  {
+    "id": 3,
+    "name": "勇者先锋",
+    "desc": "通关第15关",
+    "rewardDiamond": 350,
+    "target": 15,
+    "type": 1
+  },
+  {
+    "id": 4,
+    "name": "无畏战士",
+    "desc": "通关第20关",
+    "rewardDiamond": 500,
+    "target": 20,
+    "type": 1
+  },
+  {
+    "id": 5,
+    "name": "传奇勇者",
+    "desc": "通关第25关",
+    "rewardDiamond": 1000,
+    "target": 25,
+    "type": 1
+  },
+  {
+    "id": 6,
+    "name": "初入征途",
+    "desc": "累计游戏5分钟",
+    "rewardDiamond": 50,
+    "target": 5,
+    "type": 2
+  },
+  {
+    "id": 7,
+    "name": "征途漫步",
+    "desc": "累计游戏30分钟",
+    "rewardDiamond": 150,
+    "target": 30,
+    "type": 2
+  },
+  {
+    "id": 8,
+    "name": "每日历练",
+    "desc": "累计游戏120分钟",
+    "rewardDiamond": 300,
+    "target": 120,
+    "type": 2
+  },
+  {
+    "id": 9,
+    "name": "潜心修行",
+    "desc": "累计游戏360分钟",
+    "rewardDiamond": 600,
+    "target": 360,
+    "type": 2
+  },
+  {
+    "id": 10,
+    "name": "勇者常驻",
+    "desc": "累计游戏1000分钟",
+    "rewardDiamond": 1200,
+    "target": 1000,
+    "type": 2
+  },
+  {
+    "id": 11,
+    "name": "初获宝藏",
+    "desc": "累计获得100颗金币",
+    "rewardDiamond": 80,
+    "target": 100,
+    "type": 3
+  },
+  {
+    "id": 12,
+    "name": "财富初积",
+    "desc": "累计获得500颗金币",
+    "rewardDiamond": 200,
+    "target": 500,
+    "type": 3
+  },
+  {
+    "id": 13,
+    "name": "宝藏猎人",
+    "desc": "累计获得2000颗金币",
+    "rewardDiamond": 400,
+    "target": 2000,
+    "type": 3
+  },
+  {
+    "id": 14,
+    "name": "财富领主",
+    "desc": "累计获得5000颗金币",
+    "rewardDiamond": 800,
+    "target": 5000,
+    "type": 3
+  },
+  {
+    "id": 15,
+    "name": "王国首富",
+    "desc": "累计获得20000颗金币",
+    "rewardDiamond": 1500,
+    "target": 20000,
+    "type": 3
+  },
+  {
+    "id": 16,
+    "name": "精力充沛",
+    "desc": "累计消耗50点体力",
+    "rewardDiamond": 60,
+    "target": 50,
+    "type": 4
+  },
+  {
+    "id": 17,
+    "name": "越战越勇",
+    "desc": "累计消耗200点体力",
+    "rewardDiamond": 180,
+    "target": 200,
+    "type": 4
+  },
+  {
+    "id": 18,
+    "name": "百折不挠",
+    "desc": "累计消耗800点体力",
+    "rewardDiamond": 350,
+    "target": 800,
+    "type": 4
+  },
+  {
+    "id": 19,
+    "name": "征途不止",
+    "desc": "累计消耗2000点体力",
+    "rewardDiamond": 700,
+    "target": 2000,
+    "type": 4
+  },
+  {
+    "id": 20,
+    "name": "钢铁意志",
+    "desc": "累计消耗5000点体力",
+    "rewardDiamond": 1200,
+    "target": 5000,
+    "type": 4
+  }
+]
