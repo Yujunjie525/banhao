@@ -1,0 +1,220 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false,
+    "readonly": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "play_shield",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 5
+      }
+    ],
+    "_prefab": {
+      "__id__": 6
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 192,
+      "height": 192
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        41.79
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 6,
+    "groupIndex": 6,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "2400f465-e6f6-4f5e-aaab-b24cd0ab52e1"
+    },
+    "_type": 0,
+    "_sizeMode": 1,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "ecae3yDq7VA2KSyjFe8ZRcm",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_id": ""
+  },
+  {
+    "__type__": "eebe12+b/JL64foUWRsM+wp",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_draw_collide": false,
+    "_collide_shape": 2,
+    "collide_group_id": 7,
+    "_radius": 100,
+    "_size": {
+      "__type__": "cc.Size",
+      "width": 100,
+      "height": 100
+    },
+    "_polygon_points": [
+      {
+        "__type__": "cc.Vec2",
+        "x": -100,
+        "y": -50
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 0,
+        "y": 100
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 100,
+        "y": -50
+      }
+    ],
+    "_offset": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "data_string": "",
+    "_id": ""
+  },
+  {
+    "__type__": "fff9bqLmFFGOY0yWNU1rBNI",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "spriteFrames": [
+      {
+        "__uuid__": "2400f465-e6f6-4f5e-aaab-b24cd0ab52e1"
+      },
+      {
+        "__uuid__": "e93fb5bd-b838-4c5a-9039-6d201d715a45"
+      },
+      {
+        "__uuid__": "81d82c52-59e5-4e9a-b27e-bea4268870ed"
+      },
+      {
+        "__uuid__": "6df09185-b11d-405f-97be-ffc45614acf7"
+      },
+      {
+        "__uuid__": "8e8fc6be-d7c1-4cc8-bf7f-4e824be36cf3"
+      },
+      {
+        "__uuid__": "c749c968-8440-47ad-b293-d6991492352b"
+      },
+      {
+        "__uuid__": "618f0558-70f9-40de-82b2-2cf5d5dd0a74"
+      },
+      {
+        "__uuid__": "3880bf3c-a89f-46ef-b32d-ad27d2201f67"
+      }
+    ],
+    "duration": 0.1,
+    "node_scale": 1.5,
+    "loop": true,
+    "playOnload": true,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "39d380bd-d4f6-4d2b-91cd-996e255db597"
+    },
+    "fileId": "",
+    "sync": false
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false,
+    "readonly": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "emitter10",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_prefab": {
+      "__id__": 3
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 40,
+      "height": 36
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "f01d9aOQEtPtI2DlpSDcr8I",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_edit_in_system": true,
+    "_loop": true,
+    "_prefab": {
+      "__uuid__": "efbf88cf-2901-455b-8e02-a0fb083ff361"
+    },
+    "_delay_min": 0,
+    "_delay_max": 0,
+    "_duration_min": 3,
+    "_duration_max": 3,
+    "_interval_min": 0.1,
+    "_interval_max": 0.1,
+    "_count_min": 3,
+    "_count_max": 3,
+    "origin_angle_min": -30,
+    "origin_angle_max": -30,
+    "switch_reset_angle": true,
+    "_change_angle_min": 30,
+    "_change_angle_max": 30,
+    "off_x_min": 0,
+    "off_x_max": 0,
+    "off_y_min": 0,
+    "off_y_max": 0,
+    "related_owner_position": true,
+    "switch_gravity": false,
+    "gravity": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": -10
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "b0aa597d-7d7b-436e-b78b-7fb39f06abe0"
+    },
+    "fileId": "",
+    "sync": false
+  }
+]
