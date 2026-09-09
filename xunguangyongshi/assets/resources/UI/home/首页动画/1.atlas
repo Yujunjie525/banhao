@@ -1,0 +1,41 @@
+
+1.png
+size: 441,327
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+右火焰
+  rotate: true
+  xy: 359, 233
+  size: 92, 80
+  orig: 94, 83
+  offset: 1, 2
+  index: -1
+右眼
+  rotate: false
+  xy: 359, 112
+  size: 15, 29
+  orig: 17, 31
+  offset: 1, 1
+  index: -1
+左火焰
+  rotate: true
+  xy: 359, 143
+  size: 88, 79
+  orig: 90, 83
+  offset: 1, 2
+  index: -1
+左眼
+  rotate: false
+  xy: 359, 84
+  size: 13, 26
+  orig: 15, 28
+  offset: 1, 1
+  index: -1
+身体
+  rotate: true
+  xy: 2, 2
+  size: 323, 355
+  orig: 325, 357
+  offset: 1, 1
+  index: -1
