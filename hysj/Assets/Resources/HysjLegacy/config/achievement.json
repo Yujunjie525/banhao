@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "初绽蓓蕾",
+    "desc": "最高关卡达到8关",
+    "rewardGold": 100,
+    "target": 8,
+    "type": 1
+  },
+  {
+    "id": 2,
+    "name": "花间漫行",
+    "desc": "最高关卡达到15关",
+    "rewardGold": 200,
+    "target": 15,
+    "type": 1
+  },
+  {
+    "id": 3,
+    "name": "繁花逐径",
+    "desc": "最高关卡达到28关",
+    "rewardGold": 350,
+    "target": 28,
+    "type": 1
+  },
+  {
+    "id": 4,
+    "name": "芳园寻梦",
+    "desc": "最高关卡达到60关",
+    "rewardGold": 500,
+    "target": 60,
+    "type": 1
+  },
+  {
+    "id": 5,
+    "name": "满园盛景",
+    "desc": "最高关卡达到120关",
+    "rewardGold": 1000,
+    "target": 120,
+    "type": 1
+  },
+  {
+    "id": 6,
+    "name": "花园初遇",
+    "desc": "累计游戏时长8分钟",
+    "rewardGold": 50, 
+    "target": 8,
+    "type": 2
+  },
+  {
+    "id": 7,
+    "name": "庭前闲叙",
+    "desc": "累计游戏时长40分钟",
+    "rewardGold": 150,
+    "target": 40,
+    "type": 2
+  },
+  {
+    "id": 8,
+    "name": "莳花朝夕",
+    "desc": "累计游戏时长150分钟",
+    "rewardGold": 300,
+    "target": 150,
+    "type": 2
+  },
+  {
+    "id": 9,
+    "name": "草木深耕",
+    "desc": "累计游戏时长420分钟",
+    "rewardGold": 600,
+    "target": 420,
+    "type": 2
+  },
+  {
+    "id": 10,
+    "name": "永伴芳庭",
+    "desc": "累计游戏时长1200分钟",
+    "rewardGold": 1200,
+    "target": 1200,
+    "type": 2
+  },
+  {
+    "id": 11,
+    "name": "花露初拾",
+    "desc": "累计获得150颗钻石",
+    "rewardGold": 80,
+    "target": 150,
+    "type": 3
+  },
+  {
+    "id": 12,
+    "name": "芳财渐聚",
+    "desc": "累计获得600颗钻石",
+    "rewardGold": 200,
+    "target": 600,
+    "type": 3
+  },
+  {
+    "id": 13,
+    "name": "花海拾宝",
+    "desc": "累计获得2500颗钻石",
+    "rewardGold": 400,
+    "target": 2500,
+    "type": 3
+  },
+  {
+    "id": 14,
+    "name": "花庭贵主",
+    "desc": "累计获得6000颗钻石",
+    "rewardGold": 800,
+    "target": 6000,
+    "type": 3
+  },
+  {
+    "id": 15,
+    "name": "花园收藏家",
+    "desc": "累计获得25000颗钻石",
+    "rewardGold": 1500,
+    "target": 25000,
+    "type": 3
+  },
+  {
+    "id": 16,
+    "name": "绿意盎然",
+    "desc": "累计消耗80点体力",
+    "rewardGold": 60,
+    "target": 80,
+    "type": 4
+  },
+  {
+    "id": 17,
+    "name": "不辞耕耘",
+    "desc": "累计消耗250点体力",
+    "rewardGold": 180,
+    "target": 250,
+    "type": 4
+  },
+  {
+    "id": 18,
+    "name": "园艺不倦",
+    "desc": "累计消耗1000点体力",
+    "rewardGold": 350,
+    "target": 1000,
+    "type": 4
+  },
+  {
+    "id": 19,
+    "name": "莳花不止",
+    "desc": "累计消耗2400点体力",
+    "rewardGold": 700,
+    "target": 2400,
+    "type": 4
+  },
+  {
+    "id": 20,
+    "name": "匠心花匠",
+    "desc": "累计消耗6000点体力",
+    "rewardGold": 1200,
+    "target": 6000,
+    "type": 4
+  }
+]
