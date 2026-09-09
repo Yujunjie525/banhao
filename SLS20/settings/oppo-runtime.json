@@ -1,0 +1,18 @@
+{
+  "certificatePath": "E:\\workspace\\MyProject\\QiHuoKeJi\\QiEDaTaoWangOppo\\certificate.pem",
+  "deviceOrientation": "portrait",
+  "disabledMode": "",
+  "icon": "E:\\workspace\\MyProject\\QiHuoKeJi\\QiEDaTaoWangOppo\\assets\\resources\\icon.png",
+  "logLevel": "log",
+  "minPlatformVersion": "1041",
+  "name": "奔跑吧小鹅鹅",
+  "npmPath": "",
+  "package": "com.bpbxee.nearme.gamecenter",
+  "privatePath": "E:\\workspace\\MyProject\\QiHuoKeJi\\QiEDaTaoWangOppo\\private.pem",
+  "showNpmPath": false,
+  "tinyPackageMode": false,
+  "tinyPackageServer": "",
+  "useDebugKey": false,
+  "versionCode": "2.0",
+  "versionName": "1.12"
+}
