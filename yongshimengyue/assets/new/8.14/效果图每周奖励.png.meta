@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "02813d4f-327d-42f8-889f-42dccc6976f2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 720,
+  "height": 1280,
+  "platformSettings": {},
+  "subMetas": {
+    "效果图每周奖励": {
+      "ver": "1.0.6",
+      "uuid": "aafc3378-9db5-4706-9560-59463feed1d7",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "02813d4f-327d-42f8-889f-42dccc6976f2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 720,
+      "height": 1280,
+      "rawWidth": 720,
+      "rawHeight": 1280,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

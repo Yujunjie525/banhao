@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3ed2221c-094f-43d8-966a-52cca970dd1d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 720,
+  "height": 1280,
+  "platformSettings": {},
+  "subMetas": {
+    "效果图在线奖励": {
+      "ver": "1.0.6",
+      "uuid": "23b892ee-8a0e-4878-a529-014dba6a0815",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3ed2221c-094f-43d8-966a-52cca970dd1d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 720,
+      "height": 1280,
+      "rawWidth": 720,
+      "rawHeight": 1280,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
