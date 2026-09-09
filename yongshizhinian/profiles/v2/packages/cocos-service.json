@@ -1,0 +1,63 @@
+{
+  "builder-options": {
+    "configID": "13a932",
+    "services": [],
+    "__version__": "3.0.7"
+  },
+  "builder": {
+    "taskOptionsMap": {
+      "1676980373475": {
+        "configID": "13a932",
+        "services": [],
+        "__version__": "1.0.0"
+      },
+      "1693061755367": {
+        "configID": "13a932",
+        "services": []
+      },
+      "1676980373475}": {
+        "configID": "13a932",
+        "services": [],
+        "__version__": "1.0.0"
+      },
+      "1693061755367}": {
+        "configID": "13a932",
+        "services": []
+      },
+      "1774346343895": {
+        "configID": "13a932",
+        "services": []
+      },
+      "1774347875617": {
+        "configID": "13a932",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1774348094207": {
+        "configID": "13a932",
+        "services": [],
+        "__version__": "3.0.7"
+      }
+    },
+    "__version__": "1.3.6",
+    "options": {
+      "web-desktop": {
+        "configID": "13a932",
+        "services": []
+      },
+      "wechatgame": {
+        "configID": "13a932",
+        "services": []
+      },
+      "web-mobile": {
+        "configID": "13a932",
+        "services": []
+      },
+      "android": {
+        "configID": "13a932",
+        "services": []
+      }
+    }
+  },
+  "__version__": "3.0.7"
+}

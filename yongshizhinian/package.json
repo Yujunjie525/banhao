@@ -1,0 +1,14 @@
+{
+    "name": "CrampedRoomOfDeath",
+    "type": "3d",
+    "version": "3.6.0",
+    "uuid": "7efa06aa-77e9-43e0-bdb0-63da3a45fcef",
+    "creator": {
+        "version": "3.8.0"
+    },
+    "_sourceId": "c30b28da-749e-479b-bcb6-cecd8d7be9e3",
+    "pink": {
+        "uuid": "2bca173d-4595-458d-9e38-24efb0090d7f",
+        "version": "1.110.1"
+    }
+}
