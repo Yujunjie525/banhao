@@ -1,0 +1,33 @@
+* text=auto
+
+# Cocos scene/prefab/config files should diff as text.
+*.fire text eol=lf
+*.prefab text eol=lf
+*.anim text eol=lf
+*.meta text eol=lf
+*.json text eol=lf
+*.ts text eol=lf
+*.js text eol=lf
+*.md text eol=lf
+*.xml text eol=lf
+*.gradle text eol=lf
+*.properties text eol=lf
+*.cmd text eol=crlf
+
+# Binary assets.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.psd binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.fnt text
+*.ttf binary
+*.otf binary
+*.zip binary
+*.apk binary
+*.aab binary
+*.docx binary

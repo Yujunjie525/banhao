@@ -1,0 +1,47 @@
+# Cocos Creator generated/cache directories
+/library/
+/temp/
+/local/
+/build/
+/dist/
+
+# Native/mobile build outputs
+*.apk
+*.aab
+*.ap_
+*.ipa
+*.xcarchive
+
+# Dependency folders
+node_modules/
+
+# IDE/editor local state
+.vs/
+/.idea/
+/.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and transient files
+*.log
+*.tmp
+*.temp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local shortcuts and one-off backup outputs
+*.lnk
+/tools/rename_backups/
+
+# Cocos metadata files are source files. Do not ignore them.
+!*.meta
+!**/*.meta
