@@ -1,0 +1,59 @@
+{
+  "ver": "1.2.6",
+  "uuid": "1bdbff2d-1178-4b5e-981c-cfab08ce2703",
+  "importer": "sprite-atlas",
+  "rawTextureUuid": "2815586e-f12b-45f1-94c1-366a48571239",
+  "size": {
+    "width": 504,
+    "height": 129
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "关.png": {
+      "ver": "1.0.6",
+      "uuid": "6047e2fd-e950-4f4b-acbf-1b34c35c662e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "2815586e-f12b-45f1-94c1-366a48571239",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 5,
+      "offsetY": -2,
+      "trimX": 257,
+      "trimY": 1,
+      "width": 246,
+      "height": 127,
+      "rawWidth": 256,
+      "rawHeight": 143,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    },
+    "开.png": {
+      "ver": "1.0.6",
+      "uuid": "6552e612-67f8-48c2-822f-dd5ee43f27a0",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "2815586e-f12b-45f1-94c1-366a48571239",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": -3,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 254,
+      "height": 127,
+      "rawWidth": 256,
+      "rawHeight": 143,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}
