@@ -1,0 +1,130 @@
+{
+"skeleton": {
+	"hash": "mYg8KZTHIENT3i5scySZeG5RiuY",
+	"spine": "3.8.75",
+	"x": -157.4,
+	"y": -15.57,
+	"width": 331.11,
+	"height": 376.52,
+	"images": "D:/桌面/小游戏UI/星际逃逸/角色/角色4/images/",
+	"audio": "D:\\桌面\\小游戏UI\\星际逃逸\\角色\\角色4"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "zuoyan", "parent": "root", "length": 18.3, "rotation": 90.94, "x": -1.64, "y": 245.19 },
+	{ "name": "youyan", "parent": "root", "length": 18.6, "rotation": 89.08, "x": 52.06, "y": 243.99 },
+	{ "name": "maozi", "parent": "root", "length": 87.93, "rotation": -1.03, "x": -26.43, "y": 293.16 },
+	{ "name": "zuotui", "parent": "root", "length": 105.9, "rotation": -103.27, "x": -44.8, "y": 120.34 },
+	{ "name": "youtui", "parent": "root", "length": 104.6, "rotation": -57.26, "x": 4.53, "y": 116.41 }
+],
+"slots": [
+	{ "name": "右腿", "bone": "youtui", "attachment": "右腿" },
+	{ "name": "左腿", "bone": "zuotui", "attachment": "左腿" },
+	{ "name": "身子", "bone": "root", "attachment": "身子" },
+	{ "name": "左眼", "bone": "zuoyan", "attachment": "左眼" },
+	{ "name": "右眼", "bone": "youyan", "attachment": "右眼" },
+	{ "name": "帽子", "bone": "maozi", "attachment": "帽子" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"身子": {
+				"身子": { "x": 8.15, "y": 163.81, "rotation": 0.03, "width": 331, "height": 210 }
+			},
+			"左眼": {
+				"左眼": { "x": 11.26, "y": 0.28, "rotation": -90.94, "width": 14, "height": 31 }
+			},
+			"左腿": {
+				"左腿": { "x": 63.78, "y": 3.62, "rotation": 103.27, "width": 93, "height": 146 }
+			},
+			"右眼": {
+				"右眼": { "x": 12.45, "y": 0.37, "rotation": -89.08, "width": 14, "height": 31 }
+			},
+			"右腿": {
+				"右腿": { "x": 61.98, "y": 3.83, "rotation": 57.26, "width": 125, "height": 123 }
+			},
+			"帽子": {
+				"帽子": { "x": 20.93, "y": -6.34, "rotation": 1.03, "width": 197, "height": 149 }
+			}
+		}
+	}
+],
+"animations": {
+	"jump": {
+		"bones": {
+			"zuoyan": {
+				"scale": [
+					{},
+					{ "time": 0.0333, "x": 0.1 },
+					{ "time": 0.1667 }
+				]
+			},
+			"youyan": {
+				"scale": [
+					{},
+					{ "time": 0.0333, "x": 0.1 },
+					{ "time": 0.1667 }
+				]
+			},
+			"zuotui": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1.3333 }
+				]
+			},
+			"youtui": {
+				"rotate": [
+					{ "angle": -44.31, "curve": "stepped" },
+					{ "time": 1.3333, "angle": -44.31 }
+				]
+			}
+		}
+	},
+	"run": {
+		"bones": {
+			"zuotui": {
+				"rotate": [
+					{ "angle": -10.55 },
+					{ "time": 0.3333, "angle": 51.76 },
+					{ "time": 0.6667, "angle": -10.55 },
+					{ "time": 1, "angle": 51.76 },
+					{ "time": 1.3333, "angle": -10.55 }
+				]
+			},
+			"youtui": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": -90.01 },
+					{ "time": 0.6667 },
+					{ "time": 1, "angle": -90.01 },
+					{ "time": 1.3333 }
+				]
+			},
+			"maozi": {
+				"rotate": [
+					{ "angle": 3.67 },
+					{ "time": 0.3333, "angle": -2.27 },
+					{ "time": 0.6667, "angle": 3.67 },
+					{ "time": 1, "angle": -2.27 },
+					{ "time": 1.3333, "angle": 3.67 }
+				]
+			},
+			"zuoyan": {
+				"scale": [
+					{},
+					{ "time": 0.0333, "x": 0.1 },
+					{ "time": 0.1667 }
+				]
+			},
+			"youyan": {
+				"scale": [
+					{},
+					{ "time": 0.0333, "x": 0.1 },
+					{ "time": 0.1667 }
+				]
+			}
+		}
+	}
+}
+}

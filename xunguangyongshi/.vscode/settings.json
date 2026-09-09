@@ -1,0 +1,8 @@
+{
+    // 字体配置（和 Trae 完全一致的字体链）
+  "editor.fontFamily": "Monaco, Menlo, Consolas, 'DejaVu Sans Mono', monospace",
+  "editor.fontSize": 16, // Trae 默认字号，可根据自己的屏幕调整（13-16 都合适）
+  "editor.lineHeight": 1.5, // Trae 默认行高，和字体配合起来阅读最舒服
+  "editor.letterSpacing": 0.3, // 轻微字间距，和 Trae 一样更透气
+  "editor.fontLigatures": true, // 开启连字（比如 ->、=== 会显示成特殊符号，Trae 默认开启）
+}
