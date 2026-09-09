@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "time": 10,
+    "name": "初入花园",
+    "desc": "在线10分钟奖励",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 200
+  },
+  {
+    "id": 2,
+    "time": 20,
+    "name": "花间小憩",
+    "desc": "在线20分钟奖励",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 200
+  },
+  {
+    "id": 3,
+    "time": 30,
+    "name": "静候花开",
+    "desc": "在线30分钟奖励",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 200
+  },
+  {
+    "id": 4,
+    "time": 40,
+    "name": "漫步花田",
+    "desc": "在线40分钟奖励",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 200
+  },
+  {
+    "id": 5,
+    "time": 50,
+    "name": "蝶舞花间",
+    "desc": "在线50分钟奖励",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 200
+  },
+  {
+    "id": 6,
+    "time": 60,
+    "name": "午后园光",
+    "desc": "在线60分钟奖励",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 200
+  },
+  {
+    "id": 7,
+    "time": 70,
+    "name": "花园常伴",
+    "desc": "在线70分钟奖励",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 200
+  },
+  {
+    "id": 8,
+    "time": 80,
+    "name": "四季相约",
+    "desc": "在线80分钟奖励",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 200
+  },
+  {
+    "id": 9,
+    "time": 90,
+    "name": "花园知己",
+    "desc": "在线90分钟奖励",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 200
+  }
+]
