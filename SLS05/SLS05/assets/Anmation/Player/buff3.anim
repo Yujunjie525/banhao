@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "buff3",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.31666666666666665,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "b909cd96-c5df-4274-85b5-f7c1c042a5da"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "5e0d78ff-ae20-46f4-b24a-7391a089b1ea"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "d017684d-df63-4e0d-8722-30adf1434355"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "f03c8388-127d-4c8c-8566-3f5fa9aacafe"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

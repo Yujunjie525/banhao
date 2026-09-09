@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "zidan1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.25,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "9df8f381-72f4-4773-aac2-83929e7b09a7"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "dbf76446-b146-4ecd-8200-04496621bd05"
+            }
+          },
+          {
+            "frame": 0.15,
+            "value": {
+              "__uuid__": "13ee21f7-f111-44d0-9600-b96b2f6c9228"
+            }
+          },
+          {
+            "frame": 0.23333333333333334,
+            "value": {
+              "__uuid__": "dba8bd51-a1c6-4624-819b-39def9c1f09e"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

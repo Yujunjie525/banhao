@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "huliz",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.8,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "f694ad46-f73b-42e0-a602-31d76fbbf2e6"
+            }
+          },
+          {
+            "frame": 0.15,
+            "value": {
+              "__uuid__": "5dbe97f4-911b-4762-998c-5c05700c2677"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "24aa94e7-0bdc-4a6f-9379-4eeae63d69b5"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "43857736-5453-4f57-bd0f-cc3d41f35901"
+            }
+          },
+          {
+            "frame": 0.5333333333333333,
+            "value": {
+              "__uuid__": "4396e209-07dc-4aa3-bbb3-c772fb48380b"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "3d5758cf-1740-4633-893b-6d63a318efb4"
+            }
+          },
+          {
+            "frame": 0.7833333333333333,
+            "value": {
+              "__uuid__": "bc0fd648-8e3e-4dc2-a200-4da929946a97"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}
