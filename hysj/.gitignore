@@ -1,0 +1,6 @@
+Library/
+Logs/
+Temp/
+
+# Generated Unity player builds (APK/AAB and build intermediates)
+/Builds/

@@ -1,0 +1,5087 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-26T10:22:08.301Z",
+  "sourceRoot": "Assets/Resources/HysjLegacy/anim",
+  "outputRoot": "Assets/HysjOptimized/anim",
+  "sampling": {
+    "role": 32,
+    "flower": 16,
+    "laoshu": 12
+  },
+  "sequences": [
+    {
+      "type": "flower",
+      "source": "flower/1/1",
+      "sourceFrameCount": 38,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "1_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "1_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.00669
+        },
+        {
+          "file": "1_00005.png",
+          "sourceIndex": 5,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.025714
+        },
+        {
+          "file": "1_00007.png",
+          "sourceIndex": 7,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.037494
+        },
+        {
+          "file": "1_00010.png",
+          "sourceIndex": 10,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.031549
+        },
+        {
+          "file": "1_00012.png",
+          "sourceIndex": 12,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.032123
+        },
+        {
+          "file": "1_00015.png",
+          "sourceIndex": 15,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.01912
+        },
+        {
+          "file": "1_00018.png",
+          "sourceIndex": 18,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.008859
+        },
+        {
+          "file": "1_00021.png",
+          "sourceIndex": 21,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.020063
+        },
+        {
+          "file": "1_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.025985
+        },
+        {
+          "file": "1_00026.png",
+          "sourceIndex": 26,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.031203
+        },
+        {
+          "file": "1_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.037564
+        },
+        {
+          "file": "1_00030.png",
+          "sourceIndex": 30,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.033817
+        },
+        {
+          "file": "1_00032.png",
+          "sourceIndex": 32,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.031162
+        },
+        {
+          "file": "1_00034.png",
+          "sourceIndex": 34,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.019987
+        },
+        {
+          "file": "1_00037.png",
+          "sourceIndex": 37,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.003222
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/1/2",
+      "sourceFrameCount": 38,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "2_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0
+        },
+        {
+          "file": "2_00001.png",
+          "sourceIndex": 1,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.006371
+        },
+        {
+          "file": "2_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.027998
+        },
+        {
+          "file": "2_00006.png",
+          "sourceIndex": 6,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.029317
+        },
+        {
+          "file": "2_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.031564
+        },
+        {
+          "file": "2_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.021199
+        },
+        {
+          "file": "2_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.019197
+        },
+        {
+          "file": "2_00016.png",
+          "sourceIndex": 16,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.011984
+        },
+        {
+          "file": "2_00021.png",
+          "sourceIndex": 21,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.024992
+        },
+        {
+          "file": "2_00023.png",
+          "sourceIndex": 23,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.031558
+        },
+        {
+          "file": "2_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.035035
+        },
+        {
+          "file": "2_00026.png",
+          "sourceIndex": 26,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.034
+        },
+        {
+          "file": "2_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.033725
+        },
+        {
+          "file": "2_00031.png",
+          "sourceIndex": 31,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.025965
+        },
+        {
+          "file": "2_00034.png",
+          "sourceIndex": 34,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.013332
+        },
+        {
+          "file": "2_00037.png",
+          "sourceIndex": 37,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.010469
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/1/3",
+      "sourceFrameCount": 38,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "3_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "3_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.006198
+        },
+        {
+          "file": "3_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.012359
+        },
+        {
+          "file": "3_00005.png",
+          "sourceIndex": 5,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.010475
+        },
+        {
+          "file": "3_00007.png",
+          "sourceIndex": 7,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.008035
+        },
+        {
+          "file": "3_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.018768
+        },
+        {
+          "file": "3_00010.png",
+          "sourceIndex": 10,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.008542
+        },
+        {
+          "file": "3_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.008981
+        },
+        {
+          "file": "3_00015.png",
+          "sourceIndex": 15,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.007129
+        },
+        {
+          "file": "3_00017.png",
+          "sourceIndex": 17,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.010507
+        },
+        {
+          "file": "3_00020.png",
+          "sourceIndex": 20,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.021797
+        },
+        {
+          "file": "3_00021.png",
+          "sourceIndex": 21,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.00921
+        },
+        {
+          "file": "3_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.017649
+        },
+        {
+          "file": "3_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.014292
+        },
+        {
+          "file": "3_00032.png",
+          "sourceIndex": 32,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.007767
+        },
+        {
+          "file": "3_00037.png",
+          "sourceIndex": 37,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.007449
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/10/1",
+      "sourceFrameCount": 42,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "1_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0
+        },
+        {
+          "file": "1_00001.png",
+          "sourceIndex": 1,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0
+        },
+        {
+          "file": "1_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.002519
+        },
+        {
+          "file": "1_00007.png",
+          "sourceIndex": 7,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.011383
+        },
+        {
+          "file": "1_00009.png",
+          "sourceIndex": 9,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.010911
+        },
+        {
+          "file": "1_00012.png",
+          "sourceIndex": 12,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.023964
+        },
+        {
+          "file": "1_00017.png",
+          "sourceIndex": 17,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.017893
+        },
+        {
+          "file": "1_00018.png",
+          "sourceIndex": 18,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.016582
+        },
+        {
+          "file": "1_00022.png",
+          "sourceIndex": 22,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.02289
+        },
+        {
+          "file": "1_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.022832
+        },
+        {
+          "file": "1_00029.png",
+          "sourceIndex": 29,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.016588
+        },
+        {
+          "file": "1_00030.png",
+          "sourceIndex": 30,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.017893
+        },
+        {
+          "file": "1_00035.png",
+          "sourceIndex": 35,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.024051
+        },
+        {
+          "file": "1_00038.png",
+          "sourceIndex": 38,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.0112
+        },
+        {
+          "file": "1_00040.png",
+          "sourceIndex": 40,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.011325
+        },
+        {
+          "file": "1_00041.png",
+          "sourceIndex": 41,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.005757
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/10/2",
+      "sourceFrameCount": 42,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "2_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "2_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.005317
+        },
+        {
+          "file": "2_00005.png",
+          "sourceIndex": 5,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007788
+        },
+        {
+          "file": "2_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.009037
+        },
+        {
+          "file": "2_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.008095
+        },
+        {
+          "file": "2_00012.png",
+          "sourceIndex": 12,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.008386
+        },
+        {
+          "file": "2_00015.png",
+          "sourceIndex": 15,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.012139
+        },
+        {
+          "file": "2_00019.png",
+          "sourceIndex": 19,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.008151
+        },
+        {
+          "file": "2_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.008151
+        },
+        {
+          "file": "2_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.008418
+        },
+        {
+          "file": "2_00031.png",
+          "sourceIndex": 31,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.008416
+        },
+        {
+          "file": "2_00032.png",
+          "sourceIndex": 32,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.008093
+        },
+        {
+          "file": "2_00035.png",
+          "sourceIndex": 35,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.007737
+        },
+        {
+          "file": "2_00037.png",
+          "sourceIndex": 37,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.007758
+        },
+        {
+          "file": "2_00038.png",
+          "sourceIndex": 38,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007787
+        },
+        {
+          "file": "2_00041.png",
+          "sourceIndex": 41,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.005317
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/10/3",
+      "sourceFrameCount": 48,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "3_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "3_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.005237
+        },
+        {
+          "file": "3_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.007316
+        },
+        {
+          "file": "3_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.012866
+        },
+        {
+          "file": "3_00012.png",
+          "sourceIndex": 12,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.008852
+        },
+        {
+          "file": "3_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.009983
+        },
+        {
+          "file": "3_00017.png",
+          "sourceIndex": 17,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007963
+        },
+        {
+          "file": "3_00020.png",
+          "sourceIndex": 20,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.008447
+        },
+        {
+          "file": "3_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.005766
+        },
+        {
+          "file": "3_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.006555
+        },
+        {
+          "file": "3_00033.png",
+          "sourceIndex": 33,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007683
+        },
+        {
+          "file": "3_00036.png",
+          "sourceIndex": 36,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.012232
+        },
+        {
+          "file": "3_00037.png",
+          "sourceIndex": 37,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.008386
+        },
+        {
+          "file": "3_00040.png",
+          "sourceIndex": 40,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.012496
+        },
+        {
+          "file": "3_00043.png",
+          "sourceIndex": 43,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.010083
+        },
+        {
+          "file": "3_00047.png",
+          "sourceIndex": 47,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.005838
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/2/1",
+      "sourceFrameCount": 38,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "1_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0
+        },
+        {
+          "file": "1_00001.png",
+          "sourceIndex": 1,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.009636
+        },
+        {
+          "file": "1_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.018376
+        },
+        {
+          "file": "1_00007.png",
+          "sourceIndex": 7,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.012625
+        },
+        {
+          "file": "1_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.011933
+        },
+        {
+          "file": "1_00010.png",
+          "sourceIndex": 10,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.014118
+        },
+        {
+          "file": "1_00013.png",
+          "sourceIndex": 13,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.012788
+        },
+        {
+          "file": "1_00016.png",
+          "sourceIndex": 16,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.014655
+        },
+        {
+          "file": "1_00018.png",
+          "sourceIndex": 18,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007495
+        },
+        {
+          "file": "1_00021.png",
+          "sourceIndex": 21,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.00746
+        },
+        {
+          "file": "1_00023.png",
+          "sourceIndex": 23,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.014655
+        },
+        {
+          "file": "1_00026.png",
+          "sourceIndex": 26,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.013003
+        },
+        {
+          "file": "1_00029.png",
+          "sourceIndex": 29,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.014131
+        },
+        {
+          "file": "1_00032.png",
+          "sourceIndex": 32,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.018577
+        },
+        {
+          "file": "1_00036.png",
+          "sourceIndex": 36,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.017233
+        },
+        {
+          "file": "1_00037.png",
+          "sourceIndex": 37,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.00263
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/2/2",
+      "sourceFrameCount": 36,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "2_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "2_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.009563
+        },
+        {
+          "file": "2_00005.png",
+          "sourceIndex": 5,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007563
+        },
+        {
+          "file": "2_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.008639
+        },
+        {
+          "file": "2_00010.png",
+          "sourceIndex": 10,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.00227
+        },
+        {
+          "file": "2_00012.png",
+          "sourceIndex": 12,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.007709
+        },
+        {
+          "file": "2_00017.png",
+          "sourceIndex": 17,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.00651
+        },
+        {
+          "file": "2_00019.png",
+          "sourceIndex": 19,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.005123
+        },
+        {
+          "file": "2_00020.png",
+          "sourceIndex": 20,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.006337
+        },
+        {
+          "file": "2_00022.png",
+          "sourceIndex": 22,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.005639
+        },
+        {
+          "file": "2_00023.png",
+          "sourceIndex": 23,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.007602
+        },
+        {
+          "file": "2_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.006979
+        },
+        {
+          "file": "2_00026.png",
+          "sourceIndex": 26,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.005627
+        },
+        {
+          "file": "2_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.007249
+        },
+        {
+          "file": "2_00032.png",
+          "sourceIndex": 32,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.006736
+        },
+        {
+          "file": "2_00035.png",
+          "sourceIndex": 35,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.004728
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/2/3",
+      "sourceFrameCount": 48,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "3_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0
+        },
+        {
+          "file": "3_00001.png",
+          "sourceIndex": 1,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.004972
+        },
+        {
+          "file": "3_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 7,
+          "durationSeconds": 0.291667,
+          "changeScore": 0.00479
+        },
+        {
+          "file": "3_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.004922
+        },
+        {
+          "file": "3_00015.png",
+          "sourceIndex": 15,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.00941
+        },
+        {
+          "file": "3_00018.png",
+          "sourceIndex": 18,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.010268
+        },
+        {
+          "file": "3_00021.png",
+          "sourceIndex": 21,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.010871
+        },
+        {
+          "file": "3_00023.png",
+          "sourceIndex": 23,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007358
+        },
+        {
+          "file": "3_00026.png",
+          "sourceIndex": 26,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.007357
+        },
+        {
+          "file": "3_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.013316
+        },
+        {
+          "file": "3_00031.png",
+          "sourceIndex": 31,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.010271
+        },
+        {
+          "file": "3_00034.png",
+          "sourceIndex": 34,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.009386
+        },
+        {
+          "file": "3_00036.png",
+          "sourceIndex": 36,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.005925
+        },
+        {
+          "file": "3_00038.png",
+          "sourceIndex": 38,
+          "durationFrames": 6,
+          "durationSeconds": 0.25,
+          "changeScore": 0.004796
+        },
+        {
+          "file": "3_00044.png",
+          "sourceIndex": 44,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.005258
+        },
+        {
+          "file": "3_00047.png",
+          "sourceIndex": 47,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.004507
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/3/1",
+      "sourceFrameCount": 51,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "1_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0
+        },
+        {
+          "file": "1_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.035975
+        },
+        {
+          "file": "1_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.02883
+        },
+        {
+          "file": "1_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.0174
+        },
+        {
+          "file": "1_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.022115
+        },
+        {
+          "file": "1_00017.png",
+          "sourceIndex": 17,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.014387
+        },
+        {
+          "file": "1_00020.png",
+          "sourceIndex": 20,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.024644
+        },
+        {
+          "file": "1_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.029023
+        },
+        {
+          "file": "1_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.029023
+        },
+        {
+          "file": "1_00032.png",
+          "sourceIndex": 32,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.024644
+        },
+        {
+          "file": "1_00035.png",
+          "sourceIndex": 35,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.0144
+        },
+        {
+          "file": "1_00038.png",
+          "sourceIndex": 38,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.022143
+        },
+        {
+          "file": "1_00041.png",
+          "sourceIndex": 41,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.0174
+        },
+        {
+          "file": "1_00044.png",
+          "sourceIndex": 44,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.028609
+        },
+        {
+          "file": "1_00048.png",
+          "sourceIndex": 48,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.03591
+        },
+        {
+          "file": "1_00050.png",
+          "sourceIndex": 50,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.004573
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/3/2",
+      "sourceFrameCount": 38,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "2_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "2_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.005864
+        },
+        {
+          "file": "2_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.008214
+        },
+        {
+          "file": "2_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.022266
+        },
+        {
+          "file": "2_00010.png",
+          "sourceIndex": 10,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.010256
+        },
+        {
+          "file": "2_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.012217
+        },
+        {
+          "file": "2_00012.png",
+          "sourceIndex": 12,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.011314
+        },
+        {
+          "file": "2_00017.png",
+          "sourceIndex": 17,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.011428
+        },
+        {
+          "file": "2_00022.png",
+          "sourceIndex": 22,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.011448
+        },
+        {
+          "file": "2_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.010758
+        },
+        {
+          "file": "2_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.014574
+        },
+        {
+          "file": "2_00031.png",
+          "sourceIndex": 31,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.013353
+        },
+        {
+          "file": "2_00032.png",
+          "sourceIndex": 32,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.016
+        },
+        {
+          "file": "2_00034.png",
+          "sourceIndex": 34,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.006864
+        },
+        {
+          "file": "2_00036.png",
+          "sourceIndex": 36,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.00602
+        },
+        {
+          "file": "2_00037.png",
+          "sourceIndex": 37,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.005864
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/3/3",
+      "sourceFrameCount": 38,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "3_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0
+        },
+        {
+          "file": "3_00001.png",
+          "sourceIndex": 1,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.01387
+        },
+        {
+          "file": "3_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.020277
+        },
+        {
+          "file": "3_00007.png",
+          "sourceIndex": 7,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.022768
+        },
+        {
+          "file": "3_00010.png",
+          "sourceIndex": 10,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.018193
+        },
+        {
+          "file": "3_00012.png",
+          "sourceIndex": 12,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.009229
+        },
+        {
+          "file": "3_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.009077
+        },
+        {
+          "file": "3_00017.png",
+          "sourceIndex": 17,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.008403
+        },
+        {
+          "file": "3_00020.png",
+          "sourceIndex": 20,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.014302
+        },
+        {
+          "file": "3_00023.png",
+          "sourceIndex": 23,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.014669
+        },
+        {
+          "file": "3_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.021401
+        },
+        {
+          "file": "3_00027.png",
+          "sourceIndex": 27,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.019078
+        },
+        {
+          "file": "3_00030.png",
+          "sourceIndex": 30,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.021005
+        },
+        {
+          "file": "3_00033.png",
+          "sourceIndex": 33,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.01344
+        },
+        {
+          "file": "3_00036.png",
+          "sourceIndex": 36,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.009487
+        },
+        {
+          "file": "3_00037.png",
+          "sourceIndex": 37,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.004994
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/4/1",
+      "sourceFrameCount": 34,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "1_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0
+        },
+        {
+          "file": "1_00001.png",
+          "sourceIndex": 1,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0
+        },
+        {
+          "file": "1_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.020333
+        },
+        {
+          "file": "1_00006.png",
+          "sourceIndex": 6,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.023365
+        },
+        {
+          "file": "1_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.03665
+        },
+        {
+          "file": "1_00010.png",
+          "sourceIndex": 10,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.020305
+        },
+        {
+          "file": "1_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.032275
+        },
+        {
+          "file": "1_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.016849
+        },
+        {
+          "file": "1_00016.png",
+          "sourceIndex": 16,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.015587
+        },
+        {
+          "file": "1_00021.png",
+          "sourceIndex": 21,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.016647
+        },
+        {
+          "file": "1_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.028993
+        },
+        {
+          "file": "1_00027.png",
+          "sourceIndex": 27,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.023136
+        },
+        {
+          "file": "1_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.027331
+        },
+        {
+          "file": "1_00030.png",
+          "sourceIndex": 30,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.022809
+        },
+        {
+          "file": "1_00031.png",
+          "sourceIndex": 31,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.024028
+        },
+        {
+          "file": "1_00033.png",
+          "sourceIndex": 33,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.014365
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/4/2",
+      "sourceFrameCount": 36,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "2_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "2_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.006475
+        },
+        {
+          "file": "2_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.010469
+        },
+        {
+          "file": "2_00007.png",
+          "sourceIndex": 7,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.009876
+        },
+        {
+          "file": "2_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.018701
+        },
+        {
+          "file": "2_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.014378
+        },
+        {
+          "file": "2_00012.png",
+          "sourceIndex": 12,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.011227
+        },
+        {
+          "file": "2_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.011209
+        },
+        {
+          "file": "2_00017.png",
+          "sourceIndex": 17,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.011855
+        },
+        {
+          "file": "2_00022.png",
+          "sourceIndex": 22,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.011863
+        },
+        {
+          "file": "2_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.009315
+        },
+        {
+          "file": "2_00025.png",
+          "sourceIndex": 25,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.011342
+        },
+        {
+          "file": "2_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.014347
+        },
+        {
+          "file": "2_00031.png",
+          "sourceIndex": 31,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.009337
+        },
+        {
+          "file": "2_00032.png",
+          "sourceIndex": 32,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.017111
+        },
+        {
+          "file": "2_00035.png",
+          "sourceIndex": 35,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.00691
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/4/3",
+      "sourceFrameCount": 39,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "3_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0
+        },
+        {
+          "file": "3_00001.png",
+          "sourceIndex": 1,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.004435
+        },
+        {
+          "file": "3_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.014387
+        },
+        {
+          "file": "3_00005.png",
+          "sourceIndex": 5,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.017527
+        },
+        {
+          "file": "3_00006.png",
+          "sourceIndex": 6,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.012414
+        },
+        {
+          "file": "3_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.028345
+        },
+        {
+          "file": "3_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.012213
+        },
+        {
+          "file": "3_00012.png",
+          "sourceIndex": 12,
+          "durationFrames": 7,
+          "durationSeconds": 0.291667,
+          "changeScore": 0.014087
+        },
+        {
+          "file": "3_00019.png",
+          "sourceIndex": 19,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.013095
+        },
+        {
+          "file": "3_00021.png",
+          "sourceIndex": 21,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.017179
+        },
+        {
+          "file": "3_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.015112
+        },
+        {
+          "file": "3_00025.png",
+          "sourceIndex": 25,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.013186
+        },
+        {
+          "file": "3_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.018829
+        },
+        {
+          "file": "3_00032.png",
+          "sourceIndex": 32,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.01647
+        },
+        {
+          "file": "3_00035.png",
+          "sourceIndex": 35,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007769
+        },
+        {
+          "file": "3_00038.png",
+          "sourceIndex": 38,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.005256
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/5/1",
+      "sourceFrameCount": 46,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "1_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "1_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.004247
+        },
+        {
+          "file": "1_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.015205
+        },
+        {
+          "file": "1_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.033028
+        },
+        {
+          "file": "1_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.024732
+        },
+        {
+          "file": "1_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.023231
+        },
+        {
+          "file": "1_00017.png",
+          "sourceIndex": 17,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.017359
+        },
+        {
+          "file": "1_00020.png",
+          "sourceIndex": 20,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.016174
+        },
+        {
+          "file": "1_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.004751
+        },
+        {
+          "file": "1_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.011735
+        },
+        {
+          "file": "1_00030.png",
+          "sourceIndex": 30,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.017227
+        },
+        {
+          "file": "1_00033.png",
+          "sourceIndex": 33,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.023231
+        },
+        {
+          "file": "1_00036.png",
+          "sourceIndex": 36,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.034607
+        },
+        {
+          "file": "1_00040.png",
+          "sourceIndex": 40,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.028598
+        },
+        {
+          "file": "1_00043.png",
+          "sourceIndex": 43,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.012912
+        },
+        {
+          "file": "1_00045.png",
+          "sourceIndex": 45,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.00424
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/5/2",
+      "sourceFrameCount": 51,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "2_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0
+        },
+        {
+          "file": "2_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.010214
+        },
+        {
+          "file": "2_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.020827
+        },
+        {
+          "file": "2_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.020251
+        },
+        {
+          "file": "2_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.020924
+        },
+        {
+          "file": "2_00016.png",
+          "sourceIndex": 16,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.023216
+        },
+        {
+          "file": "2_00020.png",
+          "sourceIndex": 20,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.026071
+        },
+        {
+          "file": "2_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.01733
+        },
+        {
+          "file": "2_00026.png",
+          "sourceIndex": 26,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.010316
+        },
+        {
+          "file": "2_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 6,
+          "durationSeconds": 0.25,
+          "changeScore": 0.01443
+        },
+        {
+          "file": "2_00034.png",
+          "sourceIndex": 34,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.011504
+        },
+        {
+          "file": "2_00037.png",
+          "sourceIndex": 37,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.015788
+        },
+        {
+          "file": "2_00040.png",
+          "sourceIndex": 40,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.024831
+        },
+        {
+          "file": "2_00044.png",
+          "sourceIndex": 44,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.024426
+        },
+        {
+          "file": "2_00047.png",
+          "sourceIndex": 47,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.02724
+        },
+        {
+          "file": "2_00050.png",
+          "sourceIndex": 50,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.034356
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/5/3",
+      "sourceFrameCount": 38,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "3_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "3_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.019579
+        },
+        {
+          "file": "3_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.018857
+        },
+        {
+          "file": "3_00005.png",
+          "sourceIndex": 5,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.01328
+        },
+        {
+          "file": "3_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.032673
+        },
+        {
+          "file": "3_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.015433
+        },
+        {
+          "file": "3_00012.png",
+          "sourceIndex": 12,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.014654
+        },
+        {
+          "file": "3_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.010424
+        },
+        {
+          "file": "3_00018.png",
+          "sourceIndex": 18,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.01156
+        },
+        {
+          "file": "3_00021.png",
+          "sourceIndex": 21,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.016181
+        },
+        {
+          "file": "3_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.031214
+        },
+        {
+          "file": "3_00026.png",
+          "sourceIndex": 26,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.00221
+        },
+        {
+          "file": "3_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.023071
+        },
+        {
+          "file": "3_00031.png",
+          "sourceIndex": 31,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.015418
+        },
+        {
+          "file": "3_00034.png",
+          "sourceIndex": 34,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007177
+        },
+        {
+          "file": "3_00037.png",
+          "sourceIndex": 37,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.005919
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/6/1",
+      "sourceFrameCount": 25,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "1_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "1_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.004343
+        },
+        {
+          "file": "1_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.013836
+        },
+        {
+          "file": "1_00007.png",
+          "sourceIndex": 7,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.006896
+        },
+        {
+          "file": "1_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.013656
+        },
+        {
+          "file": "1_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.010942
+        },
+        {
+          "file": "1_00012.png",
+          "sourceIndex": 12,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.010186
+        },
+        {
+          "file": "1_00013.png",
+          "sourceIndex": 13,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.008694
+        },
+        {
+          "file": "1_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.01518
+        },
+        {
+          "file": "1_00015.png",
+          "sourceIndex": 15,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.010942
+        },
+        {
+          "file": "1_00016.png",
+          "sourceIndex": 16,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.008212
+        },
+        {
+          "file": "1_00017.png",
+          "sourceIndex": 17,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.006898
+        },
+        {
+          "file": "1_00018.png",
+          "sourceIndex": 18,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.010848
+        },
+        {
+          "file": "1_00019.png",
+          "sourceIndex": 19,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.006895
+        },
+        {
+          "file": "1_00021.png",
+          "sourceIndex": 21,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.008688
+        },
+        {
+          "file": "1_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.004343
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/6/2",
+      "sourceFrameCount": 38,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "2_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "2_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.00889
+        },
+        {
+          "file": "2_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.01652
+        },
+        {
+          "file": "2_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.015613
+        },
+        {
+          "file": "2_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.01315
+        },
+        {
+          "file": "2_00013.png",
+          "sourceIndex": 13,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.008859
+        },
+        {
+          "file": "2_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.013363
+        },
+        {
+          "file": "2_00017.png",
+          "sourceIndex": 17,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.007823
+        },
+        {
+          "file": "2_00022.png",
+          "sourceIndex": 22,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007823
+        },
+        {
+          "file": "2_00025.png",
+          "sourceIndex": 25,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.013363
+        },
+        {
+          "file": "2_00026.png",
+          "sourceIndex": 26,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.008859
+        },
+        {
+          "file": "2_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.016228
+        },
+        {
+          "file": "2_00031.png",
+          "sourceIndex": 31,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.009116
+        },
+        {
+          "file": "2_00032.png",
+          "sourceIndex": 32,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.014897
+        },
+        {
+          "file": "2_00035.png",
+          "sourceIndex": 35,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.013518
+        },
+        {
+          "file": "2_00037.png",
+          "sourceIndex": 37,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.008808
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/6/3",
+      "sourceFrameCount": 38,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "3_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "3_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.004968
+        },
+        {
+          "file": "3_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.006965
+        },
+        {
+          "file": "3_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.008646
+        },
+        {
+          "file": "3_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007712
+        },
+        {
+          "file": "3_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.006723
+        },
+        {
+          "file": "3_00016.png",
+          "sourceIndex": 16,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.009699
+        },
+        {
+          "file": "3_00019.png",
+          "sourceIndex": 19,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.008383
+        },
+        {
+          "file": "3_00020.png",
+          "sourceIndex": 20,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.008383
+        },
+        {
+          "file": "3_00023.png",
+          "sourceIndex": 23,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.007306
+        },
+        {
+          "file": "3_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.007009
+        },
+        {
+          "file": "3_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.009306
+        },
+        {
+          "file": "3_00032.png",
+          "sourceIndex": 32,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.010444
+        },
+        {
+          "file": "3_00034.png",
+          "sourceIndex": 34,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.006823
+        },
+        {
+          "file": "3_00036.png",
+          "sourceIndex": 36,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.005833
+        },
+        {
+          "file": "3_00037.png",
+          "sourceIndex": 37,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.004839
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/7/1",
+      "sourceFrameCount": 37,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "1_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0
+        },
+        {
+          "file": "1_00001.png",
+          "sourceIndex": 1,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.019496
+        },
+        {
+          "file": "1_00003.png",
+          "sourceIndex": 3,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.018621
+        },
+        {
+          "file": "1_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.036259
+        },
+        {
+          "file": "1_00007.png",
+          "sourceIndex": 7,
+          "durationFrames": 6,
+          "durationSeconds": 0.25,
+          "changeScore": 0.014914
+        },
+        {
+          "file": "1_00013.png",
+          "sourceIndex": 13,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.023248
+        },
+        {
+          "file": "1_00017.png",
+          "sourceIndex": 17,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.027823
+        },
+        {
+          "file": "1_00018.png",
+          "sourceIndex": 18,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.021173
+        },
+        {
+          "file": "1_00020.png",
+          "sourceIndex": 20,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.038463
+        },
+        {
+          "file": "1_00022.png",
+          "sourceIndex": 22,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.017752
+        },
+        {
+          "file": "1_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.031154
+        },
+        {
+          "file": "1_00027.png",
+          "sourceIndex": 27,
+          "durationFrames": 6,
+          "durationSeconds": 0.25,
+          "changeScore": 0.00939
+        },
+        {
+          "file": "1_00033.png",
+          "sourceIndex": 33,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.018253
+        },
+        {
+          "file": "1_00034.png",
+          "sourceIndex": 34,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.026308
+        },
+        {
+          "file": "1_00035.png",
+          "sourceIndex": 35,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.018544
+        },
+        {
+          "file": "1_00036.png",
+          "sourceIndex": 36,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.022569
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/7/2",
+      "sourceFrameCount": 46,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "2_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "2_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.003826
+        },
+        {
+          "file": "2_00005.png",
+          "sourceIndex": 5,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.020338
+        },
+        {
+          "file": "2_00009.png",
+          "sourceIndex": 9,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.026374
+        },
+        {
+          "file": "2_00012.png",
+          "sourceIndex": 12,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.02203
+        },
+        {
+          "file": "2_00013.png",
+          "sourceIndex": 13,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.029797
+        },
+        {
+          "file": "2_00017.png",
+          "sourceIndex": 17,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.025406
+        },
+        {
+          "file": "2_00021.png",
+          "sourceIndex": 21,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.017215
+        },
+        {
+          "file": "2_00026.png",
+          "sourceIndex": 26,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.017215
+        },
+        {
+          "file": "2_00030.png",
+          "sourceIndex": 30,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.025406
+        },
+        {
+          "file": "2_00033.png",
+          "sourceIndex": 33,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.021582
+        },
+        {
+          "file": "2_00034.png",
+          "sourceIndex": 34,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.029796
+        },
+        {
+          "file": "2_00035.png",
+          "sourceIndex": 35,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.02203
+        },
+        {
+          "file": "2_00038.png",
+          "sourceIndex": 38,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.026587
+        },
+        {
+          "file": "2_00042.png",
+          "sourceIndex": 42,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.020493
+        },
+        {
+          "file": "2_00045.png",
+          "sourceIndex": 45,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.003699
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/7/3",
+      "sourceFrameCount": 42,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "3_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0
+        },
+        {
+          "file": "3_00001.png",
+          "sourceIndex": 1,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.000053
+        },
+        {
+          "file": "3_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.010309
+        },
+        {
+          "file": "3_00006.png",
+          "sourceIndex": 6,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.011528
+        },
+        {
+          "file": "3_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.016985
+        },
+        {
+          "file": "3_00010.png",
+          "sourceIndex": 10,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.014513
+        },
+        {
+          "file": "3_00013.png",
+          "sourceIndex": 13,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.016228
+        },
+        {
+          "file": "3_00015.png",
+          "sourceIndex": 15,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.02894
+        },
+        {
+          "file": "3_00019.png",
+          "sourceIndex": 19,
+          "durationFrames": 6,
+          "durationSeconds": 0.25,
+          "changeScore": 0.020681
+        },
+        {
+          "file": "3_00025.png",
+          "sourceIndex": 25,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.020681
+        },
+        {
+          "file": "3_00030.png",
+          "sourceIndex": 30,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.032773
+        },
+        {
+          "file": "3_00031.png",
+          "sourceIndex": 31,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.016228
+        },
+        {
+          "file": "3_00034.png",
+          "sourceIndex": 34,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.014659
+        },
+        {
+          "file": "3_00037.png",
+          "sourceIndex": 37,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.018639
+        },
+        {
+          "file": "3_00040.png",
+          "sourceIndex": 40,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.010309
+        },
+        {
+          "file": "3_00041.png",
+          "sourceIndex": 41,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.009901
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/8/1",
+      "sourceFrameCount": 46,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "1_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0
+        },
+        {
+          "file": "1_00001.png",
+          "sourceIndex": 1,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.012451
+        },
+        {
+          "file": "1_00003.png",
+          "sourceIndex": 3,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.007956
+        },
+        {
+          "file": "1_00007.png",
+          "sourceIndex": 7,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.011524
+        },
+        {
+          "file": "1_00010.png",
+          "sourceIndex": 10,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.01668
+        },
+        {
+          "file": "1_00012.png",
+          "sourceIndex": 12,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.016207
+        },
+        {
+          "file": "1_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.026274
+        },
+        {
+          "file": "1_00015.png",
+          "sourceIndex": 15,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.019411
+        },
+        {
+          "file": "1_00018.png",
+          "sourceIndex": 18,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.038479
+        },
+        {
+          "file": "1_00020.png",
+          "sourceIndex": 20,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.017224
+        },
+        {
+          "file": "1_00023.png",
+          "sourceIndex": 23,
+          "durationFrames": 8,
+          "durationSeconds": 0.333333,
+          "changeScore": 0.026351
+        },
+        {
+          "file": "1_00031.png",
+          "sourceIndex": 31,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.012283
+        },
+        {
+          "file": "1_00035.png",
+          "sourceIndex": 35,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.015865
+        },
+        {
+          "file": "1_00038.png",
+          "sourceIndex": 38,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.020983
+        },
+        {
+          "file": "1_00042.png",
+          "sourceIndex": 42,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.02039
+        },
+        {
+          "file": "1_00045.png",
+          "sourceIndex": 45,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.023672
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/8/2",
+      "sourceFrameCount": 37,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "2_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "2_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.00567
+        },
+        {
+          "file": "2_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.012951
+        },
+        {
+          "file": "2_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.032772
+        },
+        {
+          "file": "2_00012.png",
+          "sourceIndex": 12,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.019772
+        },
+        {
+          "file": "2_00016.png",
+          "sourceIndex": 16,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.022984
+        },
+        {
+          "file": "2_00017.png",
+          "sourceIndex": 17,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.01587
+        },
+        {
+          "file": "2_00020.png",
+          "sourceIndex": 20,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.014428
+        },
+        {
+          "file": "2_00022.png",
+          "sourceIndex": 22,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.015871
+        },
+        {
+          "file": "2_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.022393
+        },
+        {
+          "file": "2_00026.png",
+          "sourceIndex": 26,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.012407
+        },
+        {
+          "file": "2_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.02325
+        },
+        {
+          "file": "2_00030.png",
+          "sourceIndex": 30,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.015178
+        },
+        {
+          "file": "2_00032.png",
+          "sourceIndex": 32,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.030026
+        },
+        {
+          "file": "2_00035.png",
+          "sourceIndex": 35,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.011917
+        },
+        {
+          "file": "2_00036.png",
+          "sourceIndex": 36,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.004797
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/8/3",
+      "sourceFrameCount": 60,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "3_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0
+        },
+        {
+          "file": "3_00003.png",
+          "sourceIndex": 3,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.012441
+        },
+        {
+          "file": "3_00006.png",
+          "sourceIndex": 6,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.012238
+        },
+        {
+          "file": "3_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 14,
+          "durationSeconds": 0.583333,
+          "changeScore": 0.013056
+        },
+        {
+          "file": "3_00022.png",
+          "sourceIndex": 22,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.011428
+        },
+        {
+          "file": "3_00025.png",
+          "sourceIndex": 25,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.018086
+        },
+        {
+          "file": "3_00029.png",
+          "sourceIndex": 29,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.023409
+        },
+        {
+          "file": "3_00032.png",
+          "sourceIndex": 32,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.023982
+        },
+        {
+          "file": "3_00034.png",
+          "sourceIndex": 34,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.018533
+        },
+        {
+          "file": "3_00036.png",
+          "sourceIndex": 36,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.018091
+        },
+        {
+          "file": "3_00038.png",
+          "sourceIndex": 38,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.015178
+        },
+        {
+          "file": "3_00040.png",
+          "sourceIndex": 40,
+          "durationFrames": 12,
+          "durationSeconds": 0.5,
+          "changeScore": 0.011648
+        },
+        {
+          "file": "3_00052.png",
+          "sourceIndex": 52,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.011756
+        },
+        {
+          "file": "3_00054.png",
+          "sourceIndex": 54,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.011575
+        },
+        {
+          "file": "3_00056.png",
+          "sourceIndex": 56,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.013105
+        },
+        {
+          "file": "3_00059.png",
+          "sourceIndex": 59,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.012422
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/9/1",
+      "sourceFrameCount": 46,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "1_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0
+        },
+        {
+          "file": "1_00001.png",
+          "sourceIndex": 1,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.006616
+        },
+        {
+          "file": "1_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.013157
+        },
+        {
+          "file": "1_00006.png",
+          "sourceIndex": 6,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.012846
+        },
+        {
+          "file": "1_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.017631
+        },
+        {
+          "file": "1_00012.png",
+          "sourceIndex": 12,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.012069
+        },
+        {
+          "file": "1_00016.png",
+          "sourceIndex": 16,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.007829
+        },
+        {
+          "file": "1_00021.png",
+          "sourceIndex": 21,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.00415
+        },
+        {
+          "file": "1_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.006891
+        },
+        {
+          "file": "1_00026.png",
+          "sourceIndex": 26,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.003974
+        },
+        {
+          "file": "1_00031.png",
+          "sourceIndex": 31,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.007829
+        },
+        {
+          "file": "1_00035.png",
+          "sourceIndex": 35,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.012069
+        },
+        {
+          "file": "1_00039.png",
+          "sourceIndex": 39,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.017631
+        },
+        {
+          "file": "1_00041.png",
+          "sourceIndex": 41,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.012846
+        },
+        {
+          "file": "1_00043.png",
+          "sourceIndex": 43,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.013157
+        },
+        {
+          "file": "1_00045.png",
+          "sourceIndex": 45,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.003579
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/9/2",
+      "sourceFrameCount": 38,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "2_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "2_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.005787
+        },
+        {
+          "file": "2_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.011484
+        },
+        {
+          "file": "2_00005.png",
+          "sourceIndex": 5,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.009229
+        },
+        {
+          "file": "2_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.013635
+        },
+        {
+          "file": "2_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.008349
+        },
+        {
+          "file": "2_00012.png",
+          "sourceIndex": 12,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.012181
+        },
+        {
+          "file": "2_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.009522
+        },
+        {
+          "file": "2_00016.png",
+          "sourceIndex": 16,
+          "durationFrames": 6,
+          "durationSeconds": 0.25,
+          "changeScore": 0.008985
+        },
+        {
+          "file": "2_00022.png",
+          "sourceIndex": 22,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.008311
+        },
+        {
+          "file": "2_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.012943
+        },
+        {
+          "file": "2_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.014488
+        },
+        {
+          "file": "2_00032.png",
+          "sourceIndex": 32,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.01151
+        },
+        {
+          "file": "2_00034.png",
+          "sourceIndex": 34,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.008623
+        },
+        {
+          "file": "2_00036.png",
+          "sourceIndex": 36,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.009588
+        },
+        {
+          "file": "2_00037.png",
+          "sourceIndex": 37,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.004002
+        }
+      ]
+    },
+    {
+      "type": "flower",
+      "source": "flower/9/3",
+      "sourceFrameCount": 38,
+      "optimizedFrameCount": 16,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "3_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "3_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.005243
+        },
+        {
+          "file": "3_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.011612
+        },
+        {
+          "file": "3_00005.png",
+          "sourceIndex": 5,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.006958
+        },
+        {
+          "file": "3_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.010367
+        },
+        {
+          "file": "3_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007529
+        },
+        {
+          "file": "3_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.007608
+        },
+        {
+          "file": "3_00015.png",
+          "sourceIndex": 15,
+          "durationFrames": 7,
+          "durationSeconds": 0.291667,
+          "changeScore": 0.007008
+        },
+        {
+          "file": "3_00022.png",
+          "sourceIndex": 22,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.005106
+        },
+        {
+          "file": "3_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.007844
+        },
+        {
+          "file": "3_00025.png",
+          "sourceIndex": 25,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007608
+        },
+        {
+          "file": "3_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.009843
+        },
+        {
+          "file": "3_00032.png",
+          "sourceIndex": 32,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.009664
+        },
+        {
+          "file": "3_00035.png",
+          "sourceIndex": 35,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.007037
+        },
+        {
+          "file": "3_00036.png",
+          "sourceIndex": 36,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.007053
+        },
+        {
+          "file": "3_00037.png",
+          "sourceIndex": 37,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.005196
+        }
+      ]
+    },
+    {
+      "type": "laoshu",
+      "source": "laoshu/up",
+      "sourceFrameCount": 27,
+      "optimizedFrameCount": 12,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "up_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0
+        },
+        {
+          "file": "up_00001.png",
+          "sourceIndex": 1,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.133738
+        },
+        {
+          "file": "up_00003.png",
+          "sourceIndex": 3,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.170766
+        },
+        {
+          "file": "up_00005.png",
+          "sourceIndex": 5,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.140861
+        },
+        {
+          "file": "up_00007.png",
+          "sourceIndex": 7,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.083676
+        },
+        {
+          "file": "up_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.069386
+        },
+        {
+          "file": "up_00013.png",
+          "sourceIndex": 13,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.091183
+        },
+        {
+          "file": "up_00016.png",
+          "sourceIndex": 16,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.124903
+        },
+        {
+          "file": "up_00018.png",
+          "sourceIndex": 18,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.144723
+        },
+        {
+          "file": "up_00021.png",
+          "sourceIndex": 21,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.056434
+        },
+        {
+          "file": "up_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.064335
+        },
+        {
+          "file": "up_00026.png",
+          "sourceIndex": 26,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.043568
+        }
+      ]
+    },
+    {
+      "type": "laoshu",
+      "source": "laoshu/down",
+      "sourceFrameCount": 22,
+      "optimizedFrameCount": 12,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "down_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0
+        },
+        {
+          "file": "down_00001.png",
+          "sourceIndex": 1,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.104101
+        },
+        {
+          "file": "down_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.218445
+        },
+        {
+          "file": "down_00006.png",
+          "sourceIndex": 6,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.075287
+        },
+        {
+          "file": "down_00010.png",
+          "sourceIndex": 10,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.11151
+        },
+        {
+          "file": "down_00013.png",
+          "sourceIndex": 13,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.129362
+        },
+        {
+          "file": "down_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.132205
+        },
+        {
+          "file": "down_00015.png",
+          "sourceIndex": 15,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.119855
+        },
+        {
+          "file": "down_00016.png",
+          "sourceIndex": 16,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.154467
+        },
+        {
+          "file": "down_00017.png",
+          "sourceIndex": 17,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.136336
+        },
+        {
+          "file": "down_00019.png",
+          "sourceIndex": 19,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.144929
+        },
+        {
+          "file": "down_00021.png",
+          "sourceIndex": 21,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0
+        }
+      ]
+    },
+    {
+      "type": "laoshu",
+      "source": "laoshu/bite",
+      "sourceFrameCount": 19,
+      "optimizedFrameCount": 12,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "bite_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "bite_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.021897
+        },
+        {
+          "file": "bite_00003.png",
+          "sourceIndex": 3,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.02382
+        },
+        {
+          "file": "bite_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.021827
+        },
+        {
+          "file": "bite_00006.png",
+          "sourceIndex": 6,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.017049
+        },
+        {
+          "file": "bite_00007.png",
+          "sourceIndex": 7,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.024645
+        },
+        {
+          "file": "bite_00008.png",
+          "sourceIndex": 8,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.023447
+        },
+        {
+          "file": "bite_00011.png",
+          "sourceIndex": 11,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.020622
+        },
+        {
+          "file": "bite_00013.png",
+          "sourceIndex": 13,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.02582
+        },
+        {
+          "file": "bite_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.019141
+        },
+        {
+          "file": "bite_00017.png",
+          "sourceIndex": 17,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.024882
+        },
+        {
+          "file": "bite_00018.png",
+          "sourceIndex": 18,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.023222
+        }
+      ]
+    },
+    {
+      "type": "role",
+      "source": "role/1",
+      "sourceFrameCount": 96,
+      "optimizedFrameCount": 32,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "1_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0
+        },
+        {
+          "file": "1_00003.png",
+          "sourceIndex": 3,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.008815
+        },
+        {
+          "file": "1_00005.png",
+          "sourceIndex": 5,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.006976
+        },
+        {
+          "file": "1_00009.png",
+          "sourceIndex": 9,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.007645
+        },
+        {
+          "file": "1_00013.png",
+          "sourceIndex": 13,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.010385
+        },
+        {
+          "file": "1_00018.png",
+          "sourceIndex": 18,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.005762
+        },
+        {
+          "file": "1_00021.png",
+          "sourceIndex": 21,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.007083
+        },
+        {
+          "file": "1_00025.png",
+          "sourceIndex": 25,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.00634
+        },
+        {
+          "file": "1_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.008036
+        },
+        {
+          "file": "1_00029.png",
+          "sourceIndex": 29,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.011009
+        },
+        {
+          "file": "1_00032.png",
+          "sourceIndex": 32,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.00534
+        },
+        {
+          "file": "1_00034.png",
+          "sourceIndex": 34,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.006629
+        },
+        {
+          "file": "1_00038.png",
+          "sourceIndex": 38,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.005363
+        },
+        {
+          "file": "1_00041.png",
+          "sourceIndex": 41,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.003434
+        },
+        {
+          "file": "1_00044.png",
+          "sourceIndex": 44,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.004193
+        },
+        {
+          "file": "1_00046.png",
+          "sourceIndex": 46,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.009844
+        },
+        {
+          "file": "1_00048.png",
+          "sourceIndex": 48,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.009363
+        },
+        {
+          "file": "1_00049.png",
+          "sourceIndex": 49,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.009317
+        },
+        {
+          "file": "1_00050.png",
+          "sourceIndex": 50,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.008139
+        },
+        {
+          "file": "1_00054.png",
+          "sourceIndex": 54,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.00821
+        },
+        {
+          "file": "1_00058.png",
+          "sourceIndex": 58,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.010093
+        },
+        {
+          "file": "1_00062.png",
+          "sourceIndex": 62,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.006581
+        },
+        {
+          "file": "1_00065.png",
+          "sourceIndex": 65,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.005695
+        },
+        {
+          "file": "1_00070.png",
+          "sourceIndex": 70,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.006411
+        },
+        {
+          "file": "1_00072.png",
+          "sourceIndex": 72,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.005432
+        },
+        {
+          "file": "1_00074.png",
+          "sourceIndex": 74,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.006761
+        },
+        {
+          "file": "1_00078.png",
+          "sourceIndex": 78,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.008492
+        },
+        {
+          "file": "1_00083.png",
+          "sourceIndex": 83,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.005173
+        },
+        {
+          "file": "1_00087.png",
+          "sourceIndex": 87,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.004194
+        },
+        {
+          "file": "1_00091.png",
+          "sourceIndex": 91,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.004247
+        },
+        {
+          "file": "1_00094.png",
+          "sourceIndex": 94,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.005602
+        },
+        {
+          "file": "1_00095.png",
+          "sourceIndex": 95,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.005026
+        }
+      ]
+    },
+    {
+      "type": "role",
+      "source": "role/2",
+      "sourceFrameCount": 96,
+      "optimizedFrameCount": 32,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "2_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "2_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.005578
+        },
+        {
+          "file": "2_00006.png",
+          "sourceIndex": 6,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.005442
+        },
+        {
+          "file": "2_00009.png",
+          "sourceIndex": 9,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.004807
+        },
+        {
+          "file": "2_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.006036
+        },
+        {
+          "file": "2_00017.png",
+          "sourceIndex": 17,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.007219
+        },
+        {
+          "file": "2_00022.png",
+          "sourceIndex": 22,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.006542
+        },
+        {
+          "file": "2_00025.png",
+          "sourceIndex": 25,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.00535
+        },
+        {
+          "file": "2_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.004623
+        },
+        {
+          "file": "2_00030.png",
+          "sourceIndex": 30,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.003743
+        },
+        {
+          "file": "2_00035.png",
+          "sourceIndex": 35,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.003749
+        },
+        {
+          "file": "2_00038.png",
+          "sourceIndex": 38,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.00584
+        },
+        {
+          "file": "2_00042.png",
+          "sourceIndex": 42,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.010912
+        },
+        {
+          "file": "2_00046.png",
+          "sourceIndex": 46,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.008769
+        },
+        {
+          "file": "2_00050.png",
+          "sourceIndex": 50,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.008172
+        },
+        {
+          "file": "2_00052.png",
+          "sourceIndex": 52,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.005977
+        },
+        {
+          "file": "2_00054.png",
+          "sourceIndex": 54,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.006806
+        },
+        {
+          "file": "2_00056.png",
+          "sourceIndex": 56,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.008061
+        },
+        {
+          "file": "2_00058.png",
+          "sourceIndex": 58,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007298
+        },
+        {
+          "file": "2_00061.png",
+          "sourceIndex": 61,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.004415
+        },
+        {
+          "file": "2_00065.png",
+          "sourceIndex": 65,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.004291
+        },
+        {
+          "file": "2_00067.png",
+          "sourceIndex": 67,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.004449
+        },
+        {
+          "file": "2_00069.png",
+          "sourceIndex": 69,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.001724
+        },
+        {
+          "file": "2_00072.png",
+          "sourceIndex": 72,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.002799
+        },
+        {
+          "file": "2_00075.png",
+          "sourceIndex": 75,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.003828
+        },
+        {
+          "file": "2_00080.png",
+          "sourceIndex": 80,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.003077
+        },
+        {
+          "file": "2_00083.png",
+          "sourceIndex": 83,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.00477
+        },
+        {
+          "file": "2_00087.png",
+          "sourceIndex": 87,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007111
+        },
+        {
+          "file": "2_00090.png",
+          "sourceIndex": 90,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.005937
+        },
+        {
+          "file": "2_00092.png",
+          "sourceIndex": 92,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.005923
+        },
+        {
+          "file": "2_00094.png",
+          "sourceIndex": 94,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.007042
+        },
+        {
+          "file": "2_00095.png",
+          "sourceIndex": 95,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.003917
+        }
+      ]
+    },
+    {
+      "type": "role",
+      "source": "role/3",
+      "sourceFrameCount": 96,
+      "optimizedFrameCount": 32,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "3_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "3_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.005063
+        },
+        {
+          "file": "3_00005.png",
+          "sourceIndex": 5,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.008384
+        },
+        {
+          "file": "3_00006.png",
+          "sourceIndex": 6,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.007202
+        },
+        {
+          "file": "3_00010.png",
+          "sourceIndex": 10,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.00619
+        },
+        {
+          "file": "3_00014.png",
+          "sourceIndex": 14,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.004775
+        },
+        {
+          "file": "3_00016.png",
+          "sourceIndex": 16,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.004444
+        },
+        {
+          "file": "3_00018.png",
+          "sourceIndex": 18,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.005164
+        },
+        {
+          "file": "3_00022.png",
+          "sourceIndex": 22,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.005007
+        },
+        {
+          "file": "3_00025.png",
+          "sourceIndex": 25,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007972
+        },
+        {
+          "file": "3_00028.png",
+          "sourceIndex": 28,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.005565
+        },
+        {
+          "file": "3_00030.png",
+          "sourceIndex": 30,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.0068
+        },
+        {
+          "file": "3_00034.png",
+          "sourceIndex": 34,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.009695
+        },
+        {
+          "file": "3_00035.png",
+          "sourceIndex": 35,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007422
+        },
+        {
+          "file": "3_00038.png",
+          "sourceIndex": 38,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.009591
+        },
+        {
+          "file": "3_00039.png",
+          "sourceIndex": 39,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.009235
+        },
+        {
+          "file": "3_00043.png",
+          "sourceIndex": 43,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007731
+        },
+        {
+          "file": "3_00046.png",
+          "sourceIndex": 46,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.005679
+        },
+        {
+          "file": "3_00050.png",
+          "sourceIndex": 50,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.007281
+        },
+        {
+          "file": "3_00051.png",
+          "sourceIndex": 51,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.007206
+        },
+        {
+          "file": "3_00055.png",
+          "sourceIndex": 55,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.006684
+        },
+        {
+          "file": "3_00058.png",
+          "sourceIndex": 58,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.006458
+        },
+        {
+          "file": "3_00062.png",
+          "sourceIndex": 62,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.00771
+        },
+        {
+          "file": "3_00066.png",
+          "sourceIndex": 66,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.008341
+        },
+        {
+          "file": "3_00070.png",
+          "sourceIndex": 70,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.00535
+        },
+        {
+          "file": "3_00074.png",
+          "sourceIndex": 74,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.00583
+        },
+        {
+          "file": "3_00078.png",
+          "sourceIndex": 78,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.00533
+        },
+        {
+          "file": "3_00080.png",
+          "sourceIndex": 80,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.005849
+        },
+        {
+          "file": "3_00083.png",
+          "sourceIndex": 83,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.005199
+        },
+        {
+          "file": "3_00086.png",
+          "sourceIndex": 86,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.00813
+        },
+        {
+          "file": "3_00090.png",
+          "sourceIndex": 90,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.006395
+        },
+        {
+          "file": "3_00095.png",
+          "sourceIndex": 95,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.005132
+        }
+      ]
+    },
+    {
+      "type": "role",
+      "source": "role/4",
+      "sourceFrameCount": 96,
+      "optimizedFrameCount": 32,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "4_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 6,
+          "durationSeconds": 0.25,
+          "changeScore": 0
+        },
+        {
+          "file": "4_00006.png",
+          "sourceIndex": 6,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.006287
+        },
+        {
+          "file": "4_00010.png",
+          "sourceIndex": 10,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.005506
+        },
+        {
+          "file": "4_00013.png",
+          "sourceIndex": 13,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.006138
+        },
+        {
+          "file": "4_00017.png",
+          "sourceIndex": 17,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.009681
+        },
+        {
+          "file": "4_00018.png",
+          "sourceIndex": 18,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.006851
+        },
+        {
+          "file": "4_00021.png",
+          "sourceIndex": 21,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.0108
+        },
+        {
+          "file": "4_00022.png",
+          "sourceIndex": 22,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.006613
+        },
+        {
+          "file": "4_00024.png",
+          "sourceIndex": 24,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.006485
+        },
+        {
+          "file": "4_00025.png",
+          "sourceIndex": 25,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.010012
+        },
+        {
+          "file": "4_00026.png",
+          "sourceIndex": 26,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007848
+        },
+        {
+          "file": "4_00029.png",
+          "sourceIndex": 29,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.008012
+        },
+        {
+          "file": "4_00030.png",
+          "sourceIndex": 30,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.0065
+        },
+        {
+          "file": "4_00033.png",
+          "sourceIndex": 33,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.010063
+        },
+        {
+          "file": "4_00035.png",
+          "sourceIndex": 35,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.00615
+        },
+        {
+          "file": "4_00040.png",
+          "sourceIndex": 40,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.003414
+        },
+        {
+          "file": "4_00042.png",
+          "sourceIndex": 42,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.007064
+        },
+        {
+          "file": "4_00047.png",
+          "sourceIndex": 47,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.005765
+        },
+        {
+          "file": "4_00050.png",
+          "sourceIndex": 50,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.00759
+        },
+        {
+          "file": "4_00054.png",
+          "sourceIndex": 54,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.006422
+        },
+        {
+          "file": "4_00059.png",
+          "sourceIndex": 59,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.0069
+        },
+        {
+          "file": "4_00062.png",
+          "sourceIndex": 62,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.005658
+        },
+        {
+          "file": "4_00066.png",
+          "sourceIndex": 66,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.009532
+        },
+        {
+          "file": "4_00067.png",
+          "sourceIndex": 67,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.006575
+        },
+        {
+          "file": "4_00070.png",
+          "sourceIndex": 70,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.007205
+        },
+        {
+          "file": "4_00071.png",
+          "sourceIndex": 71,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.008027
+        },
+        {
+          "file": "4_00074.png",
+          "sourceIndex": 74,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.007457
+        },
+        {
+          "file": "4_00078.png",
+          "sourceIndex": 78,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.006383
+        },
+        {
+          "file": "4_00082.png",
+          "sourceIndex": 82,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.005305
+        },
+        {
+          "file": "4_00086.png",
+          "sourceIndex": 86,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.006255
+        },
+        {
+          "file": "4_00089.png",
+          "sourceIndex": 89,
+          "durationFrames": 6,
+          "durationSeconds": 0.25,
+          "changeScore": 0.006696
+        },
+        {
+          "file": "4_00095.png",
+          "sourceIndex": 95,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.007213
+        }
+      ]
+    },
+    {
+      "type": "role",
+      "source": "role/5",
+      "sourceFrameCount": 96,
+      "optimizedFrameCount": 32,
+      "sourceFps": 24,
+      "frames": [
+        {
+          "file": "5_00000.png",
+          "sourceIndex": 0,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0
+        },
+        {
+          "file": "5_00002.png",
+          "sourceIndex": 2,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.009009
+        },
+        {
+          "file": "5_00004.png",
+          "sourceIndex": 4,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.010409
+        },
+        {
+          "file": "5_00005.png",
+          "sourceIndex": 5,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.010396
+        },
+        {
+          "file": "5_00009.png",
+          "sourceIndex": 9,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.007944
+        },
+        {
+          "file": "5_00013.png",
+          "sourceIndex": 13,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.009816
+        },
+        {
+          "file": "5_00018.png",
+          "sourceIndex": 18,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007227
+        },
+        {
+          "file": "5_00021.png",
+          "sourceIndex": 21,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.010141
+        },
+        {
+          "file": "5_00026.png",
+          "sourceIndex": 26,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.008077
+        },
+        {
+          "file": "5_00029.png",
+          "sourceIndex": 29,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.008349
+        },
+        {
+          "file": "5_00033.png",
+          "sourceIndex": 33,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.01065
+        },
+        {
+          "file": "5_00035.png",
+          "sourceIndex": 35,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.00694
+        },
+        {
+          "file": "5_00038.png",
+          "sourceIndex": 38,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.009791
+        },
+        {
+          "file": "5_00043.png",
+          "sourceIndex": 43,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.007388
+        },
+        {
+          "file": "5_00046.png",
+          "sourceIndex": 46,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.005324
+        },
+        {
+          "file": "5_00048.png",
+          "sourceIndex": 48,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.005593
+        },
+        {
+          "file": "5_00050.png",
+          "sourceIndex": 50,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.009261
+        },
+        {
+          "file": "5_00054.png",
+          "sourceIndex": 54,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.010234
+        },
+        {
+          "file": "5_00059.png",
+          "sourceIndex": 59,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.009908
+        },
+        {
+          "file": "5_00062.png",
+          "sourceIndex": 62,
+          "durationFrames": 5,
+          "durationSeconds": 0.208333,
+          "changeScore": 0.009855
+        },
+        {
+          "file": "5_00067.png",
+          "sourceIndex": 67,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.009223
+        },
+        {
+          "file": "5_00070.png",
+          "sourceIndex": 70,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.006516
+        },
+        {
+          "file": "5_00072.png",
+          "sourceIndex": 72,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.006295
+        },
+        {
+          "file": "5_00074.png",
+          "sourceIndex": 74,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.006943
+        },
+        {
+          "file": "5_00076.png",
+          "sourceIndex": 76,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.00847
+        },
+        {
+          "file": "5_00078.png",
+          "sourceIndex": 78,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.010001
+        },
+        {
+          "file": "5_00082.png",
+          "sourceIndex": 82,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.009692
+        },
+        {
+          "file": "5_00084.png",
+          "sourceIndex": 84,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.006571
+        },
+        {
+          "file": "5_00086.png",
+          "sourceIndex": 86,
+          "durationFrames": 4,
+          "durationSeconds": 0.166667,
+          "changeScore": 0.00893
+        },
+        {
+          "file": "5_00090.png",
+          "sourceIndex": 90,
+          "durationFrames": 2,
+          "durationSeconds": 0.083333,
+          "changeScore": 0.005599
+        },
+        {
+          "file": "5_00092.png",
+          "sourceIndex": 92,
+          "durationFrames": 3,
+          "durationSeconds": 0.125,
+          "changeScore": 0.003973
+        },
+        {
+          "file": "5_00095.png",
+          "sourceIndex": 95,
+          "durationFrames": 1,
+          "durationSeconds": 0.041667,
+          "changeScore": 0.008745
+        }
+      ]
+    }
+  ]
+}

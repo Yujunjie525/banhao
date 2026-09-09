@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "魔导初启",
+    "desc": "最高关卡达到8关",
+    "rewardDiamond": 100,
+    "target": 8,
+    "type": 1
+  },
+  {
+    "id": 2,
+    "name": "奥术行者",
+    "desc": "最高关卡达到15关",
+    "rewardDiamond": 200,
+    "target": 15,
+    "type": 1
+  },
+  {
+    "id": 3,
+    "name": "魔能疾跃",
+    "desc": "最高关卡达到28关",
+    "rewardDiamond": 350,
+    "target": 28,
+    "type": 1
+  },
+  {
+    "id": 4,
+    "name": "法界逐风",
+    "desc": "最高关卡达到60关",
+    "rewardDiamond": 500,
+    "target": 60,
+    "type": 1
+  },
+  {
+    "id": 5,
+    "name": "奥术圣主",
+    "desc": "最高关卡达到120关",
+    "rewardDiamond": 1000,
+    "target": 120,
+    "type": 1
+  },
+  {
+    "id": 6,
+    "name": "魔法伊始",
+    "desc": "累计游戏时长8分钟",
+    "rewardDiamond": 50,
+    "target": 8,
+    "type": 2
+  },
+  {
+    "id": 7,
+    "name": "魔途漫行",
+    "desc": "累计游戏时长40分钟",
+    "rewardDiamond": 150,
+    "target": 40,
+    "type": 2
+  },
+  {
+    "id": 8,
+    "name": "法师试炼",
+    "desc": "累计游戏时长150分钟",
+    "rewardDiamond": 300,
+    "target": 150,
+    "type": 2
+  },
+  {
+    "id": 9,
+    "name": "秘法苦修",
+    "desc": "累计游戏时长420分钟",
+    "rewardDiamond": 600,
+    "target": 420,
+    "type": 2
+  },
+  {
+    "id": 10,
+    "name": "永恒魔导士",
+    "desc": "累计游戏时长1200分钟",
+    "rewardDiamond": 1200,
+    "target": 1200,
+    "type": 2
+  },
+  {
+    "id": 11,
+    "name": "魔晶初获",
+    "desc": "累计获得150颗钻石",
+    "rewardDiamond": 80,
+    "target": 150,
+    "type": 3
+  },
+  {
+    "id": 12,
+    "name": "晶财积累",
+    "desc": "累计获得600颗钻石",
+    "rewardDiamond": 200,
+    "target": 600,
+    "type": 3
+  },
+  {
+    "id": 13,
+    "name": "魔晶寻宝者",
+    "desc": "累计获得2500颗钻石",
+    "rewardDiamond": 400,
+    "target": 2500,
+    "type": 3
+  },
+  {
+    "id": 14,
+    "name": "魔晶权主",
+    "desc": "累计获得6000颗钻石",
+    "rewardDiamond": 800,
+    "target": 6000,
+    "type": 3
+  },
+  {
+    "id": 15,
+    "name": "奥术富豪",
+    "desc": "累计获得25000颗钻石",
+    "rewardDiamond": 1500,
+    "target": 25000,
+    "type": 3
+  },
+  {
+    "id": 16,
+    "name": "魔力涌流",
+    "desc": "累计消耗80点体力",
+    "rewardDiamond": 60,
+    "target": 80,
+    "type": 4
+  },
+  {
+    "id": 17,
+    "name": "魔导鏖战",
+    "desc": "累计消耗250点体力",
+    "rewardDiamond": 180,
+    "target": 250,
+    "type": 4
+  },
+  {
+    "id": 18,
+    "name": "不屈法魂",
+    "desc": "累计消耗1000点体力",
+    "rewardDiamond": 350,
+    "target": 1000,
+    "type": 4
+  },
+  {
+    "id": 19,
+    "name": "魔战不息",
+    "desc": "累计消耗2400点体力",
+    "rewardDiamond": 700,
+    "target": 2400,
+    "type": 4
+  },
+  {
+    "id": 20,
+    "name": "魔导铁魂",
+    "desc": "累计消耗6000点体力",
+    "rewardDiamond": 1200,
+    "target": 6000,
+    "type": 4
+  }
+]
