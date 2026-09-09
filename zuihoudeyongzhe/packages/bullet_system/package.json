@@ -1,0 +1,22 @@
+{
+  "name": "bullet_system",
+  "version": "1.0.3",
+  "description": "子弹系统",
+  "author": "林其",
+  "main": "main.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/子弹系统/设置": {
+      "message": "bullet_system:set"
+    },
+    "i18n:MAIN_MENU.package.title/子弹系统/导入代码": {
+      "message": "bullet_system:import"
+    }
+  },
+    "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "子弹系统",
+    "width": 700,
+    "height": 1080
+  }
+}
