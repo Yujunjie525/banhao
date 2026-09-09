@@ -1,0 +1,150 @@
+"use strict";
+cc._RF.push(module, '5fb1bsmiJdK1oNYEsxw9aUC', 'WarriorRunConfig');
+// Scripts/game/WarriorRunConfig.ts
+
+Object.defineProperty(exports, "__esModule", { value: true });
+function level(level_id, distance_target, base_run_speed, initial_bullet_count, boss_hp_multiplier, spawns) {
+    return { level_id: level_id, distance_target: distance_target, base_run_speed: base_run_speed, initial_bullet_count: initial_bullet_count, boss_hp_multiplier: boss_hp_multiplier, spawns: spawns };
+}
+var warriorRunConfig = {
+    global_configs: {
+        combo_max_limit: 300,
+        combo_dmg_buff_per_hit: 0.01,
+        element_advantage_multiplier: 1.5,
+        element_disadvantage_multiplier: 0.5,
+        score_per_distance: 10,
+        score_per_monster_kill: 5,
+    },
+    characters: [
+        { entity_id: 'C001', name: '孤狼突击手', base_attack: 5, fire_rate_per_sec: 6, unlock_cost: 0, initial_element: 'wind', initial_bullet_bonus: 0, combo_dmg_bonus_per_hit: 0, boss_damage_multiplier: 1, element_advantage_bonus: 0, squad_threshold_offset: 0 },
+        { entity_id: 'C002', name: '烈焰先锋', base_attack: 3, fire_rate_per_sec: 8, unlock_cost: 500, initial_element: 'fire', initial_bullet_bonus: 10, combo_dmg_bonus_per_hit: 0, boss_damage_multiplier: 1, element_advantage_bonus: 0.15, squad_threshold_offset: -5 },
+        { entity_id: 'C003', name: '重装破坏者', base_attack: 15, fire_rate_per_sec: 5, unlock_cost: 1000, initial_element: 'thunder', initial_bullet_bonus: -6, combo_dmg_bonus_per_hit: 0, boss_damage_multiplier: 1.15, element_advantage_bonus: 0, squad_threshold_offset: 10 },
+        { entity_id: 'C004', name: '幽灵狙击手', base_attack: 40, fire_rate_per_sec: 2, unlock_cost: 2000, initial_element: 'wind', initial_bullet_bonus: -20, combo_dmg_bonus_per_hit: 0.005, boss_damage_multiplier: 1.35, element_advantage_bonus: 0, squad_threshold_offset: 20 },
+        { entity_id: 'C005', name: '赛博指挥官', base_attack: 20, fire_rate_per_sec: 7, unlock_cost: 5000, initial_element: 'thunder', initial_bullet_bonus: 20, combo_dmg_bonus_per_hit: 0.003, boss_damage_multiplier: 1.1, element_advantage_bonus: 0.1, squad_threshold_offset: -15 },
+    ],
+    drop_packs: [
+        { pack_id: 'DP_E_WIND', name: '风', pack_type: 'element', element_value: 'wind', math_operator: 'none', math_value: 0 },
+        { pack_id: 'DP_E_FIRE', name: '火', pack_type: 'element', element_value: 'fire', math_operator: 'none', math_value: 0 },
+        { pack_id: 'DP_E_THUNDER', name: '雷', pack_type: 'element', element_value: 'thunder', math_operator: 'none', math_value: 0 },
+        { pack_id: 'DP_M_ADD10', name: '+10', pack_type: 'math_buff', element_value: 'none', math_operator: 'add', math_value: 10 },
+        { pack_id: 'DP_M_ADD50', name: '+50', pack_type: 'math_buff', element_value: 'none', math_operator: 'add', math_value: 50 },
+        { pack_id: 'DP_M_MUL2', name: 'x2', pack_type: 'math_buff', element_value: 'none', math_operator: 'multiply', math_value: 2 },
+        { pack_id: 'DP_M_SUB15', name: '-15', pack_type: 'math_debuff', element_value: 'none', math_operator: 'subtract', math_value: 15 },
+        { pack_id: 'DP_M_DIV2', name: '÷2', pack_type: 'math_debuff', element_value: 'none', math_operator: 'divide', math_value: 2 },
+    ],
+    targets: [
+        { entity_id: 'M001', name: '基础方阵', target_type: 'cluster', cluster_shape: 'square', hp_per_unit: 18, unit_count: 68, drop_types: ['element', 'math_buff'] },
+        { entity_id: 'M002', name: '纵列方阵', target_type: 'cluster', cluster_shape: 'column', hp_per_unit: 16, unit_count: 30, drop_types: ['math_buff'] },
+        { entity_id: 'M003', name: '铁壁方阵', target_type: 'cluster', cluster_shape: 'wide', hp_per_unit: 34, unit_count: 18, drop_types: ['element', 'math_buff', 'math_debuff'] },
+        { entity_id: 'M004', name: '诱饵队列', target_type: 'cluster', cluster_shape: 'column', hp_per_unit: 16, unit_count: 15, drop_types: [] },
+        { entity_id: 'O001', name: '战术补给箱', target_type: 'obstacle', cluster_shape: 'null', hp_per_unit: 520, unit_count: 1, drop_types: ['math_buff'] },
+    ],
+    bosses: [
+        { entity_id: 'B001', name: '机械典狱长', base_hp: 50000, element_type: 'thunder', lane_occupy: 1, shift_interval_sec: 3, approach_speed_per_sec: 2.8 },
+    ],
+    levels: [
+        level(1, 1900, 60, 10, 0.12, [
+            { spawn_distance: 120, type: 'target', entity_id: 'M001', lane: 1, element: 'wind', unit_count_multiplier: 0.55 },
+            { spawn_distance: 320, type: 'target', entity_id: 'M002', lane: 0, element: 'fire', unit_count_multiplier: 0.6 },
+            { spawn_distance: 520, type: 'target', entity_id: 'M001', lane: 2, element: 'thunder', unit_count_multiplier: 0.55 },
+            { spawn_distance: 740, type: 'target', entity_id: 'O001', lane: 2, element: 'none', unit_count_multiplier: 0.65 },
+            { spawn_distance: 960, type: 'target', entity_id: 'M003', lane: 1, element: 'thunder', unit_count_multiplier: 0.58 },
+            { spawn_distance: 1180, type: 'target', entity_id: 'M004', lane: 0, element: 'fire', unit_count_multiplier: 0.7 },
+            { spawn_distance: 1400, type: 'target', entity_id: 'M002', lane: 2, element: 'wind', unit_count_multiplier: 0.68 },
+            { spawn_distance: 1640, type: 'boss', entity_id: 'B001', lane: 1, element: 'thunder' },
+        ]),
+        level(2, 2100, 62, 12, 0.16, [
+            { spawn_distance: 130, type: 'target', entity_id: 'M002', lane: 1, element: 'wind', unit_count_multiplier: 0.68 },
+            { spawn_distance: 360, type: 'target', entity_id: 'M001', lane: 2, element: 'fire', unit_count_multiplier: 0.65 },
+            { spawn_distance: 600, type: 'target', entity_id: 'M004', lane: 0, element: 'wind', unit_count_multiplier: 0.7 },
+            { spawn_distance: 840, type: 'target', entity_id: 'O001', lane: 1, element: 'none', unit_count_multiplier: 0.75 },
+            { spawn_distance: 1080, type: 'target', entity_id: 'M003', lane: 0, element: 'thunder', unit_count_multiplier: 0.68 },
+            { spawn_distance: 1320, type: 'target', entity_id: 'M001', lane: 1, element: 'fire', unit_count_multiplier: 0.72 },
+            { spawn_distance: 1580, type: 'target', entity_id: 'M004', lane: 2, element: 'wind', unit_count_multiplier: 0.82 },
+            { spawn_distance: 1840, type: 'boss', entity_id: 'B001', lane: 1, element: 'thunder' },
+        ]),
+        level(3, 2300, 64, 14, 0.2, [
+            { spawn_distance: 140, type: 'target', entity_id: 'M001', lane: 0, element: 'fire', unit_count_multiplier: 0.75 },
+            { spawn_distance: 400, type: 'target', entity_id: 'M002', lane: 1, element: 'thunder', unit_count_multiplier: 0.78 },
+            { spawn_distance: 660, type: 'target', entity_id: 'M004', lane: 2, element: 'wind', unit_count_multiplier: 0.82 },
+            { spawn_distance: 920, type: 'target', entity_id: 'O001', lane: 2, element: 'none', unit_count_multiplier: 0.8 },
+            { spawn_distance: 1180, type: 'target', entity_id: 'M003', lane: 1, element: 'wind', unit_count_multiplier: 0.75 },
+            { spawn_distance: 1440, type: 'target', entity_id: 'M001', lane: 2, element: 'fire', unit_count_multiplier: 0.85 },
+            { spawn_distance: 1720, type: 'target', entity_id: 'M004', lane: 0, element: 'fire', unit_count_multiplier: 0.9 },
+            { spawn_distance: 2020, type: 'boss', entity_id: 'B001', lane: 2, element: 'thunder' },
+        ]),
+        level(4, 2500, 66, 16, 0.26, [
+            { spawn_distance: 150, type: 'target', entity_id: 'M001', lane: 2, element: 'thunder', unit_count_multiplier: 0.85 },
+            { spawn_distance: 440, type: 'target', entity_id: 'M004', lane: 1, element: 'wind', unit_count_multiplier: 0.95 },
+            { spawn_distance: 730, type: 'target', entity_id: 'M002', lane: 0, element: 'fire', unit_count_multiplier: 0.9 },
+            { spawn_distance: 1020, type: 'target', entity_id: 'M001', lane: 1, element: 'thunder', unit_count_multiplier: 0.92 },
+            { spawn_distance: 1320, type: 'target', entity_id: 'M003', lane: 2, element: 'thunder', unit_count_multiplier: 0.82 },
+            { spawn_distance: 1620, type: 'target', entity_id: 'O001', lane: 1, element: 'none', unit_count_multiplier: 0.9 },
+            { spawn_distance: 1900, type: 'target', entity_id: 'M004', lane: 0, element: 'wind', unit_count_multiplier: 1 },
+            { spawn_distance: 2200, type: 'boss', entity_id: 'B001', lane: 0, element: 'thunder' },
+        ]),
+        level(5, 2700, 68, 18, 0.34, [
+            { spawn_distance: 160, type: 'target', entity_id: 'M002', lane: 0, element: 'wind', unit_count_multiplier: 1 },
+            { spawn_distance: 480, type: 'target', entity_id: 'M001', lane: 1, element: 'fire', unit_count_multiplier: 0.9 },
+            { spawn_distance: 800, type: 'target', entity_id: 'M004', lane: 2, element: 'fire', unit_count_multiplier: 1 },
+            { spawn_distance: 1120, type: 'target', entity_id: 'M003', lane: 2, element: 'thunder', unit_count_multiplier: 0.9 },
+            { spawn_distance: 1440, type: 'target', entity_id: 'M001', lane: 0, element: 'wind', unit_count_multiplier: 1 },
+            { spawn_distance: 1760, type: 'target', entity_id: 'M004', lane: 1, element: 'fire', unit_count_multiplier: 1.05 },
+            { spawn_distance: 2080, type: 'target', entity_id: 'O001', lane: 0, element: 'none', unit_count_multiplier: 1 },
+            { spawn_distance: 2380, type: 'boss', entity_id: 'B001', lane: 1, element: 'thunder' },
+        ]),
+        level(6, 2900, 70, 20, 0.44, [
+            { spawn_distance: 180, type: 'target', entity_id: 'M001', lane: 1, element: 'wind', unit_count_multiplier: 1 },
+            { spawn_distance: 520, type: 'target', entity_id: 'M003', lane: 0, element: 'fire', unit_count_multiplier: 1 },
+            { spawn_distance: 860, type: 'target', entity_id: 'M002', lane: 2, element: 'thunder', unit_count_multiplier: 1.05 },
+            { spawn_distance: 1200, type: 'target', entity_id: 'M004', lane: 0, element: 'wind', unit_count_multiplier: 1.1 },
+            { spawn_distance: 1540, type: 'target', entity_id: 'O001', lane: 1, element: 'none', unit_count_multiplier: 1 },
+            { spawn_distance: 1880, type: 'target', entity_id: 'M001', lane: 2, element: 'fire', unit_count_multiplier: 1.05 },
+            { spawn_distance: 2220, type: 'target', entity_id: 'M003', lane: 0, element: 'thunder', unit_count_multiplier: 1.08 },
+            { spawn_distance: 2560, type: 'boss', entity_id: 'B001', lane: 1, element: 'thunder' },
+        ]),
+        level(7, 3100, 72, 22, 0.56, [
+            { spawn_distance: 200, type: 'target', entity_id: 'M003', lane: 1, element: 'thunder', unit_count_multiplier: 1.05 },
+            { spawn_distance: 560, type: 'target', entity_id: 'M002', lane: 0, element: 'wind', unit_count_multiplier: 1.1 },
+            { spawn_distance: 920, type: 'target', entity_id: 'M001', lane: 2, element: 'fire', unit_count_multiplier: 1.08 },
+            { spawn_distance: 1280, type: 'target', entity_id: 'M004', lane: 1, element: 'thunder', unit_count_multiplier: 1.12 },
+            { spawn_distance: 1640, type: 'target', entity_id: 'M002', lane: 2, element: 'wind', unit_count_multiplier: 1.12 },
+            { spawn_distance: 2000, type: 'target', entity_id: 'O001', lane: 0, element: 'none', unit_count_multiplier: 1.1 },
+            { spawn_distance: 2380, type: 'target', entity_id: 'M001', lane: 1, element: 'fire', unit_count_multiplier: 1.12 },
+            { spawn_distance: 2740, type: 'boss', entity_id: 'B001', lane: 2, element: 'thunder' },
+        ]),
+        level(8, 3300, 74, 24, 0.7, [
+            { spawn_distance: 220, type: 'target', entity_id: 'M001', lane: 0, element: 'fire', unit_count_multiplier: 1.15 },
+            { spawn_distance: 620, type: 'target', entity_id: 'M004', lane: 2, element: 'wind', unit_count_multiplier: 1.2 },
+            { spawn_distance: 1020, type: 'target', entity_id: 'M003', lane: 1, element: 'thunder', unit_count_multiplier: 1.12 },
+            { spawn_distance: 1420, type: 'target', entity_id: 'M002', lane: 0, element: 'fire', unit_count_multiplier: 1.2 },
+            { spawn_distance: 1820, type: 'target', entity_id: 'O001', lane: 1, element: 'none', unit_count_multiplier: 1.15 },
+            { spawn_distance: 2220, type: 'target', entity_id: 'M001', lane: 2, element: 'wind', unit_count_multiplier: 1.2 },
+            { spawn_distance: 2600, type: 'target', entity_id: 'M004', lane: 0, element: 'fire', unit_count_multiplier: 1.22 },
+            { spawn_distance: 2940, type: 'boss', entity_id: 'B001', lane: 1, element: 'thunder' },
+        ]),
+        level(9, 3500, 76, 26, 0.86, [
+            { spawn_distance: 240, type: 'target', entity_id: 'M002', lane: 1, element: 'thunder', unit_count_multiplier: 1.22 },
+            { spawn_distance: 680, type: 'target', entity_id: 'M003', lane: 2, element: 'fire', unit_count_multiplier: 1.18 },
+            { spawn_distance: 1120, type: 'target', entity_id: 'M001', lane: 0, element: 'wind', unit_count_multiplier: 1.28 },
+            { spawn_distance: 1560, type: 'target', entity_id: 'M004', lane: 2, element: 'fire', unit_count_multiplier: 1.28 },
+            { spawn_distance: 2000, type: 'target', entity_id: 'M002', lane: 0, element: 'thunder', unit_count_multiplier: 1.25 },
+            { spawn_distance: 2420, type: 'target', entity_id: 'O001', lane: 1, element: 'none', unit_count_multiplier: 1.2 },
+            { spawn_distance: 2800, type: 'target', entity_id: 'M003', lane: 2, element: 'fire', unit_count_multiplier: 1.22 },
+            { spawn_distance: 3140, type: 'boss', entity_id: 'B001', lane: 0, element: 'thunder' },
+        ]),
+        level(10, 3700, 78, 28, 1.05, [
+            { spawn_distance: 260, type: 'target', entity_id: 'M003', lane: 0, element: 'thunder', unit_count_multiplier: 1.32 },
+            { spawn_distance: 740, type: 'target', entity_id: 'M001', lane: 1, element: 'fire', unit_count_multiplier: 1.35 },
+            { spawn_distance: 1220, type: 'target', entity_id: 'M002', lane: 2, element: 'wind', unit_count_multiplier: 1.38 },
+            { spawn_distance: 1700, type: 'target', entity_id: 'M004', lane: 1, element: 'thunder', unit_count_multiplier: 1.42 },
+            { spawn_distance: 2160, type: 'target', entity_id: 'M001', lane: 0, element: 'fire', unit_count_multiplier: 1.4 },
+            { spawn_distance: 2620, type: 'target', entity_id: 'M003', lane: 2, element: 'fire', unit_count_multiplier: 1.35 },
+            { spawn_distance: 3020, type: 'target', entity_id: 'O001', lane: 1, element: 'none', unit_count_multiplier: 1.3 },
+            { spawn_distance: 3340, type: 'boss', entity_id: 'B001', lane: 1, element: 'thunder' },
+        ]),
+    ],
+};
+exports.default = warriorRunConfig;
+
+cc._RF.pop();
