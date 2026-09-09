@@ -1,0 +1,118 @@
+{
+  "__version__": "3.0.7",
+  "builder": {
+    "options": {
+      "web-desktop": {
+        "configID": "88eb4c",
+        "services": []
+      },
+      "wechatgame": {
+        "configID": "88eb4c",
+        "services": []
+      },
+      "ohos": {
+        "configID": "88eb4c",
+        "services": []
+      },
+      "alipay-mini-game": {
+        "configID": "88eb4c",
+        "services": []
+      },
+      "bytedance-mini-game": {
+        "configID": "88eb4c",
+        "services": []
+      },
+      "android": {
+        "configID": "88eb4c",
+        "services": []
+      }
+    },
+    "taskOptionsMap": {
+      "1722357059533": {
+        "configID": "88eb4c",
+        "services": []
+      },
+      "1722357597348": {
+        "configID": "88eb4c",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1722357897367": {
+        "configID": "88eb4c",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1722357927352": {
+        "configID": "88eb4c",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1722358842191": {
+        "configID": "88eb4c",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1722358857152": {
+        "configID": "88eb4c",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1722359130210": {
+        "configID": "88eb4c",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1722359668160": {
+        "configID": "88eb4c",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724652025215": {
+        "configID": "88eb4c",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1725936106743": {
+        "configID": "88eb4c",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1726506858425": {
+        "configID": "88eb4c",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1726555892475": {
+        "configID": "88eb4c",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1726506858425}": {
+        "configID": "88eb4c",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1726555892475}": {
+        "configID": "88eb4c",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1776335536936": {
+        "configID": "88eb4c",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1779160317068": {
+        "configID": "88eb4c",
+        "services": [],
+        "__version__": "3.0.7"
+      }
+    },
+    "__version__": "1.3.7"
+  },
+  "builder-options": {
+    "configID": "88eb4c",
+    "services": [],
+    "__version__": "3.0.7"
+  }
+}
