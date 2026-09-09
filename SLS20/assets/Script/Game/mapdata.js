@@ -1,0 +1,940 @@
+let base = [{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false}];
+let r1 = [{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":[{"type":"floor","prop":"force","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"gem","d":"left"},{"type":"floor","prop":"gem","d":"left"},{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"force","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"trap","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"trap","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"gem","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"}]},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"gem","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"}]},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":true,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false}];
+let r2 = [{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"force","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"force","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"gem","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"}]},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"force","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"trap","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"gem","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"gem","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"force","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"gem","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"trap","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":true,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"gem","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false}];
+let r3 = [{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"gem","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"}]},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"force","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"force","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"gem","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"}]},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"gem","d":"left"}]},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":true,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"gem","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false}];
+let r4 = [{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"gem","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"gem","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"trap","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"}]},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"trap","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"}]},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"force","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":[{"type":"floor","prop":"gem","d":"right"},{"type":"floor","prop":"gem","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":true,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"gem","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"gem","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false}];
+let r5 = [{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"trap","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"gem","d":"right"},{"type":"floor","prop":"","d":"right"}]},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"gem","d":"right"},{"type":"floor","prop":"","d":"right"}]},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"trap","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"}]},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"force","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"gem","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"trap","d":"right"},{"type":"floor","prop":"","d":"right"}]},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"gem","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"}]},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"force","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":[{"type":"floor","prop":"trap","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":true,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"force","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false}]
+let r6 = [{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"gem","d":"left"},{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"trap","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"trap","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"force","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"trap","d":"left"},{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"reverse","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"}]},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":true,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false}];
+let r7 = [{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"force","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"gem","d":"right"},{"type":"floor","prop":"","d":"right"}]},{"type":"floor","prop":"force","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"reverse","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"trap","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"gem","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"}]},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"force","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"force","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"reverse","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":true,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"gem","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false}];
+let r8 = [{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"trap","d":"left"}]},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"force","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"trap","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"reverse","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":[{"type":"floor","prop":"force","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"trap","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"reverse","d":"left","bottom":false,"end":false,"fork":[{"type":"floor","prop":"gem","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":true,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"gem","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false}];
+let r9 = [{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"trap","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":[{"type":"floor","prop":"reverse","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"gem","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"}]},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"trap","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"force","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":[{"type":"floor","prop":"gem","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"force","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"trap","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"reverse","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"left","bottom":false,"end":false,"fork":[{"type":"floor","prop":"","d":"right"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"},{"type":"floor","prop":"","d":"left"}]},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"reverse","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"gem","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"floor","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":true,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"gem","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"left","bottom":true,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false},{"type":"base","prop":"","d":"right","bottom":false,"end":false,"fork":false}];
+let r10 = [{
+	"type": "floor",
+	"prop": "force",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice3",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "gem",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "gem",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "trap",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": [{
+		"type": "floor",
+		"prop": "reverse",
+		"d": "left"
+	}, {
+		"type": "floor",
+		"prop": "gem",
+		"d": "left"
+	}, {
+		"type": "floor",
+		"prop": "",
+		"d": "left"
+	}, {
+		"type": "floor",
+		"prop": "ice3",
+		"d": "left"
+	}, {
+		"type": "floor",
+		"prop": "ice1",
+		"d": "right"
+	}, {
+		"type": "floor",
+		"prop": "gem",
+		"d": "right"
+	}, {
+		"type": "floor",
+		"prop": "",
+		"d": "right"
+	}, {
+		"type": "floor",
+		"prop": "ice1",
+		"d": "left"
+	}, {
+		"type": "floor",
+		"prop": "",
+		"d": "left"
+	}, {
+		"type": "floor",
+		"prop": "",
+		"d": "left"
+	}, {
+		"type": "floor",
+		"prop": "ice3",
+		"d": "right"
+	}, {
+		"type": "floor",
+		"prop": "ice1",
+		"d": "right"
+	}, {
+		"type": "floor",
+		"prop": "",
+		"d": "right"
+	}]
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice3",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice2",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice3",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "gem",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "force",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice2",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "gem",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice1",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "gem",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "trap",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "force",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice1",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "gem",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": [{
+		"type": "floor",
+		"prop": "gem",
+		"d": "right"
+	}, {
+		"type": "floor",
+		"prop": "",
+		"d": "right"
+	}, {
+		"type": "floor",
+		"prop": "ice3",
+		"d": "right"
+	}, {
+		"type": "floor",
+		"prop": "ice3",
+		"d": "left"
+	}, {
+		"type": "floor",
+		"prop": "ice1",
+		"d": "left"
+	}, {
+		"type": "floor",
+		"prop": "",
+		"d": "left"
+	}]
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "force",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "gem",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "gem",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice2",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice3",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "trap",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "reverse",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice1",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "gem",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice1",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice1",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "gem",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice3",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "gem",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": [{
+		"type": "floor",
+		"prop": "ice3",
+		"d": "right"
+	}, {
+		"type": "floor",
+		"prop": "",
+		"d": "left"
+	}, {
+		"type": "floor",
+		"prop": "ice1",
+		"d": "left"
+	}, {
+		"type": "floor",
+		"prop": "ice1",
+		"d": "left"
+	}]
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice3",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice1",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "reverse",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice3",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "gem",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "gem",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice3",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice1",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice3",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice2",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "ice1",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "floor",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": true,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "ice3",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "",
+	"d": "left",
+	"bottom": true,
+	"end": false,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "",
+	"d": "left",
+	"bottom": true,
+	"end": false,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "ice3",
+	"d": "left",
+	"bottom": true,
+	"end": false,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "",
+	"d": "left",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "",
+	"d": "left",
+	"bottom": true,
+	"end": false,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "gem",
+	"d": "left",
+	"bottom": true,
+	"end": false,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "",
+	"d": "left",
+	"bottom": true,
+	"end": false,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}, {
+	"type": "base",
+	"prop": "",
+	"d": "right",
+	"bottom": false,
+	"end": false,
+	"fork": false
+}];
+
+module.exports = {
+    base, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10
+}
