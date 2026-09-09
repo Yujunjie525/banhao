@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e6605a5c-9965-4e46-a007-cabb39585fc8",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 720,
+  "height": 1280,
+  "platformSettings": {},
+  "subMetas": {
+    "效果图 游戏暂停": {
+      "ver": "1.0.6",
+      "uuid": "ee3f1db6-b41b-4414-bfd7-7f904989140f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e6605a5c-9965-4e46-a007-cabb39585fc8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 720,
+      "height": 1280,
+      "rawWidth": 720,
+      "rawHeight": 1280,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
