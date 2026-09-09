@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "icon": "subgame/ui_wgyxl/ani/npc/2",
+    "name": "疾风游侠",
+    "type": 1,
+    "skill": "",
+    "useBuy": 0
+  },
+  {
+    "id": 2,
+    "icon": "subgame/ui_wgyxl/ani/npc/3",
+    "name": "秘法学者",
+    "type": 1,
+    "skill": "",
+    "useBuy": 1000
+  },
+  {
+    "id": 3,
+    "icon": "subgame/ui_wgyxl/ani/npc/4",
+    "name": "圣光牧师",
+    "type": 1,
+    "skill": "",
+    "useBuy": 3000
+  },
+  {
+    "id": 4,
+    "icon": "subgame/ui_wgyxl/ani/npc/5",
+    "name": "狂战士",
+    "type": 1,
+    "skill": "雪落无痕",
+    "useBuy": 5000
+  },
+  {
+    "id": 5,
+    "icon": "subgame/ui_wgyxl/ani/npc/6",
+    "name": "暗夜渡鸦",
+    "type": 1,
+    "skill": "一字千金",
+    "useBuy": 7000
+  },
+  {
+    "id": 6,
+    "icon": "subgame/ui_wgyxl/main/tili",
+    "name": "10点体力",
+    "type": 2,
+    "skill": "",
+    "useBuy": 100
+  }
+]

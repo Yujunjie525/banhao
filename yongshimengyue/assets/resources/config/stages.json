@@ -1,0 +1,32 @@
+{
+    "stages": [
+        {
+            "id": "1",
+            "res": "stage_1"
+        },
+        {
+            "id": "2",
+            "res": "stage_2"
+        },
+        {
+            "id": "3",
+            "res": "stage_3"
+        },
+        {
+            "id": "4",
+            "res": "stage_4"
+        },
+        {
+            "id": "5",
+            "res": "stage_5"
+        },
+        {
+            "id": "6",
+            "res": "stage_6"
+        },
+        {
+            "id": "7",
+            "res": "stage_7"
+        }
+    ]
+}

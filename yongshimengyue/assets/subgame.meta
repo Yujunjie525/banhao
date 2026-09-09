@@ -1,0 +1,21 @@
+{
+  "ver": "1.1.3",
+  "uuid": "92ce1933-9dae-499d-b661-4a894ec2c38e",
+  "importer": "folder",
+  "isBundle": true,
+  "bundleName": "",
+  "priority": "3",
+  "compressionType": {
+    "web-mobile": "merge_all_json"
+  },
+  "optimizeHotUpdate": {
+    "web-mobile": false
+  },
+  "inlineSpriteFrames": {
+    "web-mobile": false
+  },
+  "isRemoteBundle": {
+    "web-mobile": false
+  },
+  "subMetas": {}
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "time": 5,
+    "name": "勇者初临",
+    "desc": "在线5分钟奖励",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 150
+  },
+  {
+    "id": 2,
+    "time": 15,
+    "name": "征途前行",
+    "desc": "在线15分钟奖励",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 250
+  },
+  {
+    "id": 3,
+    "time": 30,
+    "name": "勇者历练",
+    "desc": "在线30分钟奖励",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 400
+  },
+  {
+    "id": 4,
+    "time": 45,
+    "name": "秘境探索",
+    "desc": "在线45分钟奖励",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 600
+  },
+  {
+    "id": 5,
+    "time": 60,
+    "name": "无畏前行",
+    "desc": "在线60分钟奖励",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 850
+  },
+  {
+    "id": 6,
+    "time": 80,
+    "name": "坚守之心",
+    "desc": "在线80分钟奖励",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 1200
+  },
+  {
+    "id": 7,
+    "time": 100,
+    "name": "勇者常驻",
+    "desc": "在线100分钟奖励",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 1600
+  },
+  {
+    "id": 8,
+    "time": 125,
+    "name": "传奇之路",
+    "desc": "在线125分钟奖励",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 2100
+  },
+  {
+    "id": 9,
+    "time": 150,
+    "name": "终极勇者",
+    "desc": "在线150分钟奖励",
+    "icon": 10,
+    "rewardId": 1,
+    "rewardNum": 3000
+  }
+]

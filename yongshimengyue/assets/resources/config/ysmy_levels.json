@@ -1,0 +1,62 @@
+{
+  "global_physics": {
+    "chain": 180
+  },
+  "character_ctrl": [
+    {
+      "char_id": "H_001",
+      "name": "神圣公主",
+      "speed": 5.0,
+      "jump_impulse_y": 8,
+      "jump_impulse_x": 28
+    },
+    {
+      "char_id": "G_001",
+      "name": "皇家护卫",
+      "speed": 3.5,
+      "jump_impulse_y": 25,
+      "jump_impulse_x": 6
+    }
+  ],
+  "levels": [
+    {
+      "level_id": "ysmy_1",
+      "win_y_threshold": 1320,
+      "star_spawns": [
+        { "x": 32, "y": 320 },
+        { "x": -96, "y": 900 }
+      ],
+      "stones": [
+        { "stone_id": "start", "type": "solid", "x": 0, "y": -32, "width": 640, "height": 64 },
+        { "stone_id": "guard_high_1", "type": "solid", "x": -160, "y": 216, "width": 160, "height": 28 },
+        { "stone_id": "princess_gap_1", "type": "solid", "x": 248, "y": 216, "width": 128, "height": 28 },
+        { "stone_id": "guard_high_2", "type": "solid", "x": 240, "y": 476, "width": 160, "height": 28 },
+        { "stone_id": "princess_gap_2", "type": "solid", "x": -224, "y": 476, "width": 128, "height": 28 },
+        { "stone_id": "fragile_high", "type": "fragile", "x": -176, "y": 754, "width": 128, "height": 28 },
+        { "stone_id": "princess_gap_3", "type": "solid", "x": 216, "y": 754, "width": 128, "height": 28 },
+        { "stone_id": "guard_high_3", "type": "solid", "x": 224, "y": 1034, "width": 160, "height": 28 },
+        { "stone_id": "dichi_test", "type": "dichi", "x": -230, "y": 1034, "width": 128, "height": 28 },
+        { "stone_id": "exit", "type": "solid", "x": 0, "y": 1320, "width": 320, "height": 64 }
+      ]
+    },
+    {
+      "level_id": "ysmy_2",
+      "win_y_threshold": 1400,
+      "star_spawns": [
+        { "x": -116, "y": 392 },
+        { "x": 136, "y": 990 }
+      ],
+      "stones": [
+        { "stone_id": "start", "type": "solid", "x": 0, "y": -32, "width": 640, "height": 64 },
+        { "stone_id": "guard_high_1", "type": "solid", "x": 176, "y": 246, "width": 150, "height": 28 },
+        { "stone_id": "princess_gap_1", "type": "solid", "x": -248, "y": 246, "width": 118, "height": 28 },
+        { "stone_id": "fragile_mid", "type": "fragile", "x": -38, "y": 524, "width": 124, "height": 28 },
+        { "stone_id": "guard_high_2", "type": "solid", "x": 226, "y": 784, "width": 150, "height": 28 },
+        { "stone_id": "dichi_test", "type": "dichi", "x": -214, "y": 784, "width": 132, "height": 28 },
+        { "stone_id": "princess_gap_2", "type": "solid", "x": -250, "y": 1064, "width": 120, "height": 28 },
+        { "stone_id": "guard_high_3", "type": "solid", "x": 220, "y": 1064, "width": 150, "height": 28 },
+        { "stone_id": "exit", "type": "solid", "x": 0, "y": 1400, "width": 320, "height": 64 }
+      ]
+    }
+  ]
+}

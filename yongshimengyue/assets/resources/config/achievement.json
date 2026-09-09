@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "初入勇者路",
+    "desc": "通关第1关",
+    "rewardGold": 30,
+    "target": 1,
+    "type": 1,
+    "typeName": "关卡挑战"
+  },
+  {
+    "id": 2,
+    "name": "小试牛刀",
+    "desc": "通关第8关",
+    "rewardGold": 120,
+    "target": 8,
+    "type": 1,
+    "typeName": "关卡挑战"
+  },
+  {
+    "id": 3,
+    "name": "崭露头角",
+    "desc": "通关第20关",
+    "rewardGold": 250,
+    "target": 20,
+    "type": 1,
+    "typeName": "关卡挑战"
+  },
+  {
+    "id": 4,
+    "name": "勇者之名",
+    "desc": "通关第35关",
+    "rewardGold": 420,
+    "target": 35,
+    "type": 1,
+    "typeName": "关卡挑战"
+  },
+  {
+    "id": 5,
+    "name": "史诗英雄",
+    "desc": "通关第50关",
+    "rewardGold": 880,
+    "target": 50,
+    "type": 1,
+    "typeName": "关卡挑战"
+  },
+  {
+    "id": 6,
+    "name": "初次邂逅",
+    "desc": "累计游戏时长1分钟",
+    "rewardGold": 20,
+    "target": 1,
+    "type": 2,
+    "typeName": "游戏时长"
+  },
+  {
+    "id": 7,
+    "name": "渐入佳境",
+    "desc": "累计游戏时长10分钟",
+    "rewardGold": 80,
+    "target": 10,
+    "type": 2,
+    "typeName": "游戏时长"
+  },
+  {
+    "id": 8,
+    "name": "乐在其中",
+    "desc": "累计游戏时长60分钟",
+    "rewardGold": 200,
+    "target": 60,
+    "type": 2,
+    "typeName": "游戏时长"
+  },
+  {
+    "id": 9,
+    "name": "沉迷冒险",
+    "desc": "累计游戏时长240分钟",
+    "rewardGold": 450,
+    "target": 240,
+    "type": 2,
+    "typeName": "游戏时长"
+  },
+  {
+    "id": 10,
+    "name": "勇者传说",
+    "desc": "累计游戏时长720分钟",
+    "rewardGold": 950,
+    "target": 720,
+    "type": 2,
+    "typeName": "游戏时长"
+  },
+  {
+    "id": 11,
+    "name": "第一桶金",
+    "desc": "累计获得50个钻石",
+    "rewardGold": 25,
+    "target": 50,
+    "type": 3,
+    "typeName": "钻石收集"
+  },
+  {
+    "id": 12,
+    "name": "小有积蓄",
+    "desc": "累计获得200个钻石",
+    "rewardGold": 90,
+    "target": 200,
+    "type": 3,
+    "typeName": "钻石收集"
+  },
+  {
+    "id": 13,
+    "name": "财富渐丰",
+    "desc": "累计获得800个钻石",
+    "rewardGold": 220,
+    "target": 800,
+    "type": 3,
+    "typeName": "钻石收集"
+  },
+  {
+    "id": 14,
+    "name": "腰缠万贯",
+    "desc": "累计获得2500个钻石",
+    "rewardGold": 500,
+    "target": 2500,
+    "type": 3,
+    "typeName": "钻石收集"
+  },
+  {
+    "id": 15,
+    "name": "富甲一方",
+    "desc": "累计获得10000个钻石",
+    "rewardGold": 1100,
+    "target": 10000,
+    "type": 3,
+    "typeName": "钻石收集"
+  },
+  {
+    "id": 16,
+    "name": "精力旺盛",
+    "desc": "累计消耗30点体力",
+    "rewardGold": 35,
+    "target": 30,
+    "type": 4,
+    "typeName": "体力消耗"
+  },
+  {
+    "id": 17,
+    "name": "越战越勇",
+    "desc": "累计消耗100点体力",
+    "rewardGold": 110,
+    "target": 100,
+    "type": 4,
+    "typeName": "体力消耗"
+  },
+  {
+    "id": 18,
+    "name": "百折不挠",
+    "desc": "累计消耗400点体力",
+    "rewardGold": 260,
+    "target": 400,
+    "type": 4,
+    "typeName": "体力消耗"
+  },
+  {
+    "id": 19,
+    "name": "永不停歇",
+    "desc": "累计消耗1200点体力",
+    "rewardGold": 520,
+    "target": 1200,
+    "type": 4,
+    "typeName": "体力消耗"
+  },
+  {
+    "id": 20,
+    "name": "钢铁意志",
+    "desc": "累计消耗3000点体力",
+    "rewardGold": 1050,
+    "target": 3000,
+    "type": 4,
+    "typeName": "体力消耗"
+  }
+]
